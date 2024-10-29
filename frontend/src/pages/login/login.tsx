@@ -1,56 +1,66 @@
 import React, { useState } from 'react';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import styles from './login.module.css';
 
-const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [message, setMessage] = useState('');
+const Login: React.FC = () => {
+    const navigate = useNavigate(); // Initialize navigate
 
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
+    const [email, setEmail] = useState<string>('');
+    const [password, setPassword] = useState<string>('');
+    const [message, setMessage] = useState<string>('');
 
-    const response = await fetch('http://127.0.0.1:5000/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        username,
-        password,
-      }),
-    });
+    const handleLogin = async (e: React.FormEvent) => {
+        e.preventDefault();
+        try {
+            const response = await axios.post('http://localhost:5000/api/login', {
+                email,
+                password,
+            });
 
-    const data = await response.json();
+            // If your backend returns a token, store it (e.g., in localStorage)
+            // localStorage.setItem('token', response.data.token);
 
-    if (response.ok) {
-      setMessage(data.message);
-    } else {
-      setMessage(data.error);
-    }
-  };
+            setMessage(response.data.message);
 
-  return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <input
-          type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        <button type="submit">Login</button>
-      </form>
-      {message && <p>{message}</p>}
-    </div>
-  );
+            // Redirect to the dashboard after successful login
+            navigate('/dashboard');
+        } catch (error: unknown) {
+            if (axios.isAxiosError(error)) {
+                if (error.response && error.response.data) {
+                    setMessage(error.response.data.message);
+                } else {
+                    setMessage("An error occurred. Please try again.");
+                }
+            } else {
+                setMessage("An unexpected error occurred.");
+            }
+        }
+    };
+
+    return (
+        <div className={styles.container}>
+            <h2>Login</h2>
+            <form onSubmit={handleLogin} className={styles.form}>
+                <label>Email:</label>
+                <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                />
+                <label>Password:</label>
+                <input
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                />
+                <button type="submit">Login</button>
+            </form>
+            <p>{message}</p>
+        </div>
+    );
 };
 
 export default Login;

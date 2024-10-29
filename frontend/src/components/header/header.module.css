@@ -1,45 +1,33 @@
-/* Ensure full-width coverage */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    width: 100%;
-    height: 100%;
-}
-
 .header {
-    width: 100%;
+    position: fixed;       /* Ensures the header sticks to the top */
+    top: 0;
+    left: 0;
+    width: 100vw;          /* Stretches the header to the full viewport width */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    z-index: 1000;         /* Ensures the header is on top of other content */
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 1.5em;
 }
 
-.navLinks {
-    list-style: none;
+.navList {
+    list-style-type: none;
     display: flex;
     gap: 20px;
 }
 
-.navLinks a {
+.navList a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-    font-size: 18px;
 }
 
-.navLinks a:hover {
+.navList a:hover {
     text-decoration: underline;
 }

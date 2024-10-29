@@ -1,0 +1,130 @@
+.dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.navButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navButton:hover {
+    background-color: #0056b3;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.opportunitiesList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.opportunityItem {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.marketTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.marketTable th,
+.marketTable td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.marketTable th {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.marketTable tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.marketTable tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.botButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.startButton {
+    background-color: #28a745; /* Green */
+}
+
+.startButton:hover {
+    background-color: #218838;
+}
+
+.stopButton {
+    background-color: #dc3545; /* Red */
+}
+
+.stopButton:hover {
+    background-color: #c82333;
+}
+
+.activeText {
+    color: #28a745;
+}
+
+.inactiveText {
+    color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+    .mainContent {
+        flex-direction: column;
+    }
+
+    .section {
+        flex: 1 1 100%;
+    }
+}
