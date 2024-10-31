@@ -1,32 +1,153 @@
-/* Center the container both horizontally and vertically */
+/* login.module.css */
+
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Ensure it doesn't overlap with header */
     min-height: 100vh;
     margin: 0;
+    background-color: #f0f2f5; /* Retain existing background color */
+    padding-top: 80px; /* Adjust based on header height */
 }
 
+/* Container Styling */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
     width: 100%;
     max-width: 400px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; /* Additional spacing */
 }
 
-.main {
-    width: 100%;
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    padding: 20px;
+.container:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
 }
 
+/* Enhanced Title Styling */
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.5rem; /* Increased font size */
+    color: #333333;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Decorative Underline */
+.title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #007bff; /* Primary color */
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Optional: Gradient Text */
+.title {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Form Styling */
 .form {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center; /* Center items horizontally */
+    gap: 15px;
+}
+
+/* Input Group Styling */
+.inputGroup {
+    position: relative;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #888888;
+    font-size: 1rem;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Button Styling */
+.button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:disabled {
+    background-color: #a0c4ff;
+    cursor: not-allowed;
+}
+
+/* Message Styling */
+.message {
+    margin-top: 15px;
+    text-align: center;
+    color: #ff4d4f;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .input {
+        padding: 10px 10px 10px 35px;
+    }
+
+    .icon {
+        font-size: 0.9rem;
+        left: 10px;
+    }
 }

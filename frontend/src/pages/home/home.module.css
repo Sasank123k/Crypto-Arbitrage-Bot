@@ -1,80 +1,131 @@
+/* Home.module.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* CSS Variables for Theming */
+:root {
+    --primary-color: #1abc9c;
+    --secondary-color: #2c3e50;
+    --accent-color: #8e44ad;
+    --background-color: #1b1b2f;
+    --card-background: #2d2d5f;
+    --text-color: #e0e0e0;
+    --heading-color: #ffffff;
+    --subtext-color: #c0c0c0;
+    --button-hover: #16a085;
+    --plan-popular-border: #8e44ad;
+}
+
 /* General Container Styling */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    color: #e0e0e0;
-    background-color: #1b1b2f;
-    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header Section */
 .headerSection {
     width: 100%;
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(145deg, #2f2f5a, #343454);
+    background: linear-gradient(135deg, #2f2f5a, #343454);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.headerSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 43, 93, 0.6);
+    z-index: 1;
+}
+
+.headerContent {
+    position: relative;
+    z-index: 2;
 }
 
 .headerContent h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    margin-bottom: 15px;
+    font-size: 3em;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .headerContent p {
-    font-size: 1.1em;
-    color: #c0c0c0;
-    margin-bottom: 25px;
+    font-size: 1.2em;
+    color: var(--subtext-color);
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .getStartedButton {
-    background: linear-gradient(145deg, #1abc9c, #16a085);
+    background: var(--primary-color);
     color: #fff;
     font-size: 1em;
-    padding: 12px 25px;
+    padding: 14px 30px;
     border: none;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .getStartedButton:hover {
-    background: #16a085;
+    background: var(--button-hover);
+    transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Features Section */
 .featuresSection {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding: 60px 20px;
     justify-content: center;
     width: 100%;
-    background-color: #1c1c3d;
+    background-color: var(--secondary-color);
+    flex-wrap: wrap;
 }
 
 .featureCard {
-    background: #2d2d5f;
-    padding: 30px;
-    border-radius: 10px;
-    width: 250px;
+    background: var(--card-background);
+    padding: 40px 20px;
+    border-radius: 12px;
+    width: 280px;
     text-align: center;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .featureCard h3 {
-    color: #ffffff;
-    margin-bottom: 10px;
+    color: var(--heading-color);
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    font-weight: 500;
 }
 
 .featureCard p {
-    color: #a0a0a0;
-    font-size: 0.95em;
+    color: var(--subtext-color);
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 /* Plans Section */
@@ -86,74 +137,149 @@
 }
 
 .plansSection h2 {
-    font-size: 2em;
-    color: #ffffff;
-    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: var(--heading-color);
+    margin-bottom: 50px;
+    font-weight: 700;
 }
 
 .planCards {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .planCard {
-    background: #2b2b5d;
-    padding: 25px;
-    border-radius: 12px;
-    width: 250px;
+    background: var(--card-background);
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 300px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     text-align: left;
 }
 
 .planCard:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background: var(--secondary-color);
 }
 
-.popularPlan {
-    border: 2px solid #8e44ad;
-    background: linear-gradient(135deg, #8e44ad, #732d91);
+/* .popularPlan {
+    border: 2px solid var(--plan-popular-border);
+    background: linear-gradient(135deg, var(--plan-popular-border), #732d91);
     color: #ffffff;
-}
+} */
 
 .planCard h3 {
-    font-size: 1.5em;
-    color: #ffffff;
-    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .planCard p {
-    color: #bfbfbf;
-    margin-bottom: 20px;
+    color: var(--subtext-color);
+    margin-bottom: 25px;
+    font-size: 1em;
 }
 
 .planCard ul {
     list-style: none;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
 }
 
 .planCard li {
     color: #c0c0c0;
     font-size: 0.95em;
-    padding: 5px 0;
+    padding: 8px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.planCard li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
 }
 
 .planButton {
     width: 100%;
-    padding: 12px;
+    padding: 14px 0;
     border: none;
-    border-radius: 20px;
-    font-weight: bold;
-    background-color: #1abc9c;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: var(--primary-color);
     color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .planButton:hover {
-    background-color: #16a085;
+    background-color: var(--button-hover);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .featuresSection,
+    .planCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featureCard,
+    .planCard {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerContent h1 {
+        font-size: 2.5em;
+    }
+
+    .headerContent p {
+        font-size: 1em;
+    }
+
+    .getStartedButton {
+        padding: 12px 25px;
+        font-size: 0.95em;
+    }
+
+    .plansSection h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerSection {
+        padding: 60px 15px;
+    }
+
+    .featureCard {
+        width: 100%;
+    }
+
+    .planCard {
+        width: 100%;
+    }
+}
+/* Add this to Home.module.css */
+
+/* Feature Icons */
+.featureIcon {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.featureCard:hover .featureIcon {
+    color: var(--button-hover);
 }

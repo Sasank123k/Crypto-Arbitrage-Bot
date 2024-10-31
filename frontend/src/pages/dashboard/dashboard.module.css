@@ -1,16 +1,16 @@
 /* General Styles */
 :root {
-    --primary-color: #3b82f6; /* Bright blue for accents */
-    --secondary-color: #f3f4f6; /* Light grey for backgrounds */
-    --text-color: #111827;
-    --background-color: #f9fafb; /* Light grey background */
-    --card-background: #ffffff; /* Card background */
-    --light-grey: #e5e7eb;
-    --border-color: #d1d5db;
-    --hover-background-color: #e2e8f0;
-    --success-color: #10b981;
-    --danger-color: #ef4444;
-    --shadow-color: rgba(0, 0, 0, 0.1);
+    --primary-color: #4a90e2; /* Royal blue for primary buttons */
+    --primary-color-hover: #3a78c2;
+    --secondary-color: #e74c3c; /* Soft red for stop/danger actions */
+    --secondary-color-hover: #c0392b;
+    --background-color: #1e1e2f; /* Dark background */
+    --card-background: #28293d; /* Darker card background */
+    --text-color: #e0e0e0;
+    --light-grey: #4a4b62; /* Used for table row alternations */
+    --border-color: #3b3c55; /* Border color for tables and sections */
+    --hover-background-color: #3a3a52; /* Slightly lighter gray for hover */
+    --shadow-color: rgba(0, 0, 0, 0.3); /* Dark shadow */
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 }
 
 .navButton:hover {
-    background-color: #2563eb; /* Darker blue for hover */
+    background-color: var(--primary-color-hover);
 }
 
 /* Main Content */
@@ -68,7 +68,7 @@ body {
 }
 
 .section:hover {
-    transform: translateY(-5px); /* Hover effect to lift cards slightly */
+    transform: translateY(-5px); /* Lift effect */
 }
 
 .section h2 {
@@ -91,21 +91,32 @@ body {
 }
 
 .startButton {
-    background-color: var(--success-color);
+    background-color: var(--primary-color);
     box-shadow: 0 4px 8px var(--shadow-color);
 }
 
 .startButton:hover {
-    background-color: #059669;
+    background-color: var(--primary-color-hover);
 }
 
 .stopButton {
-    background-color: var(--danger-color);
+    background-color: var(--secondary-color);
     box-shadow: 0 4px 8px var(--shadow-color);
 }
 
 .stopButton:hover {
-    background-color: #dc2626;
+    background-color: var(--secondary-color-hover);
+}
+
+/* Active and Inactive Text Styles */
+.activeText {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.inactiveText {
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 /* Arbitrage Opportunities Section */
@@ -129,7 +140,7 @@ body {
 }
 
 .opportunitiesTable th {
-    background-color: var(--secondary-color);
+    background-color: var(--light-grey);
     color: var(--text-color);
     font-weight: bold;
     position: sticky;
@@ -137,7 +148,7 @@ body {
 }
 
 .opportunitiesTable tbody tr:nth-child(even) {
-    background-color: var(--light-grey);
+    background-color: #33334a;
 }
 
 .opportunitiesTable tbody tr:hover {
@@ -166,28 +177,17 @@ body {
 }
 
 .marketTable th {
-    background-color: var(--secondary-color);
+    background-color: var(--light-grey);
     color: var(--text-color);
     font-weight: bold;
 }
 
 .marketTable tbody tr:nth-child(even) {
-    background-color: var(--light-grey);
+    background-color: #33334a;
 }
 
 .marketTable tbody tr:hover {
     background-color: var(--hover-background-color);
-}
-
-/* Active and Inactive Text Styles */
-.activeText {
-    color: var(--success-color);
-    font-weight: bold;
-}
-
-.inactiveText {
-    color: var(--danger-color);
-    font-weight: bold;
 }
 
 /* Responsive Layout */
