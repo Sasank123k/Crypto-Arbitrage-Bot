@@ -1,5 +1,4 @@
 // TradeHistory.tsx
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from './tradeHistory.module.css';
@@ -24,34 +23,36 @@ const TradeHistory: React.FC = () => {
         <div className={styles.tradeHistory}>
             <h2>Trade History</h2>
             {tradeHistory.length > 0 ? (
-                <table className={styles.tradeTable}>
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Asset</th>
-                            <th>Buy Exchange</th>
-                            <th>Sell Exchange</th>
-                            <th>Buy Price</th>
-                            <th>Sell Price</th>
-                            <th>Profit</th>
-                            <th>Profit %</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {tradeHistory.map((trade, index) => (
-                            <tr key={index}>
-                                <td>{new Date(trade.timestamp).toLocaleString()}</td>
-                                <td>{trade.asset}</td>
-                                <td>{trade.buy_exchange}</td>
-                                <td>{trade.sell_exchange}</td>
-                                <td>${trade.buy_price}</td>
-                                <td>${trade.sell_price}</td>
-                                <td>${trade.profit}</td>
-                                <td>{trade.profit_percentage}%</td>
+                <div className={styles.tableContainer}>
+                    <table className={styles.tradeTable}>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Asset</th>
+                                <th>Buy Exchange</th>
+                                <th>Sell Exchange</th>
+                                <th>Buy Price</th>
+                                <th>Sell Price</th>
+                                <th>Profit</th>
+                                <th>Profit %</th>
                             </tr>
-                        ))}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            {tradeHistory.map((trade, index) => (
+                                <tr key={index}>
+                                    <td>{new Date(trade.timestamp).toLocaleString()}</td>
+                                    <td>{trade.asset}</td>
+                                    <td>{trade.buy_exchange}</td>
+                                    <td>{trade.sell_exchange}</td>
+                                    <td>${trade.buy_price}</td>
+                                    <td>${trade.sell_price}</td>
+                                    <td>${trade.profit}</td>
+                                    <td>{trade.profit_percentage}%</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
             ) : (
                 <p>No trade history available.</p>
             )}

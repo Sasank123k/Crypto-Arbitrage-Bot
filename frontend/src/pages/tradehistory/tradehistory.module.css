@@ -1,0 +1,53 @@
+/* tradeHistory.module.css */
+
+.tradeHistory {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tradeHistory h2 {
+    margin-bottom: 20px;
+    color: #2a9d8f;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.tradeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tradeTable th,
+.tradeTable td {
+    border: 1px solid #dee2e6;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.tradeTable th {
+    background-color: #2a9d8f;
+    color: #fff;
+    font-weight: 600;
+}
+
+.tradeTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tradeTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+    .tradeTable th,
+    .tradeTable td {
+        padding: 8px 4px;
+        font-size: 14px;
+    }
+}

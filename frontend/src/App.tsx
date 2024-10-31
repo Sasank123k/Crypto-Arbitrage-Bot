@@ -8,6 +8,11 @@ import Signup from './pages/signup/signup';
 import Dashboard from './pages/dashboard/dashboard';
 import TradeHistory from './pages/tradehistory/tradehistory';
 import AccountSettings from './pages/accountsettings/accountsettings';
+import BacktestingPage from './pages/backtestingpage/backtestingpage';
+
+
+
+
 import styles from './App.module.css';
 
 const App: React.FC = () => {
@@ -23,6 +28,8 @@ const App: React.FC = () => {
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/trade-history" element={<TradeHistory/>} />
                         <Route path="/account-settings" element={<AccountSettings/>} />
+                        <Route path="/backtesting" element={<BacktestingPage />} />
+
                     </Routes>
                 </main>
                 <Footer />

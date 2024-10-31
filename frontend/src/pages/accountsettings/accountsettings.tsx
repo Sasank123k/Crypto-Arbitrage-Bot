@@ -22,11 +22,10 @@ const AccountSettings: React.FC = () => {
 
     const handleSaveChanges = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/api/update-account', {
+            await axios.post('http://localhost:5000/api/update-account', {
                 email,
                 password,
             });
-            // Handle success
             alert('Account updated successfully!');
         } catch (error) {
             console.error('Error updating account:', error);
@@ -37,24 +36,28 @@ const AccountSettings: React.FC = () => {
     return (
         <div className={styles.accountSettings}>
             <h2>Account Settings</h2>
-            <form onSubmit={(e) => e.preventDefault()}>
-                <label>
-                    Email:
+            <form onSubmit={(e) => e.preventDefault()} className={styles.form}>
+                <div className={styles.formGroup}>
+                    <label htmlFor="email">Email:</label>
                     <input
+                        id="email"
                         type="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                        required
                     />
-                </label>
-                <label>
-                    New Password:
+                </div>
+                <div className={styles.formGroup}>
+                    <label htmlFor="password">New Password:</label>
                     <input
+                        id="password"
                         type="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
+                        placeholder="Leave blank to keep current password"
                     />
-                </label>
-                <button type="submit" onClick={handleSaveChanges}>
+                </div>
+                <button type="submit" onClick={handleSaveChanges} className={styles.saveButton}>
                     Save Changes
                 </button>
             </form>

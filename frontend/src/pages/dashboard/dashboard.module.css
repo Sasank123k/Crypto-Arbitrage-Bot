@@ -1,31 +1,54 @@
+/* dashboard.module.css */
+
+/* CSS Variables for consistent theming */
+:root {
+    --primary-color: #2a9d8f;
+    --primary-color-hover: #21867a;
+    --secondary-color: #e9ecef;
+    --text-color: #333;
+    --background-color: #fff;
+    --light-grey: #f8f9fa;
+    --border-color: #dee2e6;
+    --hover-background-color: #e9ecef;
+    --success-color: #28a745;
+    --success-color-hover: #218838;
+    --danger-color: #dc3545;
+    --danger-color-hover: #c82333;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 .dashboard {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #fff;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 .navigation {
     display: flex;
-    gap: 15px;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .navButton {
     padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff; /* Bootstrap primary blue */
+    background-color: var(--primary-color);
     color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
     border: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .navButton:hover {
-    background-color: #0056b3;
+    background-color: var(--primary-color-hover);
 }
 
 .mainContent {
@@ -36,7 +59,7 @@
 
 .section {
     flex: 1 1 calc(50% - 20px);
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: var(--light-grey);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -48,15 +71,41 @@
     color: #343a40;
 }
 
-.opportunitiesList {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+/* Arbitrage Opportunities Section */
+.opportunitiesContainer {
+    max-height: 300px; /* Adjust to desired height for scrollable area */
+    overflow-y: auto;
 }
 
-.opportunityItem {
-    margin-bottom: 10px;
-    line-height: 1.6;
+.opportunitiesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.opportunitiesTable th,
+.opportunitiesTable td {
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    text-align: left;
+}
+
+.opportunitiesTable th {
+    background-color: var(--secondary-color);
+    color: #495057;
+}
+
+.opportunitiesTable tbody tr:nth-child(even) {
+    background-color: var(--light-grey);
+}
+
+.opportunitiesTable tbody tr:hover {
+    background-color: var(--hover-background-color);
+}
+
+/* Market Data Section */
+.marketDataSection {
+    margin-bottom: 20px;
 }
 
 .marketTable {
@@ -67,24 +116,25 @@
 
 .marketTable th,
 .marketTable td {
-    border: 1px solid #dee2e6;
+    border: 1px solid var(--border-color);
     padding: 8px;
     text-align: left;
 }
 
 .marketTable th {
-    background-color: #e9ecef;
+    background-color: var(--secondary-color);
     color: #495057;
 }
 
 .marketTable tbody tr:nth-child(even) {
-    background-color: #f8f9fa;
+    background-color: var(--light-grey);
 }
 
 .marketTable tbody tr:hover {
-    background-color: #e9ecef;
+    background-color: var(--hover-background-color);
 }
 
+/* Bot Button Styles */
 .botButton {
     padding: 10px 20px;
     font-size: 16px;
@@ -96,27 +146,28 @@
 }
 
 .startButton {
-    background-color: #28a745; /* Green */
+    background-color: var(--success-color);
 }
 
 .startButton:hover {
-    background-color: #218838;
+    background-color: var(--success-color-hover);
 }
 
 .stopButton {
-    background-color: #dc3545; /* Red */
+    background-color: var(--danger-color);
 }
 
 .stopButton:hover {
-    background-color: #c82333;
+    background-color: var(--danger-color-hover);
 }
 
+/* Active and Inactive Text Styles */
 .activeText {
-    color: #28a745;
+    color: var(--success-color);
 }
 
 .inactiveText {
-    color: #dc3545;
+    color: var(--danger-color);
 }
 
 @media screen and (max-width: 768px) {

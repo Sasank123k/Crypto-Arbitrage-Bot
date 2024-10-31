@@ -1,3 +1,4 @@
+// Dashboard.tsx
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from './dashboard.module.css';
@@ -6,9 +7,9 @@ import { Link } from 'react-router-dom';
 const Dashboard: React.FC = () => {
     const [username, setUsername] = useState<string>('User');
     const [botStatus, setBotStatus] = useState<string>('inactive');
-    const [profitLossData, setProfitLossData] = useState<any>({});
+    const [totalProfit, setTotalProfit] = useState<number>(0);
     const [arbitrageOpportunities, setArbitrageOpportunities] = useState<any[]>([]);
-    const [marketData, setMarketData] = useState<any>({});
+    const [marketData, setMarketData] = useState<any[]>([]);
 
     useEffect(() => {
         // Fetch user data
@@ -23,19 +24,19 @@ const Dashboard: React.FC = () => {
 
         fetchUserData();
         fetchBotStatus();
-        fetchProfitLossData();
+        fetchProfitData();
         fetchArbitrageOpportunities();
         fetchMarketData();
 
         // Set up intervals for continuous data fetching
-        const botStatusInterval = setInterval(fetchBotStatus, 20000); // Every 5 seconds
-        const profitLossInterval = setInterval(fetchProfitLossData, 20000); // Every 10 seconds
-        const opportunitiesInterval = setInterval(fetchArbitrageOpportunities, 20000); // Every 5 seconds
-        const marketDataInterval = setInterval(fetchMarketData, 20000); // Every 5 seconds
+        const botStatusInterval = setInterval(fetchBotStatus, 20000); // Every 20 seconds
+        const profitInterval = setInterval(fetchProfitData, 20000); // Every 20 seconds
+        const opportunitiesInterval = setInterval(fetchArbitrageOpportunities, 20000); // Every 20 seconds
+        const marketDataInterval = setInterval(fetchMarketData, 20000); // Every 20 seconds
 
         return () => {
             clearInterval(botStatusInterval);
-            clearInterval(profitLossInterval);
+            clearInterval(profitInterval);
             clearInterval(opportunitiesInterval);
             clearInterval(marketDataInterval);
         };
@@ -50,12 +51,12 @@ const Dashboard: React.FC = () => {
         }
     };
 
-    const fetchProfitLossData = async () => {
+    const fetchProfitData = async () => {
         try {
             const response = await axios.get('http://localhost:5000/api/profit-loss-summary');
-            setProfitLossData(response.data);
+            setTotalProfit(response.data.total_profit);
         } catch (error) {
-            console.error('Error fetching profit/loss data:', error);
+            console.error('Error fetching profit data:', error);
         }
     };
 
@@ -71,8 +72,8 @@ const Dashboard: React.FC = () => {
     const fetchMarketData = async () => {
         try {
             const response = await axios.get('http://localhost:5000/api/market-data');
-            setMarketData(response.data);
-        } catch (error) {
+                setMarketData(response.data);
+            } catch (error) {
             console.error('Error fetching market data:', error);
         }
     };
@@ -88,10 +89,21 @@ const Dashboard: React.FC = () => {
         }
     };
 
+    // Organize market data by currency
+    const groupedMarketData = marketData.reduce((acc: any, data: any) => {
+        const { symbol, exchange, price } = data;
+        if (!acc[symbol]) {
+            acc[symbol] = [];
+        }
+        acc[symbol].push({ exchange, price });
+        return acc;
+    }, {});
+
     return (
         <div className={styles.dashboard}>
             <h1>Welcome, {username}!</h1>
-            
+
+            {/* Updated Navigation Section */}
             <div className={styles.navigation}>
                 <button onClick={toggleBotStatus} className={styles.navButton}>
                     {botStatus === 'active' ? 'Stop Arbitrage Bot' : 'Start Arbitrage Bot'}
@@ -102,7 +114,15 @@ const Dashboard: React.FC = () => {
                 <Link to="/account-settings" className={styles.navButton}>
                     Account Settings
                 </Link>
+                {/* New Navigation Buttons */}
+                <Link to="/backtesting" className={styles.navButton}>
+                    Backtesting
+                </Link>
+                <Link to="/future-feature" className={styles.navButton}>
+                    Future Feature
+                </Link>
             </div>
+
             <div className={styles.mainContent}>
                 <div className={styles.section}>
                     <h2>Bot Status</h2>
@@ -121,49 +141,74 @@ const Dashboard: React.FC = () => {
                         {botStatus === 'active' ? 'Stop Bot' : 'Start Bot'}
                     </button>
                 </div>
+
                 <div className={styles.section}>
-                    <h2>Profit/Loss Summary</h2>
-                    <p>Total Profit: ${profitLossData.total_profit}</p>
-                    <p>Total Loss: ${profitLossData.total_loss}</p>
+                    <h2>Profit Summary</h2>
+                    <p>Total Profit: ${totalProfit.toFixed(2)}</p>
                 </div>
+
                 <div className={styles.section}>
                     <h2>Arbitrage Opportunities</h2>
                     {arbitrageOpportunities.length > 0 ? (
-                        <ul className={styles.opportunitiesList}>
-                            {arbitrageOpportunities.map((opportunity, index) => (
-                                <li key={index} className={styles.opportunityItem}>
-                                    {opportunity.currency}: Buy on <strong>{opportunity.exchange_buy || opportunity.exchange1}</strong> at{' '}
-                                    <strong>${opportunity.buy_price || opportunity.buyPrice}</strong>, Sell on{' '}
-                                    <strong>{opportunity.exchange_sell || opportunity.exchange2}</strong> at{' '}
-                                    <strong>${opportunity.sell_price || opportunity.sellPrice}</strong>, Profit: <strong>${opportunity.profit}</strong> ({opportunity.profit_percentage || opportunity.profitPercentage}%)
-                                </li>
-                            ))}
-                        </ul>
+                        <div className={styles.opportunitiesContainer}>
+                            <table className={styles.opportunitiesTable}>
+                                <thead>
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>Currency</th>
+                                        <th>Buy Exchange</th>
+                                        <th>Buy Price</th>
+                                        <th>Sell Exchange</th>
+                                        <th>Sell Price</th>
+                                        <th>Profit</th>
+                                        <th>Profit %</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {arbitrageOpportunities.map((opportunity, index) => (
+                                        <tr key={index}>
+                                            <td>{new Date(opportunity.timestamp).toLocaleString()}</td>
+                                            <td>{opportunity.currency}</td>
+                                            <td>{opportunity.exchange_buy}</td>
+                                            <td>${opportunity.buy_price}</td>
+                                            <td>{opportunity.exchange_sell}</td>
+                                            <td>${opportunity.sell_price}</td>
+                                            <td>${opportunity.profit}</td>
+                                            <td>{opportunity.profit_percentage}%</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
                     ) : (
                         <p>No arbitrage opportunities available at the moment.</p>
                     )}
                 </div>
+
                 <div className={styles.section}>
                     <h2>Real-Time Market Data</h2>
-                    {Object.keys(marketData).length > 0 ? (
-                        <table className={styles.marketTable}>
-                            <thead>
-                                <tr>
-                                    <th>Asset</th>
-                                    <th>Exchange</th>
-                                    <th>Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {Object.entries(marketData).map(([currency, data]: any, index) => (
-                                    <tr key={index}>
-                                        <td>{currency}</td>
-                                        <td>{data.exchange}</td>
-                                        <td>${data.price}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
+                    {Object.keys(groupedMarketData).length > 0 ? (
+                        Object.keys(groupedMarketData).map((symbol) => (
+                            <div key={symbol} className={styles.marketDataSection}>
+                                <h3>{symbol}</h3>
+                                <table className={styles.marketTable}>
+                                    <thead>
+                                        <tr>
+                                            <th>Exchange</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {groupedMarketData[symbol].map((data: any, index: number) => (
+                                            <tr key={index}>
+                                                <td>{data.exchange}</td>
+                                                <td>${data.price}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        ))
                     ) : (
                         <p>Loading market data...</p>
                     )}

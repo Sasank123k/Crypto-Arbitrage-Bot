@@ -1,0 +1,122 @@
+/* backtestingPage.module.css */
+
+.backtestingPage {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.backtestingPage h2 {
+    margin-bottom: 20px;
+    color: #2a9d8f;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.formGroup input,
+.formGroup select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formGroup input:focus,
+.formGroup select:focus {
+    border-color: #2a9d8f;
+    outline: none;
+}
+
+.runButton {
+    padding: 12px 20px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.runButton:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+}
+
+.runButton:hover:not(:disabled) {
+    background-color: #21867a;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results h3 {
+    margin-bottom: 10px;
+    color: #2a9d8f;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultsTable th,
+.resultsTable td {
+    border: 1px solid #dee2e6;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.resultsTable th {
+    background-color: #2a9d8f;
+    color: #fff;
+    font-weight: 600;
+}
+
+.resultsTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.resultsTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+    .runButton {
+        width: 100%;
+    }
+
+    .formGroup input,
+    .formGroup select {
+        font-size: 14px;
+    }
+
+    .resultsTable th,
+    .resultsTable td {
+        padding: 8px 4px;
+        font-size: 14px;
+    }
+}

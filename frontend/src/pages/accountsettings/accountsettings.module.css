@@ -1,0 +1,67 @@
+/* accountSettings.module.css */
+
+.accountSettings {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.accountSettings h2 {
+    margin-bottom: 20px;
+    color: #2a9d8f;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.formGroup input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formGroup input:focus {
+    border-color: #2a9d8f;
+    outline: none;
+}
+
+.saveButton {
+    padding: 12px 20px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.saveButton:hover {
+    background-color: #21867a;
+}
+
+@media screen and (max-width: 480px) {
+    .accountSettings {
+        padding: 15px;
+    }
+
+    .saveButton {
+        font-size: 14px;
+    }
+}

@@ -1,3 +1,5 @@
+# app.py
+
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
@@ -8,7 +10,8 @@ from models.trade import Trade
 
 from threading import Thread, Event
 import random
-import bot  # Import your bot logic
+from bot import detect_arbitrage_opportunities, backtest, exchanges, symbol_mapping, fetch_price
+import bot
 
 app = Flask(__name__)
 CORS(app)
@@ -22,16 +25,25 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 
+# Backtest endpoint
+@app.route('/api/backtest', methods=['POST'])
+def backtest_bot():
+    data = request.json
+    start_date = data.get("start_date")
+    end_date = data.get("end_date")
+    symbol = data.get("symbol", "BTC/USDT")
 
+    if not start_date or not end_date or not symbol:
+        return jsonify({"error": "Start date, end date, and symbol are required."}), 400
 
+    try:
+        result = backtest(symbol=symbol, start_date=start_date, end_date=end_date)
+        return jsonify(result)
+    except Exception as e:
+        print(f"Error during backtest: {e}")
+        return jsonify({"error": "Backtest failed."}), 500
 
-
-# trade history
-
-# app.py
-
-# app.py
-
+# Trade history endpoint
 @app.route('/api/trade-history', methods=['GET'])
 def get_trade_history():
     try:
@@ -41,8 +53,6 @@ def get_trade_history():
     except Exception as e:
         print(f"Error in get_trade_history: {e}")
         return jsonify({'error': 'Failed to retrieve trade history'}), 500
-
-# ---------------- Existing Routes ---------------- #
 
 # Signup route
 @app.route('/api/signup', methods=['POST'])
@@ -74,13 +84,10 @@ def login():
     else:
         return jsonify({'message': 'Invalid email or password'}), 401
 
-# ---------------- Bot Control and New Routes ---------------- #
-
 # Bot control variables
 bot_thread = None
 is_bot_running = False
 stop_event = Event()
-opportunities_list = []  # Shared list to store detected opportunities
 
 # Endpoint to toggle bot
 @app.route('/api/togglebot', methods=['POST'])
@@ -91,7 +98,7 @@ def toggle_bot():
     if isActive and not is_bot_running:
         # Start the bot
         stop_event.clear()
-        bot_thread = Thread(target=bot.run_bot, args=(opportunities_list, stop_event, app))
+        bot_thread = Thread(target=bot.run_bot, args=(stop_event, app))
         bot_thread.start()
         is_bot_running = True
         return jsonify({"isActive": True, "message": "Bot started"}), 200
@@ -113,39 +120,43 @@ def get_bot_status():
 # Endpoint to get recent arbitrage opportunities
 @app.route('/api/arbitrage-opportunities', methods=['GET'])
 def get_arbitrage_opportunities():
-    # Return the last 10 opportunities
-    recent_opportunities = opportunities_list[-10:]
-    return jsonify(recent_opportunities)
+    try:
+        opportunities = detect_arbitrage_opportunities()
+        return jsonify(opportunities)
+    except Exception as e:
+        print(f"Error fetching arbitrage opportunities: {e}")
+        return jsonify({'error': 'Failed to fetch arbitrage opportunities'}), 500
 
 # Endpoint for profit/loss summary
 @app.route('/api/profit-loss-summary', methods=['GET'])
 def get_profit_loss_summary():
-    # Placeholder: Generate random profit/loss data
-    # You can replace this with actual calculations
-    summary = {
-        "total_profit": random.randint(1000, 5000),
-        "total_loss": random.randint(500, 1000),
-    }
-    return jsonify(summary)
+    with app.app_context():
+        try:
+            total_profit = db.session.query(db.func.sum(Trade.profit)).scalar() or 0.0
+            return jsonify({"total_profit": total_profit, "total_loss": 0.0})
+        except Exception as e:
+            print(f"Error fetching profit/loss summary: {e}")
+            return jsonify({"error": "Failed to fetch profit/loss summary"}), 500
 
 # Real-time market data endpoint (fetch live data)
 @app.route('/api/market-data', methods=['GET'])
 def get_market_data():
-    market_data = {}
+    market_data = []
     try:
-        # Fetch BTC price from Binance
-        btc_price_binance = bot.fetch_price(bot.exchange1)
-        market_data['BTC_Binance'] = {
-            "price": round(btc_price_binance, 2),
-            "exchange": bot.exchange1.name
-        }
-
-        # Fetch BTC price from Coinbase Pro
-        btc_price_coinbase = bot.fetch_price(bot.exchange2)
-        market_data['BTC_CoinbasePro'] = {
-            "price": round(btc_price_coinbase, 2),
-            "exchange": bot.exchange2.name
-        }
+        # Fetch prices for each cryptocurrency from each exchange
+        for exchange_name, exchange in exchanges.items():
+            symbols = symbol_mapping.get(exchange_name, {})
+            for standard_symbol, adjusted_symbol in symbols.items():
+                try:
+                    price = fetch_price(exchange, adjusted_symbol)
+                    market_data.append({
+                        "symbol": standard_symbol,
+                        "exchange": exchange_name,
+                        "price": round(price, 2)
+                    })
+                except Exception as e:
+                    print(f"Error fetching {adjusted_symbol} from {exchange_name}: {e}")
+                    continue
 
         return jsonify(market_data)
     except Exception as e:
@@ -158,17 +169,7 @@ def get_user_data():
     # Placeholder: Return user data
     return jsonify({"username": "User"})
 
-if __name__ == '__main__':
-    app.run(debug=True)
-
-
-
-
-
-
-
-#update account
-
+# Update account endpoint
 @app.route('/api/update-account', methods=['POST'])
 def update_account():
     data = request.json
@@ -177,6 +178,7 @@ def update_account():
 
     # Assuming you have user authentication in place
     # Replace 'current_user_id' with the actual user identification method
+    current_user_id = data.get('user_id')  # This is just a placeholder
     user = User.query.get(current_user_id)
     if not user:
         return jsonify({'message': 'User not found'}), 404
@@ -187,3 +189,5 @@ def update_account():
     db.session.commit()
     return jsonify({'message': 'Account updated successfully'}), 200
 
+if __name__ == '__main__':
+    app.run(debug=True)
