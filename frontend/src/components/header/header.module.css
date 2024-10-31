@@ -1,33 +1,134 @@
+/* Header Styles */
 .header {
-    position: fixed;       /* Ensures the header sticks to the top */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;          /* Stretches the header to the full viewport width */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    padding: 15px 40px;
+    background: linear-gradient(90deg, #1c1c1c, #2e2e2e); /* Sleek dark gradient */
+    color: #e0e0e0;
     box-sizing: border-box;
-    z-index: 1000;         /* Ensures the header is on top of other content */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    z-index: 1000;
 }
 
-.logo {
-    font-size: 1.5em;
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.logoText {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #1abc9c;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.logoText:hover {
+    color: #16a085;
 }
 
 .navList {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
+    margin: 0;
+}
+
+.navList li {
+    display: flex;
+    align-items: center;
 }
 
 .navList a {
-    color: #fff;
+    color: #cccccc;
+    font-size: 1em;
     text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navList a:hover {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+/* Action Buttons */
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Enhanced Button Styles */
+.loginButton, .trialButton {
+    background: linear-gradient(145deg, #1c1c1c, #1e1e1e);
+    border: 1px solid #1abc9c; /* Teal border */
+    color: #1abc9c;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2), -2px -2px 6px rgba(50, 50, 50, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.loginButton:hover, .trialButton:hover {
+    background-color: #1abc9c;
+    color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3), -2px -2px 10px rgba(50, 50, 50, 0.3);
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.logoutButton {
+    background: linear-gradient(145deg, #e74c3c, #c0392b); /* Soft gradient for depth */
+    color: #ffffff;
+    border: 1px solid #c0392b; /* Darker red border */
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2), -2px -2px 6px rgba(50, 50, 50, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #c0392b;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3), -2px -2px 10px rgba(50, 50, 50, 0.3);
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Language Selector */
+.languageSelector {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.languageSelector:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.flagIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }

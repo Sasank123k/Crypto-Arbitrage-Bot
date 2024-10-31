@@ -12,9 +12,13 @@ from threading import Thread, Event
 import random
 from bot import detect_arbitrage_opportunities, backtest, exchanges, symbol_mapping, fetch_price
 import bot
-
+import jwt
+import datetime
 app = Flask(__name__)
 CORS(app)
+
+
+app.config['SECRET_KEY'] = 'your_secret_key'  # Replace with a strong secret key
 
 # Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crypto_arbitrage.db?check_same_thread=False'
@@ -80,9 +84,18 @@ def login():
 
     user = User.query.filter_by(email=email).first()
     if user and user.check_password(password):
-        return jsonify({'message': 'Login successful'}), 200
+        # Generate a JWT token
+        token = jwt.encode(
+            {'user_id': user.id, 'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=1)},
+            app.config['SECRET_KEY'],
+            algorithm="HS256"
+        )
+        
+        # Return token along with the success message
+        return jsonify({'message': 'Login successful', 'token': token}), 200
     else:
         return jsonify({'message': 'Invalid email or password'}), 401
+
 
 # Bot control variables
 bot_thread = None

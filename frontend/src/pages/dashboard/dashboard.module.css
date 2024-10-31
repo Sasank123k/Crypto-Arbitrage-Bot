@@ -1,35 +1,32 @@
-/* dashboard.module.css */
-
-/* CSS Variables for consistent theming */
+/* General Styles */
 :root {
-    --primary-color: #2a9d8f;
-    --primary-color-hover: #21867a;
-    --secondary-color: #e9ecef;
-    --text-color: #333;
-    --background-color: #fff;
-    --light-grey: #f8f9fa;
-    --border-color: #dee2e6;
-    --hover-background-color: #e9ecef;
-    --success-color: #28a745;
-    --success-color-hover: #218838;
-    --danger-color: #dc3545;
-    --danger-color-hover: #c82333;
+    --primary-color: #3b82f6; /* Bright blue for accents */
+    --secondary-color: #f3f4f6; /* Light grey for backgrounds */
+    --text-color: #111827;
+    --background-color: #f9fafb; /* Light grey background */
+    --card-background: #ffffff; /* Card background */
+    --light-grey: #e5e7eb;
+    --border-color: #d1d5db;
+    --hover-background-color: #e2e8f0;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
+    --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .dashboard {
-    padding: 20px;
+    padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    color: var(--text-color);
-    background-color: var(--background-color);
 }
 
+/* Navigation Bar */
 .navigation {
     display: flex;
     flex-wrap: wrap;
@@ -38,19 +35,23 @@ body {
 }
 
 .navButton {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    transition: all 0.3s ease;
 }
 
 .navButton:hover {
-    background-color: var(--primary-color-hover);
+    background-color: #2563eb; /* Darker blue for hover */
 }
 
+/* Main Content */
 .mainContent {
     display: flex;
     flex-wrap: wrap;
@@ -59,21 +60,57 @@ body {
 
 .section {
     flex: 1 1 calc(50% - 20px);
-    background-color: var(--light-grey);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--card-background);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px var(--shadow-color);
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px); /* Hover effect to lift cards slightly */
 }
 
 .section h2 {
+    font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 15px;
-    color: #343a40;
+    color: var(--text-color);
+}
+
+/* Bot Button Styles */
+.botButton {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.startButton {
+    background-color: var(--success-color);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.startButton:hover {
+    background-color: #059669;
+}
+
+.stopButton {
+    background-color: var(--danger-color);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.stopButton:hover {
+    background-color: #dc2626;
 }
 
 /* Arbitrage Opportunities Section */
 .opportunitiesContainer {
-    max-height: 300px; /* Adjust to desired height for scrollable area */
+    max-height: 300px;
     overflow-y: auto;
 }
 
@@ -86,13 +123,17 @@ body {
 .opportunitiesTable th,
 .opportunitiesTable td {
     border: 1px solid var(--border-color);
-    padding: 8px;
+    padding: 10px;
     text-align: left;
+    font-size: 0.9em;
 }
 
 .opportunitiesTable th {
     background-color: var(--secondary-color);
-    color: #495057;
+    color: var(--text-color);
+    font-weight: bold;
+    position: sticky;
+    top: 0;
 }
 
 .opportunitiesTable tbody tr:nth-child(even) {
@@ -112,18 +153,22 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .marketTable th,
 .marketTable td {
     border: 1px solid var(--border-color);
-    padding: 8px;
+    padding: 10px;
     text-align: left;
+    font-size: 0.9em;
 }
 
 .marketTable th {
     background-color: var(--secondary-color);
-    color: #495057;
+    color: var(--text-color);
+    font-weight: bold;
 }
 
 .marketTable tbody tr:nth-child(even) {
@@ -134,42 +179,18 @@ body {
     background-color: var(--hover-background-color);
 }
 
-/* Bot Button Styles */
-.botButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.startButton {
-    background-color: var(--success-color);
-}
-
-.startButton:hover {
-    background-color: var(--success-color-hover);
-}
-
-.stopButton {
-    background-color: var(--danger-color);
-}
-
-.stopButton:hover {
-    background-color: var(--danger-color-hover);
-}
-
 /* Active and Inactive Text Styles */
 .activeText {
     color: var(--success-color);
+    font-weight: bold;
 }
 
 .inactiveText {
     color: var(--danger-color);
+    font-weight: bold;
 }
 
+/* Responsive Layout */
 @media screen and (max-width: 768px) {
     .mainContent {
         flex-direction: column;

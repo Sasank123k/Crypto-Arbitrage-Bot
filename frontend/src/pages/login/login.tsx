@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import styles from './login.module.css';
+import { useAuth } from '../../context/authcontext';
 
 const Login: React.FC = () => {
-    const navigate = useNavigate(); // Initialize navigate
-
+    const { login } = useAuth(); // Access login function from AuthContext
     const [email, setEmail] = useState<string>('');
     const [password, setPassword] = useState<string>('');
     const [message, setMessage] = useState<string>('');
@@ -18,13 +17,14 @@ const Login: React.FC = () => {
                 password,
             });
 
-            // If your backend returns a token, store it (e.g., in localStorage)
-            // localStorage.setItem('token', response.data.token);
-
             setMessage(response.data.message);
 
-            // Redirect to the dashboard after successful login
-            navigate('/dashboard');
+            if (response.data.token) {
+                // Use login function from AuthContext and pass the token
+                login(response.data.token);
+            } else {
+                setMessage("Login failed. No token received.");
+            }
         } catch (error: unknown) {
             if (axios.isAxiosError(error)) {
                 if (error.response && error.response.data) {
