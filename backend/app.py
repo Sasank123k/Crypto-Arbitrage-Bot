@@ -42,6 +42,7 @@ with app.app_context():
     db.create_all()
 
 # Backtest endpoint (public access)
+
 @app.route('/api/backtest', methods=['POST'])
 def backtest_bot():
     data = request.json
@@ -56,7 +57,7 @@ def backtest_bot():
         result = bot_manager.backtest(symbol=symbol, start_date=start_date, end_date=end_date)
         return jsonify(result)
     except Exception as e:
-        logging.error(f"Error during backtest: {e}")
+        logging.error(f"Error during backtest: {e}", exc_info=True)
         return jsonify({"error": "Backtest failed."}), 500
 
 # Trade history endpoint (public access)
@@ -67,7 +68,7 @@ def get_trade_history():
         trade_list = [trade.to_dict() for trade in trades]
         return jsonify(trade_list)
     except Exception as e:
-        logging.error(f"Error in get_trade_history: {e}")
+        logging.error(f"Error in get_trade_history: {e}", exc_info=True)
         return jsonify({'error': 'Failed to retrieve trade history'}), 500
 
 # Endpoint to toggle bot (public access)
@@ -102,7 +103,7 @@ def get_arbitrage_opportunities():
         opportunities = bot_manager.detect_arbitrage_opportunities()
         return jsonify(opportunities)
     except Exception as e:
-        logging.error(f"Error fetching arbitrage opportunities: {e}")
+        logging.error(f"Error fetching arbitrage opportunities: {e}", exc_info=True)
         return jsonify({'error': 'Failed to fetch arbitrage opportunities'}), 500
 
 # Endpoint for profit/loss summary (public access)
@@ -124,7 +125,7 @@ def get_profit_loss_summary():
                             "total_net_profit": round(total_net_profit, 2), 
                             "total_loss": round(total_loss, 2)})
         except Exception as e:
-            logging.error(f"Error fetching profit/loss summary: {e}")
+            logging.error(f"Error fetching profit/loss summary: {e}", exc_info=True)
             return jsonify({"error": "Failed to fetch profit/loss summary"}), 500
 
 # Real-time market data endpoint (fetch live data) (public access)
@@ -145,12 +146,12 @@ def get_market_data():
                             "price": round(price, 2)
                         })
                 except Exception as e:
-                    logging.error(f"Error fetching {adjusted_symbol} from {exchange_name}: {e}")
+                    logging.error(f"Error fetching {adjusted_symbol} from {exchange_name}: {e}", exc_info=True)
                     continue
 
         return jsonify(market_data)
     except Exception as e:
-        logging.error(f"Error fetching market data: {e}")
+        logging.error(f"Error fetching market data: {e}", exc_info=True)
         return jsonify({"error": "Failed to fetch market data"}), 500
 
 # Endpoint to get the current profit threshold
@@ -165,7 +166,7 @@ def get_profit_threshold():
             profit_threshold = 0.05
         return jsonify({"profit_threshold": profit_threshold}), 200
     except Exception as e:
-        logging.error(f"Error fetching profit threshold: {e}")
+        logging.error(f"Error fetching profit threshold: {e}", exc_info=True)
         return jsonify({"error": "Failed to fetch profit threshold"}), 500
 
 # Endpoint to set the profit threshold
@@ -195,7 +196,7 @@ def set_profit_threshold():
         return jsonify({"error": "Invalid profit_threshold value. It must be a number between 0 and 1."}), 400
     except Exception as e:
         db.session.rollback()
-        logging.error(f"Error setting profit threshold: {e}")
+        logging.error(f"Error setting profit threshold: {e}", exc_info=True)
         return jsonify({"error": "Failed to set profit threshold"}), 500
 
 # Placeholder for /api/userdata endpoint to prevent 404 errors

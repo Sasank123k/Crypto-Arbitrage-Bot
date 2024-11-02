@@ -3762,3 +3762,799 @@ FROM trades ORDER BY trades.timestamp DESC]
 2024-11-02 16:42:40,683:INFO:127.0.0.1 - - [02/Nov/2024 16:42:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
 2024-11-02 16:42:48,903:INFO:127.0.0.1 - - [02/Nov/2024 16:42:48] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
 2024-11-02 16:42:51,007:INFO:127.0.0.1 - - [02/Nov/2024 16:42:51] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:43:00,674:INFO:127.0.0.1 - - [02/Nov/2024 16:43:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:43:00,678:INFO:127.0.0.1 - - [02/Nov/2024 16:43:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:43:08,609:INFO:127.0.0.1 - - [02/Nov/2024 16:43:08] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:43:11,740:INFO:127.0.0.1 - - [02/Nov/2024 16:43:11] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:43:20,567:INFO:127.0.0.1 - - [02/Nov/2024 16:43:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:43:20,877:INFO:127.0.0.1 - - [02/Nov/2024 16:43:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:43:31,339:INFO:127.0.0.1 - - [02/Nov/2024 16:43:31] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:43:31,574:INFO:127.0.0.1 - - [02/Nov/2024 16:43:31] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:43:40,667:INFO:127.0.0.1 - - [02/Nov/2024 16:43:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:43:40,671:INFO:127.0.0.1 - - [02/Nov/2024 16:43:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:43:47,012:INFO:127.0.0.1 - - [02/Nov/2024 16:43:47] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:43:51,270:INFO:127.0.0.1 - - [02/Nov/2024 16:43:51] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:44:00,564:INFO:127.0.0.1 - - [02/Nov/2024 16:44:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:44:00,878:INFO:127.0.0.1 - - [02/Nov/2024 16:44:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:44:07,448:INFO:127.0.0.1 - - [02/Nov/2024 16:44:07] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:44:12,283:INFO:127.0.0.1 - - [02/Nov/2024 16:44:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:44:20,882:INFO:127.0.0.1 - - [02/Nov/2024 16:44:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:44:20,884:INFO:127.0.0.1 - - [02/Nov/2024 16:44:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:44:28,492:INFO:127.0.0.1 - - [02/Nov/2024 16:44:28] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:44:31,446:INFO:127.0.0.1 - - [02/Nov/2024 16:44:31] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:44:40,566:INFO:127.0.0.1 - - [02/Nov/2024 16:44:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:44:40,880:INFO:127.0.0.1 - - [02/Nov/2024 16:44:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:44:46,492:INFO:127.0.0.1 - - [02/Nov/2024 16:44:46] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:44:50,885:INFO:127.0.0.1 - - [02/Nov/2024 16:44:50] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:45:33,882:INFO:127.0.0.1 - - [02/Nov/2024 16:45:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:45:33,883:INFO:127.0.0.1 - - [02/Nov/2024 16:45:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:45:39,934:INFO:127.0.0.1 - - [02/Nov/2024 16:45:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:45:44,944:INFO:127.0.0.1 - - [02/Nov/2024 16:45:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:46:33,560:INFO:127.0.0.1 - - [02/Nov/2024 16:46:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:46:33,875:INFO:127.0.0.1 - - [02/Nov/2024 16:46:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:46:41,704:INFO:127.0.0.1 - - [02/Nov/2024 16:46:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:46:43,971:INFO:127.0.0.1 - - [02/Nov/2024 16:46:43] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:47:33,882:INFO:127.0.0.1 - - [02/Nov/2024 16:47:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:47:33,886:INFO:127.0.0.1 - - [02/Nov/2024 16:47:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:47:43,924:INFO:127.0.0.1 - - [02/Nov/2024 16:47:43] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:47:44,240:INFO:127.0.0.1 - - [02/Nov/2024 16:47:44] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:47:46,981:INFO:127.0.0.1 - - [02/Nov/2024 16:47:46] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:47:50,746:INFO:127.0.0.1 - - [02/Nov/2024 16:47:50] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:47:55,092:INFO:127.0.0.1 - - [02/Nov/2024 16:47:55] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:48:00,882:INFO:127.0.0.1 - - [02/Nov/2024 16:48:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:48:00,885:INFO:127.0.0.1 - - [02/Nov/2024 16:48:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:48:05,378:INFO:127.0.0.1 - - [02/Nov/2024 16:48:05] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:48:09,703:INFO:127.0.0.1 - - [02/Nov/2024 16:48:09] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:48:18,339:INFO:127.0.0.1 - - [02/Nov/2024 16:48:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:48:20,888:INFO:127.0.0.1 - - [02/Nov/2024 16:48:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:48:20,889:INFO:127.0.0.1 - - [02/Nov/2024 16:48:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:48:29,392:INFO:127.0.0.1 - - [02/Nov/2024 16:48:29] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:48:34,939:INFO:127.0.0.1 - - [02/Nov/2024 16:48:34] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:48:40,561:INFO:127.0.0.1 - - [02/Nov/2024 16:48:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:48:40,871:INFO:127.0.0.1 - - [02/Nov/2024 16:48:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:48:48,101:INFO:127.0.0.1 - - [02/Nov/2024 16:48:48] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:48:50,823:INFO:127.0.0.1 - - [02/Nov/2024 16:48:50] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:49:33,869:INFO:127.0.0.1 - - [02/Nov/2024 16:49:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:49:33,874:INFO:127.0.0.1 - - [02/Nov/2024 16:49:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:49:41,400:INFO:127.0.0.1 - - [02/Nov/2024 16:49:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:49:46,387:INFO:127.0.0.1 - - [02/Nov/2024 16:49:46] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:50:33,572:INFO:127.0.0.1 - - [02/Nov/2024 16:50:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:50:33,885:INFO:127.0.0.1 - - [02/Nov/2024 16:50:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:50:39,942:INFO:127.0.0.1 - - [02/Nov/2024 16:50:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:50:44,429:INFO:127.0.0.1 - - [02/Nov/2024 16:50:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:51:33,867:INFO:127.0.0.1 - - [02/Nov/2024 16:51:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:51:33,871:INFO:127.0.0.1 - - [02/Nov/2024 16:51:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:51:40,341:INFO:127.0.0.1 - - [02/Nov/2024 16:51:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:51:45,097:INFO:127.0.0.1 - - [02/Nov/2024 16:51:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:51:47,658:INFO:127.0.0.1 - - [02/Nov/2024 16:51:47] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:51:47,964:INFO:127.0.0.1 - - [02/Nov/2024 16:51:47] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:51:56,022:INFO:127.0.0.1 - - [02/Nov/2024 16:51:56] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:51:58,619:INFO:127.0.0.1 - - [02/Nov/2024 16:51:58] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:52:00,674:INFO:127.0.0.1 - - [02/Nov/2024 16:52:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:52:00,680:INFO:127.0.0.1 - - [02/Nov/2024 16:52:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:52:09,312:INFO:127.0.0.1 - - [02/Nov/2024 16:52:09] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:52:12,024:INFO:127.0.0.1 - - [02/Nov/2024 16:52:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:52:20,361:INFO:127.0.0.1 - - [02/Nov/2024 16:52:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:52:20,666:INFO:127.0.0.1 - - [02/Nov/2024 16:52:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:52:26,220:INFO:127.0.0.1 - - [02/Nov/2024 16:52:26] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:52:31,122:INFO:127.0.0.1 - - [02/Nov/2024 16:52:31] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:52:40,874:INFO:127.0.0.1 - - [02/Nov/2024 16:52:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:52:40,878:INFO:127.0.0.1 - - [02/Nov/2024 16:52:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:52:48,236:INFO:127.0.0.1 - - [02/Nov/2024 16:52:48] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:52:51,527:INFO:127.0.0.1 - - [02/Nov/2024 16:52:51] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:53:00,565:INFO:127.0.0.1 - - [02/Nov/2024 16:53:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:53:00,876:INFO:127.0.0.1 - - [02/Nov/2024 16:53:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:53:06,438:INFO:127.0.0.1 - - [02/Nov/2024 16:53:06] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:53:11,792:INFO:127.0.0.1 - - [02/Nov/2024 16:53:11] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:53:20,672:INFO:127.0.0.1 - - [02/Nov/2024 16:53:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:53:20,676:INFO:127.0.0.1 - - [02/Nov/2024 16:53:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:53:26,594:INFO:127.0.0.1 - - [02/Nov/2024 16:53:26] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:53:31,188:INFO:127.0.0.1 - - [02/Nov/2024 16:53:31] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:53:40,367:INFO:127.0.0.1 - - [02/Nov/2024 16:53:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:53:40,672:INFO:127.0.0.1 - - [02/Nov/2024 16:53:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:53:47,946:INFO:127.0.0.1 - - [02/Nov/2024 16:53:47] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:53:52,577:INFO:127.0.0.1 - - [02/Nov/2024 16:53:52] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:54:00,869:INFO:127.0.0.1 - - [02/Nov/2024 16:54:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:54:00,873:INFO:127.0.0.1 - - [02/Nov/2024 16:54:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:54:06,916:INFO:127.0.0.1 - - [02/Nov/2024 16:54:06] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:54:11,566:INFO:127.0.0.1 - - [02/Nov/2024 16:54:11] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:54:20,371:INFO:127.0.0.1 - - [02/Nov/2024 16:54:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:54:20,682:INFO:127.0.0.1 - - [02/Nov/2024 16:54:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:54:26,361:INFO:127.0.0.1 - - [02/Nov/2024 16:54:26] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:54:31,200:INFO:127.0.0.1 - - [02/Nov/2024 16:54:31] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:54:40,664:INFO:127.0.0.1 - - [02/Nov/2024 16:54:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:54:40,668:INFO:127.0.0.1 - - [02/Nov/2024 16:54:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:54:46,431:INFO:127.0.0.1 - - [02/Nov/2024 16:54:46] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:54:51,272:INFO:127.0.0.1 - - [02/Nov/2024 16:54:51] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:55:00,362:INFO:127.0.0.1 - - [02/Nov/2024 16:55:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:55:00,667:INFO:127.0.0.1 - - [02/Nov/2024 16:55:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:55:07,879:INFO:127.0.0.1 - - [02/Nov/2024 16:55:07] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:55:10,636:INFO:127.0.0.1 - - [02/Nov/2024 16:55:10] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:55:15,528:INFO:127.0.0.1 - - [02/Nov/2024 16:55:15] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 16:55:15,787:INFO:127.0.0.1 - - [02/Nov/2024 16:55:15] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 16:55:23,154:INFO:127.0.0.1 - - [02/Nov/2024 16:55:23] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:55:23,457:INFO:127.0.0.1 - - [02/Nov/2024 16:55:23] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:55:23,458:INFO:127.0.0.1 - - [02/Nov/2024 16:55:23] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:55:23,767:INFO:127.0.0.1 - - [02/Nov/2024 16:55:23] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:55:24,406:INFO:127.0.0.1 - - [02/Nov/2024 16:55:24] "GET /api/userdata HTTP/1.1" 200 -
+2024-11-02 16:55:24,709:INFO:127.0.0.1 - - [02/Nov/2024 16:55:24] "GET /api/userdata HTTP/1.1" 200 -
+2024-11-02 16:55:25,026:INFO:127.0.0.1 - - [02/Nov/2024 16:55:25] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:55:25,028:INFO:127.0.0.1 - - [02/Nov/2024 16:55:25] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:55:25,340:INFO:127.0.0.1 - - [02/Nov/2024 16:55:25] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:55:25,342:INFO:127.0.0.1 - - [02/Nov/2024 16:55:25] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:55:28,994:INFO:127.0.0.1 - - [02/Nov/2024 16:55:28] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:55:34,044:INFO:127.0.0.1 - - [02/Nov/2024 16:55:34] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:55:36,524:INFO:127.0.0.1 - - [02/Nov/2024 16:55:36] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:55:44,797:INFO:127.0.0.1 - - [02/Nov/2024 16:55:44] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:55:45,879:INFO:127.0.0.1 - - [02/Nov/2024 16:55:45] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:55:45,881:INFO:127.0.0.1 - - [02/Nov/2024 16:55:45] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:55:46,234:INFO:127.0.0.1 - - [02/Nov/2024 16:55:46] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:55:47,633:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-02 16:55:50,272:ERROR:Error fetching price for LTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/LTCUSD
+2024-11-02 16:55:52,288:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-02 16:55:52,955:INFO:127.0.0.1 - - [02/Nov/2024 16:55:52] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:55:53,547:INFO:127.0.0.1 - - [02/Nov/2024 16:55:53] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:55:56,049:INFO:127.0.0.1 - - [02/Nov/2024 16:55:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:55:56,132:INFO:127.0.0.1 - - [02/Nov/2024 16:55:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:55:56,636:INFO:127.0.0.1 - - [02/Nov/2024 16:55:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:56:05,868:INFO:127.0.0.1 - - [02/Nov/2024 16:56:05] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:56:05,875:INFO:127.0.0.1 - - [02/Nov/2024 16:56:05] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:56:12,985:INFO:127.0.0.1 - - [02/Nov/2024 16:56:12] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:56:17,459:INFO:127.0.0.1 - - [02/Nov/2024 16:56:17] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:56:25,565:INFO:127.0.0.1 - - [02/Nov/2024 16:56:25] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:56:25,869:INFO:127.0.0.1 - - [02/Nov/2024 16:56:25] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:56:33,254:INFO:127.0.0.1 - - [02/Nov/2024 16:56:33] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:56:36,603:INFO:127.0.0.1 - - [02/Nov/2024 16:56:36] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:56:45,878:INFO:127.0.0.1 - - [02/Nov/2024 16:56:45] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 16:56:45,883:INFO:127.0.0.1 - - [02/Nov/2024 16:56:45] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 16:56:53,326:INFO:127.0.0.1 - - [02/Nov/2024 16:56:53] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 16:56:56,719:INFO:127.0.0.1 - - [02/Nov/2024 16:56:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 16:57:57,825:INFO:127.0.0.1 - - [02/Nov/2024 16:57:57] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:00,349:INFO:127.0.0.1 - - [02/Nov/2024 16:58:00] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:04,618:INFO:127.0.0.1 - - [02/Nov/2024 16:58:04] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:07,158:INFO:127.0.0.1 - - [02/Nov/2024 16:58:07] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:09,855:INFO:127.0.0.1 - - [02/Nov/2024 16:58:09] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:16,296:INFO:127.0.0.1 - - [02/Nov/2024 16:58:16] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:18,442:INFO:127.0.0.1 - - [02/Nov/2024 16:58:18] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:31,514:INFO:127.0.0.1 - - [02/Nov/2024 16:58:31] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 16:58:33,124:INFO:127.0.0.1 - - [02/Nov/2024 16:58:33] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:00:12,138:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 17:00:12,138:INFO:[33mPress CTRL+C to quit[0m
+2024-11-02 17:00:12,139:INFO: * Restarting with stat
+2024-11-02 17:00:13,624:WARNING: * Debugger is active!
+2024-11-02 17:00:13,626:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:00:20,565:INFO:127.0.0.1 - - [02/Nov/2024 17:00:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:00:20,576:INFO:127.0.0.1 - - [02/Nov/2024 17:00:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:00:40,561:INFO:127.0.0.1 - - [02/Nov/2024 17:00:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:00:40,870:INFO:127.0.0.1 - - [02/Nov/2024 17:00:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:00:56,145:INFO:127.0.0.1 - - [02/Nov/2024 17:00:56] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:00:57,114:INFO:127.0.0.1 - - [02/Nov/2024 17:00:57] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:00:57,118:INFO:127.0.0.1 - - [02/Nov/2024 17:00:57] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:00:57,369:INFO:127.0.0.1 - - [02/Nov/2024 17:00:57] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:00:57,429:INFO:127.0.0.1 - - [02/Nov/2024 17:00:57] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:01:03,584:INFO:127.0.0.1 - - [02/Nov/2024 17:01:03] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:01:04,452:INFO:127.0.0.1 - - [02/Nov/2024 17:01:04] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:01:05,315:INFO:127.0.0.1 - - [02/Nov/2024 17:01:05] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:01:08,365:INFO:127.0.0.1 - - [02/Nov/2024 17:01:08] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:01:13,009:INFO:127.0.0.1 - - [02/Nov/2024 17:01:13] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:01:19,592:INFO:127.0.0.1 - - [02/Nov/2024 17:01:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:02:25,554:INFO:127.0.0.1 - - [02/Nov/2024 17:02:25] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:02:28,771:INFO:127.0.0.1 - - [02/Nov/2024 17:02:28] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:02:31,415:INFO:127.0.0.1 - - [02/Nov/2024 17:02:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:02:31,733:INFO:127.0.0.1 - - [02/Nov/2024 17:02:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:02:31,733:INFO:127.0.0.1 - - [02/Nov/2024 17:02:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:02:32,042:INFO:127.0.0.1 - - [02/Nov/2024 17:02:32] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:02:37,227:INFO:127.0.0.1 - - [02/Nov/2024 17:02:37] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:02:41,646:INFO:127.0.0.1 - - [02/Nov/2024 17:02:41] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:02:45,040:INFO:127.0.0.1 - - [02/Nov/2024 17:02:45] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:02:51,727:INFO:127.0.0.1 - - [02/Nov/2024 17:02:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:02:51,730:INFO:127.0.0.1 - - [02/Nov/2024 17:02:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:02:52,677:INFO:127.0.0.1 - - [02/Nov/2024 17:02:52] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:02:57,425:INFO:127.0.0.1 - - [02/Nov/2024 17:02:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:03:04,195:INFO:127.0.0.1 - - [02/Nov/2024 17:03:04] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:03:11,729:INFO:127.0.0.1 - - [02/Nov/2024 17:03:11] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:03:11,733:INFO:127.0.0.1 - - [02/Nov/2024 17:03:11] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:03:17,640:INFO:127.0.0.1 - - [02/Nov/2024 17:03:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:03:22,070:INFO:127.0.0.1 - - [02/Nov/2024 17:03:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:03:31,416:INFO:127.0.0.1 - - [02/Nov/2024 17:03:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:03:31,720:INFO:127.0.0.1 - - [02/Nov/2024 17:03:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:03:40,429:INFO:127.0.0.1 - - [02/Nov/2024 17:03:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:03:41,062:INFO:127.0.0.1 - - [02/Nov/2024 17:03:41] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:03:51,718:INFO:127.0.0.1 - - [02/Nov/2024 17:03:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:03:51,723:INFO:127.0.0.1 - - [02/Nov/2024 17:03:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:03:57,448:INFO:127.0.0.1 - - [02/Nov/2024 17:03:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:04:02,439:INFO:127.0.0.1 - - [02/Nov/2024 17:04:02] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:04:11,407:INFO:127.0.0.1 - - [02/Nov/2024 17:04:11] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:04:11,712:INFO:127.0.0.1 - - [02/Nov/2024 17:04:11] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:04:19,164:INFO:127.0.0.1 - - [02/Nov/2024 17:04:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:04:22,963:INFO:127.0.0.1 - - [02/Nov/2024 17:04:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:04:31,722:INFO:127.0.0.1 - - [02/Nov/2024 17:04:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:04:31,724:INFO:127.0.0.1 - - [02/Nov/2024 17:04:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:04:39,305:INFO:127.0.0.1 - - [02/Nov/2024 17:04:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:04:42,096:INFO:127.0.0.1 - - [02/Nov/2024 17:04:42] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:04:51,412:INFO:127.0.0.1 - - [02/Nov/2024 17:04:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:04:51,725:INFO:127.0.0.1 - - [02/Nov/2024 17:04:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:04:57,700:INFO:127.0.0.1 - - [02/Nov/2024 17:04:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:05:01,756:INFO:127.0.0.1 - - [02/Nov/2024 17:05:01] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:05:11,718:INFO:127.0.0.1 - - [02/Nov/2024 17:05:11] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:05:11,722:INFO:127.0.0.1 - - [02/Nov/2024 17:05:11] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:05:17,396:INFO:127.0.0.1 - - [02/Nov/2024 17:05:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:05:22,082:INFO:127.0.0.1 - - [02/Nov/2024 17:05:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:05:31,562:INFO:127.0.0.1 - - [02/Nov/2024 17:05:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:05:31,869:INFO:127.0.0.1 - - [02/Nov/2024 17:05:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:05:39,116:INFO:127.0.0.1 - - [02/Nov/2024 17:05:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:05:42,019:INFO:127.0.0.1 - - [02/Nov/2024 17:05:42] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:05:51,866:INFO:127.0.0.1 - - [02/Nov/2024 17:05:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:05:51,872:INFO:127.0.0.1 - - [02/Nov/2024 17:05:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:05:57,364:INFO:127.0.0.1 - - [02/Nov/2024 17:05:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:06:02,002:INFO:127.0.0.1 - - [02/Nov/2024 17:06:02] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:06:11,567:INFO:127.0.0.1 - - [02/Nov/2024 17:06:11] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:06:11,872:INFO:127.0.0.1 - - [02/Nov/2024 17:06:11] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:06:17,263:INFO:127.0.0.1 - - [02/Nov/2024 17:06:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:06:22,478:INFO:127.0.0.1 - - [02/Nov/2024 17:06:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:06:33,870:INFO:127.0.0.1 - - [02/Nov/2024 17:06:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:06:33,874:INFO:127.0.0.1 - - [02/Nov/2024 17:06:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:06:41,399:INFO:127.0.0.1 - - [02/Nov/2024 17:06:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:06:44,223:INFO:127.0.0.1 - - [02/Nov/2024 17:06:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:07:33,571:INFO:127.0.0.1 - - [02/Nov/2024 17:07:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:07:33,874:INFO:127.0.0.1 - - [02/Nov/2024 17:07:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:07:39,362:INFO:127.0.0.1 - - [02/Nov/2024 17:07:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:07:44,402:INFO:127.0.0.1 - - [02/Nov/2024 17:07:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:08:33,869:INFO:127.0.0.1 - - [02/Nov/2024 17:08:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:08:33,872:INFO:127.0.0.1 - - [02/Nov/2024 17:08:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:08:39,284:INFO:127.0.0.1 - - [02/Nov/2024 17:08:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:08:43,969:INFO:127.0.0.1 - - [02/Nov/2024 17:08:43] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:09:33,570:INFO:127.0.0.1 - - [02/Nov/2024 17:09:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:09:33,874:INFO:127.0.0.1 - - [02/Nov/2024 17:09:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:09:39,527:INFO:127.0.0.1 - - [02/Nov/2024 17:09:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:09:44,133:INFO:127.0.0.1 - - [02/Nov/2024 17:09:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:10:33,865:INFO:127.0.0.1 - - [02/Nov/2024 17:10:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:10:33,869:INFO:127.0.0.1 - - [02/Nov/2024 17:10:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:10:39,815:INFO:127.0.0.1 - - [02/Nov/2024 17:10:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:10:44,415:INFO:127.0.0.1 - - [02/Nov/2024 17:10:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:11:33,563:INFO:127.0.0.1 - - [02/Nov/2024 17:11:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:11:33,871:INFO:127.0.0.1 - - [02/Nov/2024 17:11:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:11:40,168:INFO:127.0.0.1 - - [02/Nov/2024 17:11:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:11:45,205:INFO:127.0.0.1 - - [02/Nov/2024 17:11:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:12:33,873:INFO:127.0.0.1 - - [02/Nov/2024 17:12:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:12:33,878:INFO:127.0.0.1 - - [02/Nov/2024 17:12:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:12:42,411:INFO:127.0.0.1 - - [02/Nov/2024 17:12:42] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:12:43,463:INFO:127.0.0.1 - - [02/Nov/2024 17:12:43] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:13:33,570:INFO:127.0.0.1 - - [02/Nov/2024 17:13:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:13:33,882:INFO:127.0.0.1 - - [02/Nov/2024 17:13:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:13:39,600:INFO:127.0.0.1 - - [02/Nov/2024 17:13:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:13:44,244:INFO:127.0.0.1 - - [02/Nov/2024 17:13:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:14:33,874:INFO:127.0.0.1 - - [02/Nov/2024 17:14:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:14:33,877:INFO:127.0.0.1 - - [02/Nov/2024 17:14:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:14:40,220:INFO:127.0.0.1 - - [02/Nov/2024 17:14:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:14:44,270:INFO:127.0.0.1 - - [02/Nov/2024 17:14:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:14:51,423:INFO:127.0.0.1 - - [02/Nov/2024 17:14:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:14:51,733:INFO:127.0.0.1 - - [02/Nov/2024 17:14:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:14:59,159:INFO:127.0.0.1 - - [02/Nov/2024 17:14:59] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:15:02,254:INFO:127.0.0.1 - - [02/Nov/2024 17:15:02] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:15:11,872:INFO:127.0.0.1 - - [02/Nov/2024 17:15:11] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:15:11,875:INFO:127.0.0.1 - - [02/Nov/2024 17:15:11] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:15:18,001:INFO:127.0.0.1 - - [02/Nov/2024 17:15:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:15:23,387:INFO:127.0.0.1 - - [02/Nov/2024 17:15:23] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:15:31,565:INFO:127.0.0.1 - - [02/Nov/2024 17:15:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:15:31,883:INFO:127.0.0.1 - - [02/Nov/2024 17:15:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:15:39,059:INFO:127.0.0.1 - - [02/Nov/2024 17:15:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:15:42,107:INFO:127.0.0.1 - - [02/Nov/2024 17:15:42] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:15:51,878:INFO:127.0.0.1 - - [02/Nov/2024 17:15:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:15:51,882:INFO:127.0.0.1 - - [02/Nov/2024 17:15:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:15:58,258:INFO:127.0.0.1 - - [02/Nov/2024 17:15:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:16:03,467:INFO:127.0.0.1 - - [02/Nov/2024 17:16:03] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:16:33,562:INFO:127.0.0.1 - - [02/Nov/2024 17:16:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:16:33,877:INFO:127.0.0.1 - - [02/Nov/2024 17:16:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:16:39,860:INFO:127.0.0.1 - - [02/Nov/2024 17:16:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:16:45,148:INFO:127.0.0.1 - - [02/Nov/2024 17:16:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:17:33,873:INFO:127.0.0.1 - - [02/Nov/2024 17:17:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:17:33,877:INFO:127.0.0.1 - - [02/Nov/2024 17:17:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:17:41,312:INFO:127.0.0.1 - - [02/Nov/2024 17:17:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:17:43,862:INFO:127.0.0.1 - - [02/Nov/2024 17:17:43] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:18:33,565:INFO:127.0.0.1 - - [02/Nov/2024 17:18:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:18:33,874:INFO:127.0.0.1 - - [02/Nov/2024 17:18:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:18:39,638:INFO:127.0.0.1 - - [02/Nov/2024 17:18:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:18:44,986:INFO:127.0.0.1 - - [02/Nov/2024 17:18:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:19:29,100:INFO:127.0.0.1 - - [02/Nov/2024 17:19:29] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:19:29,104:INFO:127.0.0.1 - - [02/Nov/2024 17:19:29] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:19:31,407:INFO:127.0.0.1 - - [02/Nov/2024 17:19:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:19:31,719:INFO:127.0.0.1 - - [02/Nov/2024 17:19:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:19:34,826:INFO:127.0.0.1 - - [02/Nov/2024 17:19:34] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:19:39,195:INFO:127.0.0.1 - - [02/Nov/2024 17:19:39] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:19:40,400:INFO:127.0.0.1 - - [02/Nov/2024 17:19:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:19:49,634:INFO:127.0.0.1 - - [02/Nov/2024 17:19:49] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:19:51,709:INFO:127.0.0.1 - - [02/Nov/2024 17:19:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:19:51,712:INFO:127.0.0.1 - - [02/Nov/2024 17:19:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:19:59,240:INFO:127.0.0.1 - - [02/Nov/2024 17:19:59] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:20:02,750:INFO:127.0.0.1 - - [02/Nov/2024 17:20:02] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:20:03,627:INFO:127.0.0.1 - - [02/Nov/2024 17:20:03] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:20:04,976:ERROR:Error fetching data from bitfinex: bitfinex GET https://api-pub.bitfinex.com/v2/candles/trade:1D:tBTCUSD/hist?sort=1&limit=100&start=1730419200000
+2024-11-02 17:20:05,652:INFO:127.0.0.1 - - [02/Nov/2024 17:20:05] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:20:27,750:INFO:127.0.0.1 - - [02/Nov/2024 17:20:27] "[33mGET /api/backtesting HTTP/1.1[0m" 404 -
+2024-11-02 17:20:38,895:INFO:127.0.0.1 - - [02/Nov/2024 17:20:38] "[31m[1mGET /api/backtest HTTP/1.1[0m" 405 -
+2024-11-02 17:21:06,119:INFO:127.0.0.1 - - [02/Nov/2024 17:21:06] "[31m[1mPOST /api/backtest HTTP/1.1[0m" 415 -
+2024-11-02 17:21:51,115:INFO:127.0.0.1 - - [02/Nov/2024 17:21:51] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:21:54,408:INFO:127.0.0.1 - - [02/Nov/2024 17:21:54] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:22:41,946:INFO:127.0.0.1 - - [02/Nov/2024 17:22:41] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:22:42,257:INFO:127.0.0.1 - - [02/Nov/2024 17:22:42] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:22:42,258:INFO:127.0.0.1 - - [02/Nov/2024 17:22:42] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:22:42,569:INFO:127.0.0.1 - - [02/Nov/2024 17:22:42] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:22:48,207:INFO:127.0.0.1 - - [02/Nov/2024 17:22:48] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:22:52,764:INFO:127.0.0.1 - - [02/Nov/2024 17:22:52] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:22:53,408:INFO:127.0.0.1 - - [02/Nov/2024 17:22:53] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:22:55,724:INFO:127.0.0.1 - - [02/Nov/2024 17:22:55] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:22:56,813:INFO:127.0.0.1 - - [02/Nov/2024 17:22:56] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:23:03,434:INFO:127.0.0.1 - - [02/Nov/2024 17:23:03] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:26:44,071:INFO:127.0.0.1 - - [02/Nov/2024 17:26:44] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:27:19,152:INFO:127.0.0.1 - - [02/Nov/2024 17:27:19] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:27:48,173:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\app.py', reloading
+2024-11-02 17:27:48,775:INFO: * Restarting with stat
+2024-11-02 17:27:50,245:WARNING: * Debugger is active!
+2024-11-02 17:27:50,248:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:27:51,727:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\app.py', reloading
+2024-11-02 17:27:52,080:INFO: * Restarting with stat
+2024-11-02 17:27:53,431:WARNING: * Debugger is active!
+2024-11-02 17:27:53,433:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:28:29,913:INFO:127.0.0.1 - - [02/Nov/2024 17:28:29] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:29:42,552:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:29:43,167:INFO: * Restarting with stat
+2024-11-02 17:29:44,610:WARNING: * Debugger is active!
+2024-11-02 17:29:44,612:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:29:46,075:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:29:46,403:INFO: * Restarting with stat
+2024-11-02 17:29:47,799:WARNING: * Debugger is active!
+2024-11-02 17:29:47,802:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:30:16,870:INFO:127.0.0.1 - - [02/Nov/2024 17:30:16] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:30:30,764:INFO:127.0.0.1 - - [02/Nov/2024 17:30:30] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:30:33,349:INFO:127.0.0.1 - - [02/Nov/2024 17:30:33] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:30:44,550:INFO:127.0.0.1 - - [02/Nov/2024 17:30:44] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:30:46,316:INFO:127.0.0.1 - - [02/Nov/2024 17:30:46] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:30:53,753:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:30:54,315:INFO: * Restarting with stat
+2024-11-02 17:30:55,749:WARNING: * Debugger is active!
+2024-11-02 17:30:55,749:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:30:57,271:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:30:57,568:INFO: * Restarting with stat
+2024-11-02 17:30:58,916:WARNING: * Debugger is active!
+2024-11-02 17:30:58,927:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:31:00,622:INFO:127.0.0.1 - - [02/Nov/2024 17:31:00] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:31:27,284:INFO:127.0.0.1 - - [02/Nov/2024 17:31:27] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:31:35,655:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:31:36,229:INFO: * Restarting with stat
+2024-11-02 17:31:37,559:WARNING: * Debugger is active!
+2024-11-02 17:31:37,562:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:31:39,060:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:31:39,353:INFO: * Restarting with stat
+2024-11-02 17:31:40,748:WARNING: * Debugger is active!
+2024-11-02 17:31:40,750:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:31:43,348:INFO:127.0.0.1 - - [02/Nov/2024 17:31:43] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:32:12,399:INFO:127.0.0.1 - - [02/Nov/2024 17:32:12] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:32:18,523:INFO:127.0.0.1 - - [02/Nov/2024 17:32:18] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:32:21,144:INFO:127.0.0.1 - - [02/Nov/2024 17:32:21] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:33:24,789:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:33:25,334:INFO: * Restarting with stat
+2024-11-02 17:33:26,768:WARNING: * Debugger is active!
+2024-11-02 17:33:26,771:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:33:30,136:INFO:127.0.0.1 - - [02/Nov/2024 17:33:30] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:33:59,048:INFO:127.0.0.1 - - [02/Nov/2024 17:33:59] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:34:29,849:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:34:30,392:INFO: * Restarting with stat
+2024-11-02 17:34:31,823:WARNING: * Debugger is active!
+2024-11-02 17:34:31,825:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:34:54,204:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:34:54,517:INFO: * Restarting with stat
+2024-11-02 17:34:55,917:WARNING: * Debugger is active!
+2024-11-02 17:34:55,920:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:34:56,542:INFO:127.0.0.1 - - [02/Nov/2024 17:34:56] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:35:28,598:INFO:127.0.0.1 - - [02/Nov/2024 17:35:28] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:35:49,064:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:35:49,602:INFO: * Restarting with stat
+2024-11-02 17:35:50,971:WARNING: * Debugger is active!
+2024-11-02 17:35:50,974:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:35:51,290:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:35:51,626:INFO: * Restarting with stat
+2024-11-02 17:35:52,995:WARNING: * Debugger is active!
+2024-11-02 17:35:52,997:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:35:55,685:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:35:55,990:INFO: * Restarting with stat
+2024-11-02 17:35:57,422:WARNING: * Debugger is active!
+2024-11-02 17:35:57,424:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:36:12,906:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:36:13,204:INFO: * Restarting with stat
+2024-11-02 17:36:14,565:WARNING: * Debugger is active!
+2024-11-02 17:36:14,568:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:36:17,253:INFO:127.0.0.1 - - [02/Nov/2024 17:36:17] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:36:47,712:INFO:127.0.0.1 - - [02/Nov/2024 17:36:47] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:44:18,960:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:44:19,622:INFO: * Restarting with stat
+2024-11-02 17:45:09,435:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 17:45:09,435:INFO:[33mPress CTRL+C to quit[0m
+2024-11-02 17:45:09,435:INFO: * Restarting with stat
+2024-11-02 17:45:10,850:WARNING: * Debugger is active!
+2024-11-02 17:45:10,850:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:45:43,041:INFO:127.0.0.1 - - [02/Nov/2024 17:45:43] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:45:50,538:INFO:127.0.0.1 - - [02/Nov/2024 17:45:50] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:45:52,705:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,705:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,707:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,707:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:52,707:INFO:127.0.0.1 - - [02/Nov/2024 17:45:52] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:45:56,111:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,111:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,112:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:45:56,113:INFO:127.0.0.1 - - [02/Nov/2024 17:45:56] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:45:58,330:INFO:127.0.0.1 - - [02/Nov/2024 17:45:58] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:45:58,335:INFO:127.0.0.1 - - [02/Nov/2024 17:45:58] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:45:58,593:INFO:127.0.0.1 - - [02/Nov/2024 17:45:58] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:45:58,642:INFO:127.0.0.1 - - [02/Nov/2024 17:45:58] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:46:07,702:INFO:127.0.0.1 - - [02/Nov/2024 17:46:07] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:46:07,703:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,704:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,705:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,705:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,705:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:07,706:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:16,667:INFO:127.0.0.1 - - [02/Nov/2024 17:46:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:46:17,471:INFO:127.0.0.1 - - [02/Nov/2024 17:46:17] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:46:18,432:INFO:127.0.0.1 - - [02/Nov/2024 17:46:18] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:46:18,435:INFO:127.0.0.1 - - [02/Nov/2024 17:46:18] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:46:22,614:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,614:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,614:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,614:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,614:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,614:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,615:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:22,615:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:29,112:INFO:127.0.0.1 - - [02/Nov/2024 17:46:29] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:46:30,815:INFO:127.0.0.1 - - [02/Nov/2024 17:46:30] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:46:36,838:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:36,839:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:38,340:INFO:127.0.0.1 - - [02/Nov/2024 17:46:38] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:46:38,344:INFO:127.0.0.1 - - [02/Nov/2024 17:46:38] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:46:41,593:INFO:127.0.0.1 - - [02/Nov/2024 17:46:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:46:48,878:INFO:127.0.0.1 - - [02/Nov/2024 17:46:48] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:46:49,270:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:49,271:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:46:56,699:INFO:127.0.0.1 - - [02/Nov/2024 17:46:56] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:46:58,333:INFO:127.0.0.1 - - [02/Nov/2024 17:46:58] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:46:58,336:INFO:127.0.0.1 - - [02/Nov/2024 17:46:58] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:04,763:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:08,155:INFO:127.0.0.1 - - [02/Nov/2024 17:47:08] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:47:12,115:INFO:127.0.0.1 - - [02/Nov/2024 17:47:12] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:47:18,015:INFO:127.0.0.1 - - [02/Nov/2024 17:47:18] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:47:18,330:INFO:127.0.0.1 - - [02/Nov/2024 17:47:18] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:47:27,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,737:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,737:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:27,737:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:28,631:INFO:127.0.0.1 - - [02/Nov/2024 17:47:28] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:47:33,128:INFO:127.0.0.1 - - [02/Nov/2024 17:47:33] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:47:38,330:INFO:127.0.0.1 - - [02/Nov/2024 17:47:38] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:47:38,334:INFO:127.0.0.1 - - [02/Nov/2024 17:47:38] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:44,702:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:47:48,473:INFO:127.0.0.1 - - [02/Nov/2024 17:47:48] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:47:49,075:INFO:127.0.0.1 - - [02/Nov/2024 17:47:49] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:47:58,029:INFO:127.0.0.1 - - [02/Nov/2024 17:47:58] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:47:58,341:INFO:127.0.0.1 - - [02/Nov/2024 17:47:58] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:48:05,771:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,771:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,771:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,771:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,771:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,771:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,772:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,772:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:05,772:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:07,506:INFO:127.0.0.1 - - [02/Nov/2024 17:48:07] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:48:11,565:INFO:127.0.0.1 - - [02/Nov/2024 17:48:11] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:48:12,094:INFO:127.0.0.1 - - [02/Nov/2024 17:48:12] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-02 17:48:12,359:INFO:Bot started.
+2024-11-02 17:48:12,359:INFO:Bot thread started.
+2024-11-02 17:48:12,361:INFO:Bot started.
+2024-11-02 17:48:12,361:INFO:127.0.0.1 - - [02/Nov/2024 17:48:12] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-02 17:48:18,192:INFO:127.0.0.1 - - [02/Nov/2024 17:48:18] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-02 17:48:18,332:INFO:127.0.0.1 - - [02/Nov/2024 17:48:18] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:48:18,335:INFO:127.0.0.1 - - [02/Nov/2024 17:48:18] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:48:18,601:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,601:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,601:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,601:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,601:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,602:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,602:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,602:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:18,602:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:25,598:INFO:Total Opportunities Detected: 29
+2024-11-02 17:48:25,598:INFO:Current Profit Threshold: 5.0%
+2024-11-02 17:48:25,598:INFO:Trade skipped: Net Profit below threshold. Net Profit: -17.21
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -10.87
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -16.67
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -12.07
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -13.52
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -6.42
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.58
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -12.29
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -8.77
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -11.2
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.52
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.35
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.49
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.42
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.42
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.43
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.54
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.43
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.3
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -198.58
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -361.91
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -142.68
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -320.99
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -279.37
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -220.15
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -288.97
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -170.78
+2024-11-02 17:48:25,599:INFO:Trade skipped: Net Profit below threshold. Net Profit: -225.58
+2024-11-02 17:48:25,600:INFO:Trade skipped: Net Profit below threshold. Net Profit: -181.15
+2024-11-02 17:48:27,336:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,336:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:27,337:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:30,179:INFO:127.0.0.1 - - [02/Nov/2024 17:48:30] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:48:33,868:INFO:127.0.0.1 - - [02/Nov/2024 17:48:33] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:48:35,600:INFO:Bot stopped.
+2024-11-02 17:48:35,601:INFO:Bot thread stopped.
+2024-11-02 17:48:35,601:INFO:Bot thread stopped.
+2024-11-02 17:48:35,601:INFO:Bot stopped.
+2024-11-02 17:48:35,601:INFO:Bot stopped.
+2024-11-02 17:48:35,601:INFO:127.0.0.1 - - [02/Nov/2024 17:48:35] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-02 17:48:35,601:INFO:127.0.0.1 - - [02/Nov/2024 17:48:35] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-02 17:48:38,877:INFO:127.0.0.1 - - [02/Nov/2024 17:48:38] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:48:38,880:INFO:127.0.0.1 - - [02/Nov/2024 17:48:38] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:46,083:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:48:48,643:INFO:127.0.0.1 - - [02/Nov/2024 17:48:48] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:48:51,710:INFO:127.0.0.1 - - [02/Nov/2024 17:48:51] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:48:58,482:INFO:127.0.0.1 - - [02/Nov/2024 17:48:58] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:48:58,798:INFO:127.0.0.1 - - [02/Nov/2024 17:48:58] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:49:07,439:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,439:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,439:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,439:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,440:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,440:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,440:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,440:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,440:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:07,440:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:09,708:INFO:127.0.0.1 - - [02/Nov/2024 17:49:09] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:49:12,667:INFO:127.0.0.1 - - [02/Nov/2024 17:49:12] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:49:18,879:INFO:127.0.0.1 - - [02/Nov/2024 17:49:18] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:49:18,883:INFO:127.0.0.1 - - [02/Nov/2024 17:49:18] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,057:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,058:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:26,058:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:28,092:INFO:127.0.0.1 - - [02/Nov/2024 17:49:28] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:49:33,591:INFO:127.0.0.1 - - [02/Nov/2024 17:49:33] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:49:38,564:INFO:127.0.0.1 - - [02/Nov/2024 17:49:38] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:49:38,880:INFO:127.0.0.1 - - [02/Nov/2024 17:49:38] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:49:46,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,247:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,247:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,247:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:46,247:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:49:49,112:INFO:127.0.0.1 - - [02/Nov/2024 17:49:49] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:49:51,714:INFO:127.0.0.1 - - [02/Nov/2024 17:49:51] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:50:01,875:INFO:127.0.0.1 - - [02/Nov/2024 17:50:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:50:01,879:INFO:127.0.0.1 - - [02/Nov/2024 17:50:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:50:02,144:INFO:127.0.0.1 - - [02/Nov/2024 17:50:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:50:02,190:INFO:127.0.0.1 - - [02/Nov/2024 17:50:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:50:08,592:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,592:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,592:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:08,593:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:12,489:INFO:127.0.0.1 - - [02/Nov/2024 17:50:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:50:16,582:INFO:127.0.0.1 - - [02/Nov/2024 17:50:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:50:22,155:INFO:127.0.0.1 - - [02/Nov/2024 17:50:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:50:22,870:INFO:127.0.0.1 - - [02/Nov/2024 17:50:22] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:50:22,874:INFO:127.0.0.1 - - [02/Nov/2024 17:50:22] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,134:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,135:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,135:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:26,135:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:33,283:INFO:127.0.0.1 - - [02/Nov/2024 17:50:33] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:50:35,971:INFO:127.0.0.1 - - [02/Nov/2024 17:50:35] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:50:42,863:INFO:127.0.0.1 - - [02/Nov/2024 17:50:42] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:50:42,866:INFO:127.0.0.1 - - [02/Nov/2024 17:50:42] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:50:50,001:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,002:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,002:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,002:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,002:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,002:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,002:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,003:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:50,003:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:50:52,472:INFO:127.0.0.1 - - [02/Nov/2024 17:50:52] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:50:55,704:INFO:127.0.0.1 - - [02/Nov/2024 17:50:55] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,240:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:02,880:INFO:127.0.0.1 - - [02/Nov/2024 17:51:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:51:02,882:INFO:127.0.0.1 - - [02/Nov/2024 17:51:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:51:06,543:INFO:127.0.0.1 - - [02/Nov/2024 17:51:06] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:51:16,218:INFO:127.0.0.1 - - [02/Nov/2024 17:51:16] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:20,144:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:22,874:INFO:127.0.0.1 - - [02/Nov/2024 17:51:22] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:51:22,877:INFO:127.0.0.1 - - [02/Nov/2024 17:51:22] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:51:24,168:INFO:127.0.0.1 - - [02/Nov/2024 17:51:24] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:51:32,513:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,513:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,513:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,513:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,514:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,514:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,514:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,514:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:32,514:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:51:35,454:INFO:127.0.0.1 - - [02/Nov/2024 17:51:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:51:36,793:INFO:127.0.0.1 - - [02/Nov/2024 17:51:36] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:52:23,074:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:52:23,616:INFO: * Restarting with stat
+2024-11-02 17:52:48,719:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 17:52:48,719:INFO:[33mPress CTRL+C to quit[0m
+2024-11-02 17:52:48,720:INFO: * Restarting with stat
+2024-11-02 17:52:50,062:WARNING: * Debugger is active!
+2024-11-02 17:52:50,064:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:52:52,822:INFO:127.0.0.1 - - [02/Nov/2024 17:52:52] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:52:52,830:INFO:127.0.0.1 - - [02/Nov/2024 17:52:52] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:53:06,302:INFO:127.0.0.1 - - [02/Nov/2024 17:53:06] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:53:29,645:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,646:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,647:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:29,647:INFO:127.0.0.1 - - [02/Nov/2024 17:53:29] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 17:53:35,440:INFO:127.0.0.1 - - [02/Nov/2024 17:53:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,840:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,841:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,841:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,841:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:53:40,842:INFO:127.0.0.1 - - [02/Nov/2024 17:53:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:53:42,943:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:53:43,588:INFO: * Restarting with stat
+2024-11-02 17:53:45,003:WARNING: * Debugger is active!
+2024-11-02 17:53:45,006:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:54:03,950:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 17:54:04,232:INFO: * Restarting with stat
+2024-11-02 17:54:05,595:WARNING: * Debugger is active!
+2024-11-02 17:54:05,597:INFO: * Debugger PIN: 869-968-108
+2024-11-02 17:54:09,618:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:54:09,626:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:54:09,887:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:54:09,933:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/profit-loss-summary HTTP/1.1" 200 -

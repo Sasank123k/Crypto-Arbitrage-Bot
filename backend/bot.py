@@ -85,19 +85,19 @@ class BotManager:
                 'buy_slippage': (0.0005, 0.002),         # 0.05% to 0.2%
                 'sell_slippage': (0.0005, 0.0025),       # 0.05% to 0.25%
                 'latency': (0.3, 1.0),                    # 0.3 to 1.0 seconds
-                'estimated_price_change': (100, 500),     # $100 to $500
+                'estimated_price_change': (1, 5),         # $1 to $5
             },
             'ETH/USDT': {
                 'buy_slippage': (0.001, 0.003),          # 0.1% to 0.3%
                 'sell_slippage': (0.001, 0.0035),        # 0.1% to 0.35%
                 'latency': (0.4, 1.2),                    # 0.4 to 1.2 seconds
-                'estimated_price_change': (20, 100),      # $20 to $100
+                'estimated_price_change': (0.5, 2),       # $0.5 to $2
             },
             'LTC/USDT': {
                 'buy_slippage': (0.0015, 0.004),         # 0.15% to 0.4%
                 'sell_slippage': (0.0015, 0.0045),       # 0.15% to 0.45%
                 'latency': (0.5, 1.5),                    # 0.5 to 1.5 seconds
-                'estimated_price_change': (10, 50),       # $10 to $50
+                'estimated_price_change': (0.2, 1),       # $0.2 to $1
             },
             # Add more symbols and their respective ranges as needed
         }
@@ -191,7 +191,7 @@ class BotManager:
                             buy_slippage = round(random.uniform(*factors.get('buy_slippage', (0.001, 0.002))), 4)
                             sell_slippage = round(random.uniform(*factors.get('sell_slippage', (0.001, 0.0025))), 4)
                             latency = round(random.uniform(*factors.get('latency', (0.5, 1.0))), 2)
-                            estimated_price_change = round(random.uniform(*factors.get('estimated_price_change', (50, 150))), 2)
+                            estimated_price_change = self.estimate_price_change(exchange, symbol, latency)
 
                             # Calculate profits
                             gross_profit, net_profit = self.calculate_profits(
@@ -218,7 +218,7 @@ class BotManager:
                                 "sell_price": round(sell_price, 2),
                                 "gross_profit": round(gross_profit, 2),  # New Field
                                 "profit_percentage": round(profit_percentage, 4),
-                                # Realistic Factors with Random Values
+                                # Realistic Factors with Dynamic Values
                                 "buy_fee": round(buy_fee, 4),
                                 "sell_fee": round(sell_fee, 4),
                                 "withdrawal_fee": round(withdrawal_fee, 4),
@@ -272,17 +272,19 @@ class BotManager:
         return result, latency
 
     def estimate_price_change(self, exchange, symbol, latency):
-        """Estimate price change during the latency period."""
+        """Estimate price change during the latency period based on historical volatility."""
         timeframe = '1m'  # 1-minute intervals
-        limit = max(1, int(latency / 60) + 1)  # Number of minutes
+        limit = max(2, int(latency / 60) + 1)  # Ensure at least two data points
         try:
             ohlcv = exchange.fetch_ohlcv(symbol, timeframe, limit=limit)
             if not ohlcv or len(ohlcv) < 2:
                 return 0.0
-            # Calculate the average price change per minute
+            # Calculate the standard deviation of price changes
             price_changes = [ohlcv[i][4] - ohlcv[i-1][4] for i in range(1, len(ohlcv))]
-            average_change = sum(price_changes) / len(price_changes) if price_changes else 0.0
-            return average_change
+            std_dev = pd.Series(price_changes).std()
+            # Estimate price change as a multiple of standard deviation
+            estimated_change = std_dev * 2  # For 95% confidence interval
+            return round(estimated_change, 2)
         except Exception as e:
             logging.error(f"Error estimating price change for {symbol} on {exchange.id}: {e}")
             return 0.0
@@ -472,7 +474,7 @@ class BotManager:
                 buy_slippage = round(random.uniform(*factors.get('buy_slippage', (0.001, 0.002))), 4)
                 sell_slippage = round(random.uniform(*factors.get('sell_slippage', (0.001, 0.0025))), 4)
                 latency = round(random.uniform(*factors.get('latency', (0.5, 1.0))), 2)
-                estimated_price_change = round(random.uniform(*factors.get('estimated_price_change', (50, 150))), 2)
+                estimated_price_change = self.estimate_price_change(exchange, symbol, latency)
 
                 # Fees (use fixed values or adjust as needed)
                 buy_fee = 0.0010
@@ -499,7 +501,7 @@ class BotManager:
                 loss_percentage = (-net_profit) / buy_price if buy_price != 0 else 0.0
 
                 # Apply profit threshold and maximum loss limit
-                if net_profit >= (buy_price * profit_threshold) and net_profit >= (-0.10 * buy_price):
+                if (net_profit >= (buy_price * profit_threshold) and net_profit >= (-0.10 * buy_price)):
                     trades.append({
                         "timestamp": row['timestamp'].isoformat(),
                         "buy_exchange": buy_exchange,
@@ -509,7 +511,7 @@ class BotManager:
                         "sell_price": round(sell_price, 2),
                         "gross_profit": round(gross_profit, 2),  # New Field
                         "profit_percentage": round(profit_percentage, 4),
-                        # Realistic Factors with Random Values
+                        # Realistic Factors with Dynamic Values
                         "buy_fee": buy_fee,  # Fixed or dynamic
                         "sell_fee": sell_fee,  # Fixed or dynamic
                         "withdrawal_fee": withdrawal_fee,  # Fixed or dynamic
@@ -521,4 +523,3 @@ class BotManager:
                     })
                     total_profit += gross_profit  # Or net_profit based on preference
         return {"total_profit": total_profit, "trades": trades} 
-
