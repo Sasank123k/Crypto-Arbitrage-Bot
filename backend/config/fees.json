@@ -1,9 +1,9 @@
 {
     "binance": {
         "BTC/USDT": {
-            "maker_fee": 0.001,       // 0.1% Maker Fee
-            "taker_fee": 0.001,       // 0.1% Taker Fee
-            "withdrawal_fee": 0.0005  // Example Withdrawal Fee
+            "maker_fee": 0.001,       
+            "taker_fee": 0.001,       
+            "withdrawal_fee": 0.0005  
         },
         "ETH/USDT": {
             "maker_fee": 0.001,
@@ -18,9 +18,9 @@
     },
     "kucoin": {
         "BTC/USDT": {
-            "maker_fee": 0.001,       // 0.1% Maker Fee
-            "taker_fee": 0.001,       // 0.1% Taker Fee
-            "withdrawal_fee": 0.0005  // Example Withdrawal Fee
+            "maker_fee": 0.001,       
+            "taker_fee": 0.001,       
+            "withdrawal_fee": 0.0005  
         },
         "ETH/USDT": {
             "maker_fee": 0.001,
@@ -35,9 +35,9 @@
     },
     "kraken": {
         "BTC/USD": {
-            "maker_fee": 0.0026,      // 0.26% Maker Fee
-            "taker_fee": 0.0026,      // 0.26% Taker Fee
-            "withdrawal_fee": 0.0005  // Example Withdrawal Fee
+            "maker_fee": 0.0026,      
+            "taker_fee": 0.0026,      
+            "withdrawal_fee": 0.0005  
         },
         "ETH/USD": {
             "maker_fee": 0.0026,
@@ -52,9 +52,9 @@
     },
     "bitfinex": {
         "BTC/USD": {
-            "maker_fee": 0.002,        // 0.2% Maker Fee
-            "taker_fee": 0.002,        // 0.2% Taker Fee
-            "withdrawal_fee": 0.0005    // Example Withdrawal Fee
+            "maker_fee": 0.002,        
+            "taker_fee": 0.002,        
+            "withdrawal_fee": 0.0005    
         },
         "ETH/USD": {
             "maker_fee": 0.002,
