@@ -4558,3 +4558,1383 @@ FROM trades ORDER BY trades.timestamp DESC]
 2024-11-02 17:54:09,626:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/profit-loss-summary HTTP/1.1" 200 -
 2024-11-02 17:54:09,887:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/bot-status HTTP/1.1" 200 -
 2024-11-02 17:54:09,933:INFO:127.0.0.1 - - [02/Nov/2024 17:54:09] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:54:29,879:INFO:127.0.0.1 - - [02/Nov/2024 17:54:29] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:54:29,882:INFO:127.0.0.1 - - [02/Nov/2024 17:54:29] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:54:49,872:INFO:127.0.0.1 - - [02/Nov/2024 17:54:49] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:54:49,875:INFO:127.0.0.1 - - [02/Nov/2024 17:54:49] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:54:55,364:INFO:127.0.0.1 - - [02/Nov/2024 17:54:55] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:54:56,027:INFO:127.0.0.1 - - [02/Nov/2024 17:54:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:55:04,942:INFO:127.0.0.1 - - [02/Nov/2024 17:55:04] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:55:07,235:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,235:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,236:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:07,237:INFO:127.0.0.1 - - [02/Nov/2024 17:55:07] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:55:09,615:INFO:127.0.0.1 - - [02/Nov/2024 17:55:09] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:55:09,620:INFO:127.0.0.1 - - [02/Nov/2024 17:55:09] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:55:11,312:INFO:127.0.0.1 - - [02/Nov/2024 17:55:11] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,504:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,505:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,505:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,505:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:11,505:INFO:127.0.0.1 - - [02/Nov/2024 17:55:11] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,735:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,736:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:20,737:INFO:127.0.0.1 - - [02/Nov/2024 17:55:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:55:25,564:INFO:127.0.0.1 - - [02/Nov/2024 17:55:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:55:28,520:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,521:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:28,522:INFO:127.0.0.1 - - [02/Nov/2024 17:55:28] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:55:29,869:INFO:127.0.0.1 - - [02/Nov/2024 17:55:29] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:55:29,875:INFO:127.0.0.1 - - [02/Nov/2024 17:55:29] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:55:31,371:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,372:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,373:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:31,373:INFO:127.0.0.1 - - [02/Nov/2024 17:55:31] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:55:49,880:INFO:127.0.0.1 - - [02/Nov/2024 17:55:49] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 17:55:49,880:INFO:127.0.0.1 - - [02/Nov/2024 17:55:49] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 17:55:50,322:ERROR:Error fetching price for LTC/USD on coinbase: coinbase GET https://api.coinbase.com/api/v3/brokerage/market/products/LTC-USD/ticker?limit=1
+2024-11-02 17:55:50,323:INFO:127.0.0.1 - - [02/Nov/2024 17:55:50] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:55:51,927:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,927:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,927:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,927:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,928:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,928:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,928:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,928:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,928:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,928:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:55:51,929:INFO:127.0.0.1 - - [02/Nov/2024 17:55:51] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 17:56:01,196:INFO:127.0.0.1 - - [02/Nov/2024 17:56:01] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,329:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 17:56:05,330:INFO:127.0.0.1 - - [02/Nov/2024 17:56:05] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:00:13,248:INFO:127.0.0.1 - - [02/Nov/2024 18:00:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:00:13,252:INFO:127.0.0.1 - - [02/Nov/2024 18:00:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:00:13,511:INFO:127.0.0.1 - - [02/Nov/2024 18:00:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:00:13,558:INFO:127.0.0.1 - - [02/Nov/2024 18:00:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:00:23,662:INFO:127.0.0.1 - - [02/Nov/2024 18:00:23] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:00:32,224:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,224:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,224:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,224:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,224:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,224:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,225:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,225:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,225:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:32,225:INFO:127.0.0.1 - - [02/Nov/2024 18:00:32] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:00:32,855:INFO:127.0.0.1 - - [02/Nov/2024 18:00:32] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:00:41,809:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,809:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,809:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,810:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:00:41,811:INFO:127.0.0.1 - - [02/Nov/2024 18:00:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:01:14,803:INFO:127.0.0.1 - - [02/Nov/2024 18:01:14] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:01:14,808:INFO:127.0.0.1 - - [02/Nov/2024 18:01:14] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:01:15,067:INFO:127.0.0.1 - - [02/Nov/2024 18:01:15] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:01:15,116:INFO:127.0.0.1 - - [02/Nov/2024 18:01:15] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,919:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:24,921:INFO:127.0.0.1 - - [02/Nov/2024 18:01:24] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:01:25,927:INFO:127.0.0.1 - - [02/Nov/2024 18:01:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:01:34,879:INFO:127.0.0.1 - - [02/Nov/2024 18:01:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:01:34,883:INFO:127.0.0.1 - - [02/Nov/2024 18:01:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:01:35,828:INFO:127.0.0.1 - - [02/Nov/2024 18:01:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:01:39,361:ERROR:Error fetching price for LTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XLTCZUSD
+2024-11-02 18:01:40,768:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:40,768:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:40,768:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:40,768:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:40,769:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:40,769:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:40,769:INFO:127.0.0.1 - - [02/Nov/2024 18:01:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:01:47,498:INFO:127.0.0.1 - - [02/Nov/2024 18:01:47] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:01:54,866:INFO:127.0.0.1 - - [02/Nov/2024 18:01:54] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:01:54,870:INFO:127.0.0.1 - - [02/Nov/2024 18:01:54] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:01:58,698:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,698:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,698:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,698:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,698:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,699:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,699:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,699:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,699:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,699:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:01:58,699:INFO:127.0.0.1 - - [02/Nov/2024 18:01:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:02:05,218:INFO:127.0.0.1 - - [02/Nov/2024 18:02:05] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:02:14,868:INFO:127.0.0.1 - - [02/Nov/2024 18:02:14] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:02:14,872:INFO:127.0.0.1 - - [02/Nov/2024 18:02:14] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,674:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:18,675:INFO:127.0.0.1 - - [02/Nov/2024 18:02:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:02:26,218:INFO:127.0.0.1 - - [02/Nov/2024 18:02:26] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:02:34,871:INFO:127.0.0.1 - - [02/Nov/2024 18:02:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:02:34,876:INFO:127.0.0.1 - - [02/Nov/2024 18:02:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:02:42,013:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,013:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,013:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,013:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,013:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:42,014:INFO:127.0.0.1 - - [02/Nov/2024 18:02:42] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:02:45,092:INFO:127.0.0.1 - - [02/Nov/2024 18:02:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,723:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:02:54,724:INFO:127.0.0.1 - - [02/Nov/2024 18:02:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:02:54,889:INFO:127.0.0.1 - - [02/Nov/2024 18:02:54] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:02:54,893:INFO:127.0.0.1 - - [02/Nov/2024 18:02:54] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:03:05,908:INFO:127.0.0.1 - - [02/Nov/2024 18:03:05] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:05,999:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:06,000:INFO:127.0.0.1 - - [02/Nov/2024 18:03:06] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:03:14,810:INFO:127.0.0.1 - - [02/Nov/2024 18:03:14] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:03:14,814:INFO:127.0.0.1 - - [02/Nov/2024 18:03:14] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:03:25,310:INFO:127.0.0.1 - - [02/Nov/2024 18:03:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,345:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:27,346:INFO:127.0.0.1 - - [02/Nov/2024 18:03:27] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:03:34,561:INFO:127.0.0.1 - - [02/Nov/2024 18:03:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:03:34,873:INFO:127.0.0.1 - - [02/Nov/2024 18:03:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:03:45,115:INFO:127.0.0.1 - - [02/Nov/2024 18:03:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,131:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,132:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:03:45,133:INFO:127.0.0.1 - - [02/Nov/2024 18:03:45] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:04:19,912:INFO:127.0.0.1 - - [02/Nov/2024 18:04:19] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:04:19,916:INFO:127.0.0.1 - - [02/Nov/2024 18:04:19] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:04:20,178:INFO:127.0.0.1 - - [02/Nov/2024 18:04:20] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:04:20,226:INFO:127.0.0.1 - - [02/Nov/2024 18:04:20] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:04:29,651:INFO:127.0.0.1 - - [02/Nov/2024 18:04:29] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:04:29,773:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,773:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,773:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,774:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,774:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,774:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,774:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,774:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,774:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:29,775:INFO:127.0.0.1 - - [02/Nov/2024 18:04:29] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:04:40,677:INFO:127.0.0.1 - - [02/Nov/2024 18:04:40] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:04:40,796:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,796:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,796:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,796:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,796:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,796:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,797:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,797:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,797:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,797:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:40,798:INFO:127.0.0.1 - - [02/Nov/2024 18:04:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:04:40,873:INFO:127.0.0.1 - - [02/Nov/2024 18:04:40] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:04:40,876:INFO:127.0.0.1 - - [02/Nov/2024 18:04:40] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:04:49,527:INFO:127.0.0.1 - - [02/Nov/2024 18:04:49] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 18:04:49,840:INFO:127.0.0.1 - - [02/Nov/2024 18:04:49] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 18:04:50,222:INFO:127.0.0.1 - - [02/Nov/2024 18:04:50] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:04:54,149:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,149:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,150:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,150:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,150:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,150:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,150:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,150:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:04:54,152:INFO:127.0.0.1 - - [02/Nov/2024 18:04:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:05:06,445:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 18:05:07,146:INFO: * Restarting with stat
+2024-11-02 18:08:34,683:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 18:08:34,683:INFO:[33mPress CTRL+C to quit[0m
+2024-11-02 18:08:34,684:INFO: * Restarting with stat
+2024-11-02 18:08:36,069:WARNING: * Debugger is active!
+2024-11-02 18:08:36,072:INFO: * Debugger PIN: 869-968-108
+2024-11-02 18:08:36,243:INFO:127.0.0.1 - - [02/Nov/2024 18:08:36] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:08:36,252:INFO:127.0.0.1 - - [02/Nov/2024 18:08:36] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:08:46,978:INFO:127.0.0.1 - - [02/Nov/2024 18:08:46] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:08:47,293:INFO:127.0.0.1 - - [02/Nov/2024 18:08:47] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:06,876:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:07,277:INFO:127.0.0.1 - - [02/Nov/2024 18:09:07] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:09:07,277:INFO:127.0.0.1 - - [02/Nov/2024 18:09:07] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:10,228:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:16,032:INFO:127.0.0.1 - - [02/Nov/2024 18:09:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:09:17,910:INFO:127.0.0.1 - - [02/Nov/2024 18:09:17] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:09:18,072:INFO:127.0.0.1 - - [02/Nov/2024 18:09:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:09:19,294:INFO:127.0.0.1 - - [02/Nov/2024 18:09:19] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:19,394:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:21,463:INFO:127.0.0.1 - - [02/Nov/2024 18:09:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:09:27,428:INFO:127.0.0.1 - - [02/Nov/2024 18:09:27] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:09:27,428:INFO:127.0.0.1 - - [02/Nov/2024 18:09:27] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:09:28,933:INFO:127.0.0.1 - - [02/Nov/2024 18:09:28] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:09:29,945:INFO:127.0.0.1 - - [02/Nov/2024 18:09:29] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:32,151:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:40,149:INFO:127.0.0.1 - - [02/Nov/2024 18:09:40] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:09:40,992:INFO:127.0.0.1 - - [02/Nov/2024 18:09:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:09:47,862:INFO:127.0.0.1 - - [02/Nov/2024 18:09:47] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:09:47,862:INFO:127.0.0.1 - - [02/Nov/2024 18:09:47] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:49,326:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:09:58,357:INFO:127.0.0.1 - - [02/Nov/2024 18:09:58] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:09:59,835:INFO:127.0.0.1 - - [02/Nov/2024 18:09:59] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:10:07,567:INFO:127.0.0.1 - - [02/Nov/2024 18:10:07] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:10:07,879:INFO:127.0.0.1 - - [02/Nov/2024 18:10:07] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:09,354:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:16,986:INFO:127.0.0.1 - - [02/Nov/2024 18:10:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:10:18,693:INFO:127.0.0.1 - - [02/Nov/2024 18:10:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:10:27,864:INFO:127.0.0.1 - - [02/Nov/2024 18:10:27] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:10:27,864:INFO:127.0.0.1 - - [02/Nov/2024 18:10:27] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:29,209:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:37,839:INFO:127.0.0.1 - - [02/Nov/2024 18:10:37] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:10:40,479:INFO:127.0.0.1 - - [02/Nov/2024 18:10:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:10:47,568:INFO:127.0.0.1 - - [02/Nov/2024 18:10:47] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:10:47,872:INFO:127.0.0.1 - - [02/Nov/2024 18:10:47] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:10:49,117:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,117:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,117:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,118:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,118:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,118:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,118:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,119:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,119:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:49,119:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:10:57,974:INFO:127.0.0.1 - - [02/Nov/2024 18:10:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:10:58,325:INFO:127.0.0.1 - - [02/Nov/2024 18:10:58] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:11:07,867:INFO:127.0.0.1 - - [02/Nov/2024 18:11:07] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:11:07,871:INFO:127.0.0.1 - - [02/Nov/2024 18:11:07] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,186:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,187:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:09,187:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:11:17,522:INFO:127.0.0.1 - - [02/Nov/2024 18:11:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:11:17,933:INFO:127.0.0.1 - - [02/Nov/2024 18:11:17] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:11:24,891:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 18:11:25,611:INFO: * Restarting with stat
+2024-11-02 18:18:52,800:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 18:18:52,800:INFO:[33mPress CTRL+C to quit[0m
+2024-11-02 18:18:52,800:INFO: * Restarting with stat
+2024-11-02 18:18:54,200:WARNING: * Debugger is active!
+2024-11-02 18:18:54,210:INFO: * Debugger PIN: 869-968-108
+2024-11-02 18:18:57,144:INFO:127.0.0.1 - - [02/Nov/2024 18:18:57] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:18:57,154:INFO:127.0.0.1 - - [02/Nov/2024 18:18:57] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:19:01,426:INFO:127.0.0.1 - - [02/Nov/2024 18:19:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:19:01,430:INFO:127.0.0.1 - - [02/Nov/2024 18:19:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:19:01,739:INFO:127.0.0.1 - - [02/Nov/2024 18:19:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:19:01,743:INFO:127.0.0.1 - - [02/Nov/2024 18:19:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:19:21,868:INFO:127.0.0.1 - - [02/Nov/2024 18:19:21] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:19:21,868:INFO:127.0.0.1 - - [02/Nov/2024 18:19:21] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:19:30,529:INFO:127.0.0.1 - - [02/Nov/2024 18:19:30] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:19:36,058:INFO:127.0.0.1 - - [02/Nov/2024 18:19:36] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:19:38,178:INFO:127.0.0.1 - - [02/Nov/2024 18:19:38] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:19:38,395:INFO:127.0.0.1 - - [02/Nov/2024 18:19:38] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:19:38,791:INFO:127.0.0.1 - - [02/Nov/2024 18:19:38] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:19:43,949:INFO:127.0.0.1 - - [02/Nov/2024 18:19:43] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:19:43,949:INFO:127.0.0.1 - - [02/Nov/2024 18:19:43] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:19:44,209:INFO:127.0.0.1 - - [02/Nov/2024 18:19:44] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:19:44,259:INFO:127.0.0.1 - - [02/Nov/2024 18:19:44] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:19:48,319:INFO:127.0.0.1 - - [02/Nov/2024 18:19:48] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:19:48,575:INFO:127.0.0.1 - - [02/Nov/2024 18:19:48] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:19:50,596:INFO:127.0.0.1 - - [02/Nov/2024 18:19:50] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:19:54,651:INFO:127.0.0.1 - - [02/Nov/2024 18:19:54] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:19:58,857:INFO:127.0.0.1 - - [02/Nov/2024 18:19:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:20:04,209:INFO:127.0.0.1 - - [02/Nov/2024 18:20:04] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:20:11,376:INFO:127.0.0.1 - - [02/Nov/2024 18:20:11] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:20:36,905:INFO:127.0.0.1 - - [02/Nov/2024 18:20:36] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:21:33,884:INFO: * Detected change in 'C:\\Users\\shash\\OneDrive\\Desktop\\Project 1 development\\Crypto-Arbitrage-Bot\\backend\\bot.py', reloading
+2024-11-02 18:21:34,489:INFO: * Restarting with stat
+2024-11-02 18:22:00,387:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 18:22:00,387:INFO:[33mPress CTRL+C to quit[0m
+2024-11-02 18:22:00,388:INFO: * Restarting with stat
+2024-11-02 18:22:01,738:WARNING: * Debugger is active!
+2024-11-02 18:22:01,740:INFO: * Debugger PIN: 869-968-108
+2024-11-02 18:22:03,507:INFO:127.0.0.1 - - [02/Nov/2024 18:22:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:22:03,516:INFO:127.0.0.1 - - [02/Nov/2024 18:22:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:22:23,560:INFO:127.0.0.1 - - [02/Nov/2024 18:22:23] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:22:23,873:INFO:127.0.0.1 - - [02/Nov/2024 18:22:23] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:22:37,754:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,754:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:37,755:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:43,868:INFO:127.0.0.1 - - [02/Nov/2024 18:22:43] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:22:43,870:INFO:127.0.0.1 - - [02/Nov/2024 18:22:43] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:22:46,200:INFO:127.0.0.1 - - [02/Nov/2024 18:22:46] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:22:46,470:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,471:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,472:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:46,472:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:55,957:INFO:127.0.0.1 - - [02/Nov/2024 18:22:55] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:22:56,016:INFO:127.0.0.1 - - [02/Nov/2024 18:22:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:22:56,797:INFO:127.0.0.1 - - [02/Nov/2024 18:22:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:22:57,623:INFO:127.0.0.1 - - [02/Nov/2024 18:22:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:22:58,909:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,909:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,909:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,909:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,909:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,910:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,910:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,910:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,910:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:22:58,910:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:03,875:INFO:127.0.0.1 - - [02/Nov/2024 18:23:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:23:03,879:INFO:127.0.0.1 - - [02/Nov/2024 18:23:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:23:13,627:INFO:127.0.0.1 - - [02/Nov/2024 18:23:13] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:23:15,550:INFO:127.0.0.1 - - [02/Nov/2024 18:23:15] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:23:17,459:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,459:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:17,460:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:23,875:INFO:127.0.0.1 - - [02/Nov/2024 18:23:23] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:23:23,878:INFO:127.0.0.1 - - [02/Nov/2024 18:23:23] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:23:29,126:INFO:127.0.0.1 - - [02/Nov/2024 18:23:29] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:23:32,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:32,992:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:34,947:INFO:127.0.0.1 - - [02/Nov/2024 18:23:34] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:23:41,116:INFO:127.0.0.1 - - [02/Nov/2024 18:23:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:23:43,880:INFO:127.0.0.1 - - [02/Nov/2024 18:23:43] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:23:43,882:INFO:127.0.0.1 - - [02/Nov/2024 18:23:43] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:23:45,300:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:45,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:23:56,027:INFO:127.0.0.1 - - [02/Nov/2024 18:23:56] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:23:56,065:INFO:127.0.0.1 - - [02/Nov/2024 18:23:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:24:03,571:INFO:127.0.0.1 - - [02/Nov/2024 18:24:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:24:03,886:INFO:127.0.0.1 - - [02/Nov/2024 18:24:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:05,898:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:15,395:INFO:127.0.0.1 - - [02/Nov/2024 18:24:15] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:24:20,519:INFO:127.0.0.1 - - [02/Nov/2024 18:24:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:24:23,674:INFO:127.0.0.1 - - [02/Nov/2024 18:24:23] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:24:23,678:INFO:127.0.0.1 - - [02/Nov/2024 18:24:23] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:24:25,721:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,721:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:25,722:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:35,182:INFO:127.0.0.1 - - [02/Nov/2024 18:24:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:24:43,125:INFO:127.0.0.1 - - [02/Nov/2024 18:24:43] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:24:43,569:INFO:127.0.0.1 - - [02/Nov/2024 18:24:43] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:24:43,882:INFO:127.0.0.1 - - [02/Nov/2024 18:24:43] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:24:45,877:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:45,878:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:24:55,505:INFO:127.0.0.1 - - [02/Nov/2024 18:24:55] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:25:02,076:INFO:127.0.0.1 - - [02/Nov/2024 18:25:02] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:25:03,864:INFO:127.0.0.1 - - [02/Nov/2024 18:25:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:25:03,871:INFO:127.0.0.1 - - [02/Nov/2024 18:25:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:25:05,990:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:05,991:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:15,606:INFO:127.0.0.1 - - [02/Nov/2024 18:25:15] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:25:20,853:INFO:127.0.0.1 - - [02/Nov/2024 18:25:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:25:23,715:INFO:127.0.0.1 - - [02/Nov/2024 18:25:23] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:25:24,019:INFO:127.0.0.1 - - [02/Nov/2024 18:25:24] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:25:24,020:INFO:127.0.0.1 - - [02/Nov/2024 18:25:24] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:25:24,330:INFO:127.0.0.1 - - [02/Nov/2024 18:25:24] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:25:26,432:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,432:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,432:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,433:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,433:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,433:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,433:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,433:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:26,433:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:35,284:INFO:127.0.0.1 - - [02/Nov/2024 18:25:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:25:41,652:INFO:127.0.0.1 - - [02/Nov/2024 18:25:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:44,920:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:25:46,212:INFO:127.0.0.1 - - [02/Nov/2024 18:25:46] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:25:54,777:INFO:127.0.0.1 - - [02/Nov/2024 18:25:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:27:01,024:INFO:127.0.0.1 - - [02/Nov/2024 18:27:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:27:01,029:INFO:127.0.0.1 - - [02/Nov/2024 18:27:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:27:01,285:INFO:127.0.0.1 - - [02/Nov/2024 18:27:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:27:01,334:INFO:127.0.0.1 - - [02/Nov/2024 18:27:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,729:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:02,730:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:11,599:INFO:127.0.0.1 - - [02/Nov/2024 18:27:11] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:27:12,705:INFO:127.0.0.1 - - [02/Nov/2024 18:27:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:27:13,105:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,105:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:13,106:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:21,881:INFO:127.0.0.1 - - [02/Nov/2024 18:27:21] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:27:21,884:INFO:127.0.0.1 - - [02/Nov/2024 18:27:21] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:27:22,709:INFO:127.0.0.1 - - [02/Nov/2024 18:27:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:27:23,894:INFO:127.0.0.1 - - [02/Nov/2024 18:27:23] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:27:26,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:26,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:26,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:26,302:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:26,302:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:26,302:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:26,302:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:32,922:INFO:127.0.0.1 - - [02/Nov/2024 18:27:32] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:27:39,034:INFO:127.0.0.1 - - [02/Nov/2024 18:27:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:27:41,874:INFO:127.0.0.1 - - [02/Nov/2024 18:27:41] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:27:41,878:INFO:127.0.0.1 - - [02/Nov/2024 18:27:41] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:44,314:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:27:52,715:INFO:127.0.0.1 - - [02/Nov/2024 18:27:52] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:27:59,114:INFO:127.0.0.1 - - [02/Nov/2024 18:27:59] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:28:00,566:INFO:127.0.0.1 - - [02/Nov/2024 18:28:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:00,885:INFO:127.0.0.1 - - [02/Nov/2024 18:28:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:03,297:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,297:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,297:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,297:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:03,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:05,950:INFO:127.0.0.1 - - [02/Nov/2024 18:28:05] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:05,953:INFO:127.0.0.1 - - [02/Nov/2024 18:28:05] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:06,213:INFO:127.0.0.1 - - [02/Nov/2024 18:28:06] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:06,260:INFO:127.0.0.1 - - [02/Nov/2024 18:28:06] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,807:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,808:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:09,808:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:12,547:INFO:127.0.0.1 - - [02/Nov/2024 18:28:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:28:18,350:INFO:127.0.0.1 - - [02/Nov/2024 18:28:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:28:22,840:INFO:127.0.0.1 - - [02/Nov/2024 18:28:22] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:28:26,504:INFO:127.0.0.1 - - [02/Nov/2024 18:28:26] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:26,506:INFO:127.0.0.1 - - [02/Nov/2024 18:28:26] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:26,926:INFO:127.0.0.1 - - [02/Nov/2024 18:28:26] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:28:29,096:INFO:127.0.0.1 - - [02/Nov/2024 18:28:29] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:28:29,958:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,958:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,958:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:29,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,246:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:30,963:INFO:127.0.0.1 - - [02/Nov/2024 18:28:30] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:30,968:INFO:127.0.0.1 - - [02/Nov/2024 18:28:30] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:31,227:INFO:127.0.0.1 - - [02/Nov/2024 18:28:31] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:31,275:INFO:127.0.0.1 - - [02/Nov/2024 18:28:31] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:34,191:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:34,192:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:37,690:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-02 18:28:37,690:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-02 18:28:46,716:INFO:127.0.0.1 - - [02/Nov/2024 18:28:46] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:28:46,930:INFO:127.0.0.1 - - [02/Nov/2024 18:28:46] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:28:48,171:INFO:127.0.0.1 - - [02/Nov/2024 18:28:48] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:28:50,987:INFO:127.0.0.1 - - [02/Nov/2024 18:28:50] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:28:50,990:INFO:127.0.0.1 - - [02/Nov/2024 18:28:50] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,202:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,203:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,203:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,203:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:54,340:INFO:127.0.0.1 - - [02/Nov/2024 18:28:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:28:57,652:INFO:127.0.0.1 - - [02/Nov/2024 18:28:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:28:58,528:INFO:127.0.0.1 - - [02/Nov/2024 18:28:58] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,399:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:28:59,400:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:01,962:INFO:127.0.0.1 - - [02/Nov/2024 18:29:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:29:01,965:INFO:127.0.0.1 - - [02/Nov/2024 18:29:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:29:02,210:INFO:127.0.0.1 - - [02/Nov/2024 18:29:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:29:02,274:INFO:127.0.0.1 - - [02/Nov/2024 18:29:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:29:06,649:ERROR:Error fetching price for LTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XLTCZUSD
+2024-11-02 18:29:06,960:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:06,961:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:11,628:INFO:127.0.0.1 - - [02/Nov/2024 18:29:11] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:29:14,882:INFO:127.0.0.1 - - [02/Nov/2024 18:29:14] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:29:14,883:INFO:127.0.0.1 - - [02/Nov/2024 18:29:14] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:29:14,992:INFO:127.0.0.1 - - [02/Nov/2024 18:29:14] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:29:21,086:INFO:127.0.0.1 - - [02/Nov/2024 18:29:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:29:22,412:INFO:127.0.0.1 - - [02/Nov/2024 18:29:22] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:29:22,414:INFO:127.0.0.1 - - [02/Nov/2024 18:29:22] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,461:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,462:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,462:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,462:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:25,541:INFO:127.0.0.1 - - [02/Nov/2024 18:29:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:29:37,991:INFO:127.0.0.1 - - [02/Nov/2024 18:29:37] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:29:38,916:INFO:127.0.0.1 - - [02/Nov/2024 18:29:38] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:29:41,965:INFO:127.0.0.1 - - [02/Nov/2024 18:29:41] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:29:41,971:INFO:127.0.0.1 - - [02/Nov/2024 18:29:41] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:29:42,410:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,410:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,410:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:42,411:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:51,782:INFO:127.0.0.1 - - [02/Nov/2024 18:29:51] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:29:54,894:INFO:127.0.0.1 - - [02/Nov/2024 18:29:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:29:57,535:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:29:57,536:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:01,964:INFO:127.0.0.1 - - [02/Nov/2024 18:30:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:30:01,967:INFO:127.0.0.1 - - [02/Nov/2024 18:30:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:30:08,054:INFO:127.0.0.1 - - [02/Nov/2024 18:30:08] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:30:11,231:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,231:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,231:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,231:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,231:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,231:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,232:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,232:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:11,232:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:12,276:INFO:127.0.0.1 - - [02/Nov/2024 18:30:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:30:20,014:INFO:127.0.0.1 - - [02/Nov/2024 18:30:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:30:22,869:INFO:127.0.0.1 - - [02/Nov/2024 18:30:22] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:30:22,873:INFO:127.0.0.1 - - [02/Nov/2024 18:30:22] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:30:24,383:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,383:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,383:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,383:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,384:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,384:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,384:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,384:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,384:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:24,384:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:34,992:INFO:127.0.0.1 - - [02/Nov/2024 18:30:34] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:30:37,121:INFO:127.0.0.1 - - [02/Nov/2024 18:30:37] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:30:42,569:INFO:127.0.0.1 - - [02/Nov/2024 18:30:42] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:30:42,884:INFO:127.0.0.1 - - [02/Nov/2024 18:30:42] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:44,178:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:30:54,034:INFO:127.0.0.1 - - [02/Nov/2024 18:30:54] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:30:56,643:INFO:127.0.0.1 - - [02/Nov/2024 18:30:56] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:31:02,875:INFO:127.0.0.1 - - [02/Nov/2024 18:31:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:31:02,880:INFO:127.0.0.1 - - [02/Nov/2024 18:31:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:31:04,574:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,574:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,574:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,574:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,574:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,574:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,575:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,575:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,575:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:04,575:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:11,928:INFO:127.0.0.1 - - [02/Nov/2024 18:31:11] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:31:13,009:INFO:127.0.0.1 - - [02/Nov/2024 18:31:13] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:31:33,563:INFO:127.0.0.1 - - [02/Nov/2024 18:31:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:31:33,875:INFO:127.0.0.1 - - [02/Nov/2024 18:31:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,272:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,273:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,273:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:35,273:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:42,515:INFO:127.0.0.1 - - [02/Nov/2024 18:31:42] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:31:42,518:INFO:127.0.0.1 - - [02/Nov/2024 18:31:42] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:31:47,580:INFO:127.0.0.1 - - [02/Nov/2024 18:31:47] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:31:47,975:INFO:127.0.0.1 - - [02/Nov/2024 18:31:47] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:31:50,004:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:50,005:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:31:58,161:INFO:127.0.0.1 - - [02/Nov/2024 18:31:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:31:58,734:INFO:127.0.0.1 - - [02/Nov/2024 18:31:58] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:32:02,869:INFO:127.0.0.1 - - [02/Nov/2024 18:32:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:32:02,873:INFO:127.0.0.1 - - [02/Nov/2024 18:32:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:32:04,827:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,827:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,827:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:04,828:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:14,245:INFO:127.0.0.1 - - [02/Nov/2024 18:32:14] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:32:16,564:INFO:127.0.0.1 - - [02/Nov/2024 18:32:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:32:22,568:INFO:127.0.0.1 - - [02/Nov/2024 18:32:22] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:32:22,881:INFO:127.0.0.1 - - [02/Nov/2024 18:32:22] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:32:24,304:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:24,305:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:33,092:INFO:127.0.0.1 - - [02/Nov/2024 18:32:33] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:32:33,093:INFO:127.0.0.1 - - [02/Nov/2024 18:32:33] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:32:42,877:INFO:127.0.0.1 - - [02/Nov/2024 18:32:42] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:32:42,880:INFO:127.0.0.1 - - [02/Nov/2024 18:32:42] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:32:44,152:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,152:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,152:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,152:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,152:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,153:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,153:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,153:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:44,153:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:32:53,014:INFO:127.0.0.1 - - [02/Nov/2024 18:32:53] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:32:54,034:INFO:127.0.0.1 - - [02/Nov/2024 18:32:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:33:33,559:INFO:127.0.0.1 - - [02/Nov/2024 18:33:33] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:33:33,863:INFO:127.0.0.1 - - [02/Nov/2024 18:33:33] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:33:35,636:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,636:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,636:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,636:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,636:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,637:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,637:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,637:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,637:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:35,637:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:33:44,993:INFO:127.0.0.1 - - [02/Nov/2024 18:33:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:33:46,827:INFO:127.0.0.1 - - [02/Nov/2024 18:33:46] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:34:05,549:INFO:127.0.0.1 - - [02/Nov/2024 18:34:05] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:34:05,552:INFO:127.0.0.1 - - [02/Nov/2024 18:34:05] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:34:05,808:INFO:127.0.0.1 - - [02/Nov/2024 18:34:05] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:34:05,857:INFO:127.0.0.1 - - [02/Nov/2024 18:34:05] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:34:07,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,014:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,015:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,015:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,015:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,015:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,015:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,015:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,016:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:07,016:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:16,159:INFO:127.0.0.1 - - [02/Nov/2024 18:34:16] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:34:16,840:INFO:127.0.0.1 - - [02/Nov/2024 18:34:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,490:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:19,491:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:34:26,175:INFO:127.0.0.1 - - [02/Nov/2024 18:34:26] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:34:30,965:INFO:127.0.0.1 - - [02/Nov/2024 18:34:30] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:35:01,881:INFO:127.0.0.1 - - [02/Nov/2024 18:35:01] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:01,884:INFO:127.0.0.1 - - [02/Nov/2024 18:35:01] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:02,147:INFO:127.0.0.1 - - [02/Nov/2024 18:35:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:02,195:INFO:127.0.0.1 - - [02/Nov/2024 18:35:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:03,751:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:06,749:INFO:127.0.0.1 - - [02/Nov/2024 18:35:06] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:06,753:INFO:127.0.0.1 - - [02/Nov/2024 18:35:06] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:06,997:INFO:127.0.0.1 - - [02/Nov/2024 18:35:06] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:07,060:INFO:127.0.0.1 - - [02/Nov/2024 18:35:07] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:09,488:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-02 18:35:09,488:ERROR:Error fetching price for LTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/LTCUSD
+2024-11-02 18:35:09,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:09,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:09,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:09,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:09,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:09,959:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:10,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:12,138:INFO:127.0.0.1 - - [02/Nov/2024 18:35:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:35:13,012:INFO:127.0.0.1 - - [02/Nov/2024 18:35:13] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:35:18,167:INFO:127.0.0.1 - - [02/Nov/2024 18:35:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:35:19,498:INFO:127.0.0.1 - - [02/Nov/2024 18:35:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:35:20,901:INFO:127.0.0.1 - - [02/Nov/2024 18:35:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:35:24,847:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:24,848:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:26,748:INFO:127.0.0.1 - - [02/Nov/2024 18:35:26] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:26,750:INFO:127.0.0.1 - - [02/Nov/2024 18:35:26] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:26,888:INFO:127.0.0.1 - - [02/Nov/2024 18:35:26] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 18:35:27,201:INFO:127.0.0.1 - - [02/Nov/2024 18:35:27] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 18:35:27,418:INFO:127.0.0.1 - - [02/Nov/2024 18:35:27] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:35:28,386:INFO:127.0.0.1 - - [02/Nov/2024 18:35:28] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:28,388:INFO:127.0.0.1 - - [02/Nov/2024 18:35:28] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:28,694:INFO:127.0.0.1 - - [02/Nov/2024 18:35:28] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:28,696:INFO:127.0.0.1 - - [02/Nov/2024 18:35:28] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:34,041:INFO:127.0.0.1 - - [02/Nov/2024 18:35:34] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:35:34,617:INFO:127.0.0.1 - - [02/Nov/2024 18:35:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:34,620:INFO:127.0.0.1 - - [02/Nov/2024 18:35:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:34,928:INFO:127.0.0.1 - - [02/Nov/2024 18:35:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:35:34,930:INFO:127.0.0.1 - - [02/Nov/2024 18:35:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:35:35,921:INFO:127.0.0.1 - - [02/Nov/2024 18:35:35] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-02 18:35:36,235:INFO:Bot started.
+2024-11-02 18:35:36,235:INFO:Bot thread started.
+2024-11-02 18:35:36,235:INFO:Bot started.
+2024-11-02 18:35:36,236:INFO:127.0.0.1 - - [02/Nov/2024 18:35:36] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-02 18:35:37,670:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:37,671:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:38,219:INFO:127.0.0.1 - - [02/Nov/2024 18:35:38] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:39,696:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:46,805:INFO:127.0.0.1 - - [02/Nov/2024 18:35:46] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:35:49,310:INFO:127.0.0.1 - - [02/Nov/2024 18:35:49] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:35:50,060:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,060:INFO:Total Opportunities Detected: 30
+2024-11-02 18:35:50,061:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,062:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,062:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,062:INFO:Current Profit Threshold: 5.0%
+2024-11-02 18:35:50,062:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,062:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.48
+2024-11-02 18:35:50,063:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,063:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.44
+2024-11-02 18:35:50,063:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,063:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.32
+2024-11-02 18:35:50,063:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,063:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.45
+2024-11-02 18:35:50,063:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,063:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.39
+2024-11-02 18:35:50,063:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,063:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.26
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.46
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.43
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.46
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.23
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.74
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -17.82
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -11.13
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -12.63
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.25
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -2.96
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.19
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -15.39
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -11.75
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -8.95
+2024-11-02 18:35:50,064:INFO:Trade skipped: Net Profit below threshold. Net Profit: -330.07
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -332.31
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -210.64
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -323.12
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -187.75
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -64.92
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -247.12
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -222.89
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -174.05
+2024-11-02 18:35:50,065:INFO:Trade skipped: Net Profit below threshold. Net Profit: -134.81
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:50,096:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,350:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,350:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:56,351:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,370:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,370:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,370:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,370:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,370:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,370:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,371:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,371:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,371:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,371:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:35:58,847:INFO:127.0.0.1 - - [02/Nov/2024 18:35:58] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:36:00,191:INFO:127.0.0.1 - - [02/Nov/2024 18:36:00] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:00,500:INFO:127.0.0.1 - - [02/Nov/2024 18:36:00] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:36:00,810:INFO:127.0.0.1 - - [02/Nov/2024 18:36:00] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:36:01,427:INFO:127.0.0.1 - - [02/Nov/2024 18:36:01] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:36:02,139:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,141:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,141:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,141:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,142:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,142:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,142:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,142:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,142:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:02,142:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:03,531:INFO:127.0.0.1 - - [02/Nov/2024 18:36:03] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:04,300:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,300:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,300:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,300:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,300:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:04,301:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:09,010:INFO:127.0.0.1 - - [02/Nov/2024 18:36:09] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:36:11,575:INFO:127.0.0.1 - - [02/Nov/2024 18:36:11] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:36:12,647:INFO:127.0.0.1 - - [02/Nov/2024 18:36:12] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:13,049:INFO:Total Opportunities Detected: 30
+2024-11-02 18:36:13,050:INFO:127.0.0.1 - - [02/Nov/2024 18:36:13] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:13,051:INFO:Current Profit Threshold: 5.0%
+2024-11-02 18:36:13,051:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.42
+2024-11-02 18:36:13,051:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.31
+2024-11-02 18:36:13,051:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.64
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.39
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.45
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.26
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.42
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.33
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.35
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.33
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -15.04
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -17.11
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -10.23
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -8.34
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -12.89
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -8.19
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.24
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -11.8
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -12.86
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.65
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -253.88
+2024-11-02 18:36:13,052:INFO:Trade skipped: Net Profit below threshold. Net Profit: -295.92
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -223.31
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -302.67
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -284.57
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -181.41
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -216.12
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -184.14
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -205.16
+2024-11-02 18:36:13,053:INFO:Trade skipped: Net Profit below threshold. Net Profit: -157.37
+2024-11-02 18:36:14,618:INFO:127.0.0.1 - - [02/Nov/2024 18:36:14] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:36:14,621:INFO:127.0.0.1 - - [02/Nov/2024 18:36:14] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:36:19,025:INFO:127.0.0.1 - - [02/Nov/2024 18:36:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:22,069:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,069:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,069:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,069:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,069:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,069:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,070:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,070:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:22,070:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:25,660:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:26,067:INFO:127.0.0.1 - - [02/Nov/2024 18:36:26] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:36:29,800:INFO:127.0.0.1 - - [02/Nov/2024 18:36:29] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-02 18:36:32,901:INFO:127.0.0.1 - - [02/Nov/2024 18:36:32] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:34,877:INFO:127.0.0.1 - - [02/Nov/2024 18:36:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:36:34,881:INFO:127.0.0.1 - - [02/Nov/2024 18:36:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,298:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:36,299:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:44,807:INFO:Total Opportunities Detected: 29
+2024-11-02 18:36:44,808:INFO:Current Profit Threshold: 5.0%
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.54
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.33
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.31
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.19
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.29
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.46
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.29
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.38
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -0.5
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -13.73
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -11.43
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.28
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -13.49
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -5.48
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -4.99
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -9.03
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -12.24
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -8.97
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -15.26
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -389.25
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -217.58
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -260.02
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -246.04
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -150.9
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -301.0
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -220.29
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -118.79
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -222.95
+2024-11-02 18:36:44,808:INFO:Trade skipped: Net Profit below threshold. Net Profit: -72.24
+2024-11-02 18:36:48,798:INFO:127.0.0.1 - - [02/Nov/2024 18:36:48] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:36:52,074:INFO:127.0.0.1 - - [02/Nov/2024 18:36:52] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:36:54,606:INFO:127.0.0.1 - - [02/Nov/2024 18:36:54] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:36:54,609:INFO:127.0.0.1 - - [02/Nov/2024 18:36:54] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:36:54,810:INFO:Bot stopped.
+2024-11-02 18:36:54,810:INFO:Bot thread stopped.
+2024-11-02 18:36:54,810:INFO:Bot stopped.
+2024-11-02 18:36:54,811:INFO:127.0.0.1 - - [02/Nov/2024 18:36:54] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-02 18:36:56,477:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,477:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,477:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,478:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,478:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,478:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,479:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,479:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,479:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:56,479:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:36:59,862:INFO:127.0.0.1 - - [02/Nov/2024 18:36:59] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 18:37:00,175:INFO:127.0.0.1 - - [02/Nov/2024 18:37:00] "GET /api/trade-history HTTP/1.1" 200 -
+2024-11-02 18:37:03,502:INFO:127.0.0.1 - - [02/Nov/2024 18:37:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:37:03,505:INFO:127.0.0.1 - - [02/Nov/2024 18:37:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:37:03,812:INFO:127.0.0.1 - - [02/Nov/2024 18:37:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:37:03,817:INFO:127.0.0.1 - - [02/Nov/2024 18:37:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:37:04,778:INFO:127.0.0.1 - - [02/Nov/2024 18:37:04] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:37:09,177:INFO:127.0.0.1 - - [02/Nov/2024 18:37:09] "OPTIONS /api/backtest HTTP/1.1" 200 -
+2024-11-02 18:37:09,966:INFO:127.0.0.1 - - [02/Nov/2024 18:37:09] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:37:12,853:INFO:127.0.0.1 - - [02/Nov/2024 18:37:12] "POST /api/backtest HTTP/1.1" 200 -
+2024-11-02 18:37:13,588:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,588:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:13,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:16,541:INFO:127.0.0.1 - - [02/Nov/2024 18:37:16] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:37:18,771:INFO:127.0.0.1 - - [02/Nov/2024 18:37:18] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:37:18,773:INFO:127.0.0.1 - - [02/Nov/2024 18:37:18] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:37:19,083:INFO:127.0.0.1 - - [02/Nov/2024 18:37:19] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:37:19,085:INFO:127.0.0.1 - - [02/Nov/2024 18:37:19] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:37:23,979:INFO:127.0.0.1 - - [02/Nov/2024 18:37:23] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:37:26,467:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,467:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,467:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,468:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,589:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:26,969:INFO:127.0.0.1 - - [02/Nov/2024 18:37:26] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:37:34,966:INFO:127.0.0.1 - - [02/Nov/2024 18:37:34] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:37:38,055:INFO:127.0.0.1 - - [02/Nov/2024 18:37:38] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-02 18:37:38,778:INFO:127.0.0.1 - - [02/Nov/2024 18:37:38] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-02 18:37:38,780:INFO:127.0.0.1 - - [02/Nov/2024 18:37:38] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-02 18:37:41,623:INFO:127.0.0.1 - - [02/Nov/2024 18:37:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,752:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,753:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,753:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:41,753:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,420:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,421:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,422:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:43,422:ERROR:Error estimating price change for LTC/USDT on coinbase: coinbase does not have market symbol LTC/USDT
+2024-11-02 18:37:48,296:INFO:127.0.0.1 - - [02/Nov/2024 18:37:48] "GET /api/market-data HTTP/1.1" 200 -

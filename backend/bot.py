@@ -44,7 +44,7 @@ class BotManager:
             'kucoin': ccxt.kucoin(),
             'kraken': ccxt.kraken(),
             'bitfinex': ccxt.bitfinex(),
-            'coinbasepro': ccxt.coinbase(),  # Corrected to coinbasepro
+            'coinbase': ccxt.coinbase(),  # Updated to use 'coinbase' instead of 'coinbasepro'
         }
 
         # Define the symbols you are interested in
@@ -72,8 +72,8 @@ class BotManager:
                 'ETH/USDT': 'ETH/USD',
                 'LTC/USDT': 'LTC/USD',
             },
-            'coinbasepro': {
-                'BTC/USDT': 'BTC/USD',
+            'coinbase': {  # Updated key from 'coinbasepro' to 'coinbase'
+                'BTC/USDT': 'BTC/USD',  # Coinbase uses USD instead of USDT
                 'ETH/USDT': 'ETH/USD',
                 'LTC/USDT': 'LTC/USD',
             },
@@ -474,7 +474,13 @@ class BotManager:
                 buy_slippage = round(random.uniform(*factors.get('buy_slippage', (0.001, 0.002))), 4)
                 sell_slippage = round(random.uniform(*factors.get('sell_slippage', (0.001, 0.0025))), 4)
                 latency = round(random.uniform(*factors.get('latency', (0.5, 1.0))), 2)
-                estimated_price_change = self.estimate_price_change(exchange, symbol, latency)
+                # Use the correct exchange object for estimating price change
+                exchange = self.exchanges.get(sell_exchange)
+                if exchange is None:
+                    logging.warning(f"Exchange {sell_exchange} not found for estimating price change.")
+                    estimated_price_change = 0.0
+                else:
+                    estimated_price_change = self.estimate_price_change(exchange, symbol, latency)
 
                 # Fees (use fixed values or adjust as needed)
                 buy_fee = 0.0010

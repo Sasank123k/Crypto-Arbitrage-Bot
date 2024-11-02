@@ -39,7 +39,7 @@ const Dashboard: React.FC = () => {
     const fetchBotStatus = async () => {
         try {
             const response = await axios.get<{ status: string }>('http://localhost:5000/api/bot-status');
-            setBotStatus(response.data.status);
+            setBotStatus(response.data.status ? response.data.status : 'inactive');
             setError(null);
         } catch (error) {
             console.error('Error fetching bot status:', error);
@@ -50,7 +50,14 @@ const Dashboard: React.FC = () => {
     const fetchProfitLossSummary = async () => {
         try {
             const response = await axios.get<ProfitLossSummary>('http://localhost:5000/api/profit-loss-summary');
-            setProfitLossSummary(response.data);
+            setProfitLossSummary({
+                total_gross_profit: response.data.total_gross_profit !== undefined && response.data.total_gross_profit !== null
+                    ? response.data.total_gross_profit
+                    : 0,
+                total_net_profit: response.data.total_net_profit !== undefined && response.data.total_net_profit !== null
+                    ? response.data.total_net_profit
+                    : 0,
+            });
             setError(null);
         } catch (error) {
             console.error('Error fetching profit and loss summary:', error);
@@ -61,7 +68,7 @@ const Dashboard: React.FC = () => {
     const fetchArbitrageOpportunities = async () => {
         try {
             const response = await axios.get<ArbitrageOpportunity[]>('http://localhost:5000/api/arbitrage-opportunities');
-            setArbitrageOpportunities(response.data);
+            setArbitrageOpportunities(response.data ? response.data : []);
             setError(null);
         } catch (error) {
             console.error('Error fetching arbitrage opportunities:', error);
@@ -72,7 +79,7 @@ const Dashboard: React.FC = () => {
     const fetchMarketData = async () => {
         try {
             const response = await axios.get<MarketData[]>('http://localhost:5000/api/market-data');
-            setMarketData(response.data);
+            setMarketData(response.data ? response.data : []);
             setError(null);
         } catch (error) {
             console.error('Error fetching market data:', error);
@@ -159,8 +166,12 @@ const Dashboard: React.FC = () => {
                 {/* Profit Summary Section */}
                 <div className={styles.section}>
                     <h2>Profit Summary</h2>
-                    <p>Total Gross Profit: ${profitLossSummary.total_gross_profit.toFixed(2)}</p>
-                    <p>Total Net Profit: ${profitLossSummary.total_net_profit.toFixed(2)}</p>
+                    <p>Total Gross Profit: ${profitLossSummary.total_gross_profit !== undefined && profitLossSummary.total_gross_profit !== null
+                        ? profitLossSummary.total_gross_profit.toFixed(2)
+                        : 'N/A'}</p>
+                    <p>Total Net Profit: ${profitLossSummary.total_net_profit !== undefined && profitLossSummary.total_net_profit !== null
+                        ? profitLossSummary.total_net_profit.toFixed(2)
+                        : 'N/A'}</p>
                     {/* Removed Total Loss as it's same as Net Profit */}
                 </div>
 
@@ -201,94 +212,94 @@ const Dashboard: React.FC = () => {
                                             </td>
                                             
                                             {/* Currency */}
-                                            <td>{opportunity.currency ?? 'N/A'}</td>
+                                            <td>{opportunity.currency ? opportunity.currency : 'N/A'}</td>
                                             
                                             {/* Buy Exchange */}
-                                            <td>{opportunity.exchange_buy ?? 'N/A'}</td>
+                                            <td>{opportunity.exchange_buy ? opportunity.exchange_buy : 'N/A'}</td>
                                             
                                             {/* Buy Price */}
                                             <td>
-                                                {opportunity.buy_price != null
+                                                {opportunity.buy_price !== undefined && opportunity.buy_price !== null
                                                     ? `$${opportunity.buy_price.toFixed(2)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Sell Exchange */}
-                                            <td>{opportunity.exchange_sell ?? 'N/A'}</td>
+                                            <td>{opportunity.exchange_sell ? opportunity.exchange_sell : 'N/A'}</td>
                                             
                                             {/* Sell Price */}
                                             <td>
-                                                {opportunity.sell_price != null
+                                                {opportunity.sell_price !== undefined && opportunity.sell_price !== null
                                                     ? `$${opportunity.sell_price.toFixed(2)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Gross Profit */}
                                             <td>
-                                                {opportunity.gross_profit != null
+                                                {opportunity.gross_profit !== undefined && opportunity.gross_profit !== null
                                                     ? `$${opportunity.gross_profit.toFixed(2)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Buy Fee */}
                                             <td>
-                                                {opportunity.buy_fee != null
+                                                {opportunity.buy_fee !== undefined && opportunity.buy_fee !== null
                                                     ? `$${opportunity.buy_fee.toFixed(4)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Sell Fee */}
                                             <td>
-                                                {opportunity.sell_fee != null
+                                                {opportunity.sell_fee !== undefined && opportunity.sell_fee !== null
                                                     ? `$${opportunity.sell_fee.toFixed(4)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Withdrawal Fee */}
                                             <td>
-                                                {opportunity.withdrawal_fee != null
+                                                {opportunity.withdrawal_fee !== undefined && opportunity.withdrawal_fee !== null
                                                     ? `$${opportunity.withdrawal_fee.toFixed(4)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Buy Slippage */}
                                             <td>
-                                                {opportunity.buy_slippage != null
+                                                {opportunity.buy_slippage !== undefined && opportunity.buy_slippage !== null
                                                     ? `${(opportunity.buy_slippage * 100).toFixed(2)}%`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Sell Slippage */}
                                             <td>
-                                                {opportunity.sell_slippage != null
+                                                {opportunity.sell_slippage !== undefined && opportunity.sell_slippage !== null
                                                     ? `${(opportunity.sell_slippage * 100).toFixed(2)}%`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Latency */}
                                             <td>
-                                                {opportunity.latency != null
+                                                {opportunity.latency !== undefined && opportunity.latency !== null
                                                     ? opportunity.latency.toFixed(2)
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Estimated Price Change */}
                                             <td>
-                                                {opportunity.estimated_price_change != null
+                                                {opportunity.estimated_price_change !== undefined && opportunity.estimated_price_change !== null
                                                     ? `$${opportunity.estimated_price_change.toFixed(2)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Net Profit */}
                                             <td>
-                                                {opportunity.net_profit != null
+                                                {opportunity.net_profit !== undefined && opportunity.net_profit !== null
                                                     ? `$${opportunity.net_profit.toFixed(2)}`
                                                     : 'N/A'}
                                             </td>
                                             
                                             {/* Profit % */}
                                             <td>
-                                                {opportunity.net_profit != null && opportunity.gross_profit !== 0
+                                                {opportunity.net_profit !== undefined && opportunity.net_profit !== null && opportunity.gross_profit !== 0
                                                     ? `${((opportunity.net_profit / opportunity.gross_profit) * 100).toFixed(2)}%`
                                                     : 'N/A'}
                                             </td>
@@ -308,7 +319,7 @@ const Dashboard: React.FC = () => {
                     {Object.keys(groupedMarketData).length > 0 ? (
                         Object.keys(groupedMarketData).map((symbol) => (
                             <div key={symbol} className={styles.marketDataSection}>
-                                <h3>{symbol}</h3>
+                                <h3>{symbol ? symbol : 'N/A'}</h3>
                                 <table className={styles.marketTable}>
                                     <thead>
                                         <tr>
@@ -317,16 +328,22 @@ const Dashboard: React.FC = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {groupedMarketData[symbol].map((data: MarketData, index: number) => (
-                                            <tr key={index}>
-                                                <td>{data.exchange ?? 'N/A'}</td>
-                                                <td>
-                                                    {data.price != null
-                                                        ? `$${data.price.toFixed(2)}`
-                                                        : 'N/A'}
-                                                </td>
+                                        {groupedMarketData[symbol] && groupedMarketData[symbol].length > 0 ? (
+                                            groupedMarketData[symbol].map((data: MarketData, index: number) => (
+                                                <tr key={index}>
+                                                    <td>{data.exchange ? data.exchange : 'N/A'}</td>
+                                                    <td>
+                                                        {data.price !== undefined && data.price !== null
+                                                            ? `$${data.price.toFixed(2)}`
+                                                            : 'N/A'}
+                                                    </td>
+                                                </tr>
+                                            ))
+                                        ) : (
+                                            <tr>
+                                                <td colSpan={2}>No data available.</td>
                                             </tr>
-                                        ))}
+                                        )}
                                     </tbody>
                                 </table>
                             </div>
@@ -337,8 +354,8 @@ const Dashboard: React.FC = () => {
                 </div>
             </div>
         </div>
-        );
+    );
 
-    };
+};
 
-    export default Dashboard;
+export default Dashboard;
