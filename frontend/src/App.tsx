@@ -30,7 +30,7 @@ const App: React.FC = () => {
                         <Route path="/signup" element={<Signup />} />
                         <Route
                         path="/dashboard"
-                        element={<ProtectedRoute><Dashboard /></ProtectedRoute>}/>
+                        element={<Dashboard />}/>
                         <Route path="/trade-history" element={<TradeHistory/>} />
                         <Route path="/account-settings" element={<AccountSettings/>} />
                         <Route path="/backtesting" element={<BacktestingPage />} />

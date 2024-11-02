@@ -1,3 +1,5 @@
+/* src/pages/dashboard/dashboard.module.css */
+
 /* General Styles */
 :root {
     --primary-color: #4a90e2; /* Royal blue for primary buttons */
@@ -22,11 +24,10 @@ body {
 
 .dashboard {
     padding: 30px;
-    max-width: 1200px;
+    max-width: 1400px; /* Increased width to accommodate more columns */
     margin: 0 auto;
 }
 
-/* Navigation Bar */
 .navigation {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +52,6 @@ body {
     background-color: var(--primary-color-hover);
 }
 
-/* Main Content */
 .mainContent {
     display: flex;
     flex-wrap: wrap;
@@ -121,7 +121,7 @@ body {
 
 /* Arbitrage Opportunities Section */
 .opportunitiesContainer {
-    max-height: 300px;
+    max-height: 400px; /* Increased height for more data */
     overflow-y: auto;
 }
 
@@ -136,7 +136,7 @@ body {
     border: 1px solid var(--border-color);
     padding: 10px;
     text-align: left;
-    font-size: 0.9em;
+    font-size: 0.8em; /* Reduced font size to fit more columns */
 }
 
 .opportunitiesTable th {
@@ -145,6 +145,7 @@ body {
     font-weight: bold;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .opportunitiesTable tbody tr:nth-child(even) {
@@ -173,7 +174,7 @@ body {
     border: 1px solid var(--border-color);
     padding: 10px;
     text-align: left;
-    font-size: 0.9em;
+    font-size: 0.8em; /* Consistent font size */
 }
 
 .marketTable th {
@@ -191,12 +192,15 @@ body {
 }
 
 /* Responsive Layout */
-@media screen and (max-width: 768px) {
-    .mainContent {
-        flex-direction: column;
-    }
-
+@media screen and (max-width: 1024px) {
     .section {
         flex: 1 1 100%;
+    }
+
+    .opportunitiesTable th,
+    .opportunitiesTable td,
+    .marketTable th,
+    .marketTable td {
+        font-size: 0.7em; /* Further reduce font size on smaller screens */
     }
 }

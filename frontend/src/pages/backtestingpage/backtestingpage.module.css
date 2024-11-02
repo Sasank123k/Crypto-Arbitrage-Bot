@@ -1,8 +1,8 @@
-/* backtestingPage.module.css */
+/* src/pages/backtestingpage/backtestingPage.module.css */
 
 .backtestingPage {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1400px; /* Increased width to accommodate more columns */
     margin: 0 auto;
     color: #333;
     background-color: #fff;
@@ -54,6 +54,7 @@
     cursor: pointer;
     font-size: 16px;
     align-self: flex-start;
+    transition: background-color 0.3s ease;
 }
 
 .runButton:disabled {
@@ -88,12 +89,16 @@
     border: 1px solid #dee2e6;
     padding: 12px 8px;
     text-align: center;
+    font-size: 0.8em; /* Reduced font size to fit more columns */
 }
 
 .resultsTable th {
     background-color: #2a9d8f;
     color: #fff;
     font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .resultsTable tbody tr:nth-child(even) {
@@ -104,7 +109,7 @@
     background-color: #f1f1f1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .runButton {
         width: 100%;
     }
@@ -117,6 +122,6 @@
     .resultsTable th,
     .resultsTable td {
         padding: 8px 4px;
-        font-size: 14px;
+        font-size: 0.7em; /* Further reduce font size on smaller screens */
     }
 }
