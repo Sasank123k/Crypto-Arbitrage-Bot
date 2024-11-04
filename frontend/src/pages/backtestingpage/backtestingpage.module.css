@@ -15,6 +15,30 @@
     text-align: center;
 }
 
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.navButton {
+    padding: 12px 20px;
+    background-color: #4a90e2; /* Royal blue for primary buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navButton:hover {
+    background-color: #3a78c2; /* Hover color */
+}
+
 .form {
     display: flex;
     flex-direction: column;

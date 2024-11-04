@@ -1,12 +1,13 @@
 # models/trade.py
 
 from database import db
+from datetime import datetime
 
 class Trade(db.Model):
     __tablename__ = 'trades'
 
     id = db.Column(db.Integer, primary_key=True)
-    timestamp = db.Column(db.DateTime, nullable=False)
+    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     asset = db.Column(db.String(50), nullable=False)
     buy_exchange = db.Column(db.String(50), nullable=False)
     sell_exchange = db.Column(db.String(50), nullable=False)
@@ -24,7 +25,21 @@ class Trade(db.Model):
     latency = db.Column(db.Float, nullable=False)
     estimated_price_change = db.Column(db.Float, nullable=False)
 
-    def to_dict(self):
+    @property
+    def gross_profit_percentage(self) -> float:
+        """
+        Calculate the gross profit percentage.
+        Formula: (gross_profit / buy_price) * 100
+        """
+        if self.buy_price and self.buy_price != 0:
+            return (self.gross_profit / self.buy_price) * 100
+        return 0.0  # Return 0.0 or handle as per your business logic
+
+    def to_dict(self) -> dict:
+        """
+        Convert the Trade object into a dictionary for JSON serialization.
+        Includes the calculated gross_profit_percentage.
+        """
         return {
             "id": self.id,
             "timestamp": self.timestamp.isoformat(),
@@ -34,9 +49,10 @@ class Trade(db.Model):
             "buy_price": self.buy_price,
             "sell_price": self.sell_price,
             "amount": self.amount,
-            "gross_profit": self.gross_profit,  # Include in dictionary
+            "gross_profit": self.gross_profit,
+            "gross_profit_percentage": round(self.gross_profit_percentage, 2),  # Include in dictionary
             "profit": self.profit,
-            "profit_percentage": self.profit_percentage,
+            "profit_percentage": round(self.profit_percentage, 2),
             "buy_fee": self.buy_fee,
             "sell_fee": self.sell_fee,
             "withdrawal_fee": self.withdrawal_fee,

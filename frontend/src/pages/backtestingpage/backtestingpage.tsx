@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import styles from './backtestingPage.module.css';
+import { Link } from 'react-router-dom'; // Added for navigation
 import { Trade, BacktestResult } from '../../interfaces'; // Ensure correct path
 
 const BacktestingPage: React.FC = () => {
@@ -13,7 +14,7 @@ const BacktestingPage: React.FC = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    const symbols = ['BTC/USDT', 'ETH/USDT', 'LTC/USDT']; // Add more symbols as needed
+    const symbols = ['BTC/USDT', 'ETH/USDT']; // Removed 'LTC/USDT'
 
     const handleBacktest = async () => {
         setIsLoading(true);
@@ -37,6 +38,21 @@ const BacktestingPage: React.FC = () => {
     return (
         <div className={styles.backtestingPage}>
             <h2>Backtesting</h2>
+
+            {/* Navigation Section */}
+            <div className={styles.navigation}>
+                <Link to="/dashboard" className={styles.navButton}>
+                    Dashboard
+                </Link>
+                <Link to="/trade-history" className={styles.navButton}>
+                    Trade History
+                </Link>
+                <Link to="/account-settings" className={styles.navButton}>
+                    Account Settings
+                </Link>
+                {/* Add more navigation buttons if needed */}
+            </div>
+
             <form onSubmit={(e) => e.preventDefault()} className={styles.form}>
                 <div className={styles.formGroup}>
                     <label htmlFor="startDate">Start Date:</label>
@@ -98,6 +114,8 @@ const BacktestingPage: React.FC = () => {
                                     <th>Sell Price</th>
                                     <th>Amount</th>
                                     <th>Gross Profit</th>
+                                    <th>Gross Profit %</th>
+                                    {/* Realistic Factors Columns */}
                                     <th>Buy Fee</th>
                                     <th>Sell Fee</th>
                                     <th>Withdrawal Fee</th>
@@ -105,6 +123,7 @@ const BacktestingPage: React.FC = () => {
                                     <th>Sell Slippage</th>
                                     <th>Latency (s)</th>
                                     <th>Est. Price Change</th>
+                                    {/* Moved Net Profit Columns to End */}
                                     <th>Net Profit</th>
                                     <th>Profit %</th>
                                 </tr>
@@ -118,104 +137,88 @@ const BacktestingPage: React.FC = () => {
                                                 ? new Date(trade.timestamp).toLocaleDateString()
                                                 : 'N/A'}
                                         </td>
-                                        
                                         {/* Currency */}
-                                        <td>{trade.currency ?? 'N/A'}</td>
-                                        
+                                        <td>{trade.asset ?? 'N/A'}</td>
                                         {/* Buy Exchange */}
                                         <td>{trade.buy_exchange ?? 'N/A'}</td>
-                                        
                                         {/* Sell Exchange */}
                                         <td>{trade.sell_exchange ?? 'N/A'}</td>
-                                        
                                         {/* Buy Price */}
                                         <td>
                                             {trade.buy_price != null
                                                 ? `$${trade.buy_price.toFixed(2)}`
                                                 : 'N/A'}
                                         </td>
-                                        
                                         {/* Sell Price */}
                                         <td>
                                             {trade.sell_price != null
                                                 ? `$${trade.sell_price.toFixed(2)}`
                                                 : 'N/A'}
                                         </td>
-                                        
                                         {/* Amount */}
                                         <td>
                                             {trade.amount != null
                                                 ? trade.amount.toFixed(4)
                                                 : 'N/A'}
                                         </td>
-                                        
                                         {/* Gross Profit */}
                                         <td>
                                             {trade.gross_profit != null
                                                 ? `$${trade.gross_profit.toFixed(2)}`
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Buy Fee */}
+                                        {/* Gross Profit % */}
+                                        <td>
+                                            {trade.gross_profit_percentage != null
+                                                ? `${trade.gross_profit_percentage.toFixed(2)}%`
+                                                : 'N/A'}
+                                        </td>
+                                        {/* Realistic Factors (for display only) */}
                                         <td>
                                             {trade.buy_fee != null
-                                                ? `$${trade.buy_fee.toFixed(4)}`
+                                                ? `${(trade.buy_fee * 100).toFixed(2)}%`
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Sell Fee */}
                                         <td>
                                             {trade.sell_fee != null
-                                                ? `$${trade.sell_fee.toFixed(4)}`
+                                                ? `${(trade.sell_fee * 100).toFixed(2)}%`
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Withdrawal Fee */}
                                         <td>
                                             {trade.withdrawal_fee != null
-                                                ? `$${trade.withdrawal_fee.toFixed(4)}`
+                                                ? `${(trade.withdrawal_fee * 100).toFixed(2)}%`
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Buy Slippage */}
                                         <td>
                                             {trade.buy_slippage != null
                                                 ? `${(trade.buy_slippage * 100).toFixed(2)}%`
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Sell Slippage */}
                                         <td>
                                             {trade.sell_slippage != null
                                                 ? `${(trade.sell_slippage * 100).toFixed(2)}%`
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Latency */}
                                         <td>
                                             {trade.latency != null
                                                 ? trade.latency.toFixed(2)
                                                 : 'N/A'}
                                         </td>
-                                        
-                                        {/* Estimated Price Change */}
                                         <td>
                                             {trade.estimated_price_change != null
                                                 ? `$${trade.estimated_price_change.toFixed(2)}`
                                                 : 'N/A'}
                                         </td>
-                                        
                                         {/* Net Profit */}
                                         <td>
-                                            {trade.net_profit != null
-                                                ? `$${trade.net_profit.toFixed(2)}`
+                                            {trade.profit != null
+                                                ? `$${trade.profit.toFixed(2)}`
                                                 : 'N/A'}
                                         </td>
-                                        
                                         {/* Profit % */}
                                         <td>
-                                            {trade.net_profit != null && trade.gross_profit !== 0
-                                                ? `${((trade.net_profit / trade.gross_profit) * 100).toFixed(2)}%`
+                                            {trade.profit_percentage != null
+                                                ? `${trade.profit_percentage.toFixed(2)}%`
                                                 : 'N/A'}
                                         </td>
                                     </tr>
@@ -227,6 +230,5 @@ const BacktestingPage: React.FC = () => {
             )}
         </div>
     );
-    };
-
+};
     export default BacktestingPage;

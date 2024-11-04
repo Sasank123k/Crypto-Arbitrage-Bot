@@ -1,5 +1,6 @@
-/* src/pages/tradehistory/tradehistory.module.css */
+/* src/pages/tradehistory/tradeHistory.module.css */
 
+/* General Styles */
 .tradeHistory {
     padding: 20px;
     max-width: 1400px; /* Increased width to accommodate more columns */
@@ -12,6 +13,31 @@
 .tradeHistory h2 {
     margin-bottom: 20px;
     color: #2a9d8f;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.navButton {
+    padding: 12px 20px;
+    background-color: #4a90e2; /* Royal blue for primary buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navButton:hover {
+    background-color: #3a78c2; /* Hover color */
 }
 
 .tableContainer {
@@ -48,9 +74,66 @@
     background-color: #f1f1f1;
 }
 
+.error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.isLoading {
+    text-align: center;
+    font-style: italic;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results h3 {
+    margin-bottom: 10px;
+    color: #2a9d8f;
+}
+
+.resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultsTable th,
+.resultsTable td {
+    border: 1px solid #dee2e6;
+    padding: 12px 8px;
+    text-align: center;
+    font-size: 0.8em; /* Reduced font size to fit more columns */
+}
+
+.resultsTable th {
+    background-color: #2a9d8f;
+    color: #fff;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.resultsTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.resultsTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
 @media screen and (max-width: 1024px) {
+    .navButton {
+        width: 100%;
+    }
+
     .tradeTable th,
-    .tradeTable td {
+    .tradeTable td,
+    .resultsTable th,
+    .resultsTable td {
+        padding: 8px 4px;
         font-size: 0.7em; /* Further reduce font size on smaller screens */
     }
 }

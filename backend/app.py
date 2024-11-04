@@ -1,5 +1,3 @@
-# app.py
-
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
@@ -9,7 +7,6 @@ from models.trade import Trade
 from models.config import Config  # Import the Config model
 
 from bot import BotManager
-import datetime
 import logging
 from sqlalchemy import case  # Ensure this import is present
 
@@ -42,7 +39,6 @@ with app.app_context():
     db.create_all()
 
 # Backtest endpoint (public access)
-
 @app.route('/api/backtest', methods=['POST'])
 def backtest_bot():
     data = request.json
@@ -113,17 +109,10 @@ def get_profit_loss_summary():
         try:
             total_profit = db.session.query(db.func.sum(Trade.gross_profit)).scalar() or 0.0
             total_net_profit = db.session.query(db.func.sum(Trade.profit)).scalar() or 0.0
-            total_loss = db.session.query(
-                db.func.sum(
-                    case(
-                        (Trade.profit < 0, Trade.profit),
-                        else_=0.0
-                    )
-                )
-            ).scalar() or 0.0
-            return jsonify({"total_gross_profit": round(total_profit, 2), 
-                            "total_net_profit": round(total_net_profit, 2), 
-                            "total_loss": round(total_loss, 2)})
+            return jsonify({
+                "total_gross_profit": round(total_profit, 2),
+                "total_net_profit": round(total_net_profit, 2)
+            })
         except Exception as e:
             logging.error(f"Error fetching profit/loss summary: {e}", exc_info=True)
             return jsonify({"error": "Failed to fetch profit/loss summary"}), 500

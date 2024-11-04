@@ -9,11 +9,6 @@
             "maker_fee": 0.001,
             "taker_fee": 0.001,
             "withdrawal_fee": 0.0005
-        },
-        "LTC/USDT": {
-            "maker_fee": 0.001,
-            "taker_fee": 0.001,
-            "withdrawal_fee": 0.0005
         }
     },
     "kucoin": {
@@ -23,11 +18,6 @@
             "withdrawal_fee": 0.0005  
         },
         "ETH/USDT": {
-            "maker_fee": 0.001,
-            "taker_fee": 0.001,
-            "withdrawal_fee": 0.0005
-        },
-        "LTC/USDT": {
             "maker_fee": 0.001,
             "taker_fee": 0.001,
             "withdrawal_fee": 0.0005
@@ -43,11 +33,6 @@
             "maker_fee": 0.0026,
             "taker_fee": 0.0026,
             "withdrawal_fee": 0.0005
-        },
-        "LTC/USD": {
-            "maker_fee": 0.0026,
-            "taker_fee": 0.0026,
-            "withdrawal_fee": 0.0005
         }
     },
     "bitfinex": {
@@ -59,28 +44,6 @@
         "ETH/USD": {
             "maker_fee": 0.002,
             "taker_fee": 0.002,
-            "withdrawal_fee": 0.0005
-        },
-        "LTC/USD": {
-            "maker_fee": 0.002,
-            "taker_fee": 0.002,
-            "withdrawal_fee": 0.0005
-        }
-    },
-    "coinbase": {
-        "BTC/USD": {
-            "maker_fee": 0.005,        
-            "taker_fee": 0.005,        
-            "withdrawal_fee": 0.0005   
-        },
-        "ETH/USD": {
-            "maker_fee": 0.005,
-            "taker_fee": 0.005,
-            "withdrawal_fee": 0.0005
-        },
-        "LTC/USD": {
-            "maker_fee": 0.005,
-            "taker_fee": 0.005,
             "withdrawal_fee": 0.0005
         }
     }
