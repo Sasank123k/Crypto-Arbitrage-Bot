@@ -1,0 +1,3 @@
+model,accuracy
+Logistic Regression,63.01
+Random Forest,58.9

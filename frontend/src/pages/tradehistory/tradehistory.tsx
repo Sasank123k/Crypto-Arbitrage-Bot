@@ -36,7 +36,7 @@ const TradeHistory: React.FC = () => {
 
             {/* Navigation Section */}
             <div className={styles.navigation}>
-                <Link to="/" className={styles.navButton}>
+                <Link to="/dashboard" className={styles.navButton}>
                     Dashboard
                 </Link>
                 <Link to="/backtesting" className={styles.navButton}>
