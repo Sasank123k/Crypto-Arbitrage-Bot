@@ -7840,3 +7840,11 @@ FROM trades ORDER BY trades.timestamp DESC]
 2024-11-07 00:32:17,278:INFO:127.0.0.1 - - [07/Nov/2024 00:32:17] "GET /api/profit-loss-summary HTTP/1.1" 200 -
 2024-11-07 00:32:20,742:INFO:127.0.0.1 - - [07/Nov/2024 00:32:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
 2024-11-07 00:32:24,325:INFO:127.0.0.1 - - [07/Nov/2024 00:32:24] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 00:33:16,950:INFO:127.0.0.1 - - [07/Nov/2024 00:33:16] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 00:33:17,257:INFO:127.0.0.1 - - [07/Nov/2024 00:33:17] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 00:33:20,875:INFO:127.0.0.1 - - [07/Nov/2024 00:33:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 00:33:22,689:INFO:127.0.0.1 - - [07/Nov/2024 00:33:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 00:33:24,921:INFO:127.0.0.1 - - [07/Nov/2024 00:33:24] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 00:33:24,921:INFO:127.0.0.1 - - [07/Nov/2024 00:33:24] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 00:33:28,072:INFO:127.0.0.1 - - [07/Nov/2024 00:33:28] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 00:33:30,095:INFO:127.0.0.1 - - [07/Nov/2024 00:33:30] "GET /api/market-data HTTP/1.1" 200 -
