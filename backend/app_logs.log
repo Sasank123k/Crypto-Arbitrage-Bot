@@ -8151,3 +8151,841 @@ FROM trades ORDER BY trades.timestamp DESC]
 2024-11-07 12:37:19,273:INFO:127.0.0.1 - - [07/Nov/2024 12:37:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
 2024-11-07 12:37:19,273:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
 2024-11-07 12:37:21,641:INFO:127.0.0.1 - - [07/Nov/2024 12:37:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:38:13,355:INFO:127.0.0.1 - - [07/Nov/2024 12:38:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:38:13,375:INFO:127.0.0.1 - - [07/Nov/2024 12:38:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:38:17,512:INFO:127.0.0.1 - - [07/Nov/2024 12:38:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:38:21,353:INFO:127.0.0.1 - - [07/Nov/2024 12:38:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:39:13,038:INFO:127.0.0.1 - - [07/Nov/2024 12:39:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:39:13,359:INFO:127.0.0.1 - - [07/Nov/2024 12:39:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:39:18,831:INFO:127.0.0.1 - - [07/Nov/2024 12:39:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:39:19,045:INFO:127.0.0.1 - - [07/Nov/2024 12:39:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:40:13,351:INFO:127.0.0.1 - - [07/Nov/2024 12:40:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:40:13,351:INFO:127.0.0.1 - - [07/Nov/2024 12:40:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:40:16,515:INFO:127.0.0.1 - - [07/Nov/2024 12:40:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:40:20,308:INFO:127.0.0.1 - - [07/Nov/2024 12:40:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:41:13,065:INFO:127.0.0.1 - - [07/Nov/2024 12:41:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:41:13,364:INFO:127.0.0.1 - - [07/Nov/2024 12:41:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:41:16,402:INFO:127.0.0.1 - - [07/Nov/2024 12:41:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:41:20,332:INFO:127.0.0.1 - - [07/Nov/2024 12:41:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:42:08,522:INFO:127.0.0.1 - - [07/Nov/2024 12:42:08] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:42:08,531:INFO:127.0.0.1 - - [07/Nov/2024 12:42:08] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:42:08,838:INFO:127.0.0.1 - - [07/Nov/2024 12:42:08] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:42:08,841:INFO:127.0.0.1 - - [07/Nov/2024 12:42:08] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:42:13,667:INFO:127.0.0.1 - - [07/Nov/2024 12:42:13] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:42:13,995:INFO:127.0.0.1 - - [07/Nov/2024 12:42:13] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:42:17,559:INFO:127.0.0.1 - - [07/Nov/2024 12:42:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:42:19,508:INFO:127.0.0.1 - - [07/Nov/2024 12:42:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:42:28,720:INFO:127.0.0.1 - - [07/Nov/2024 12:42:28] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:42:28,728:INFO:127.0.0.1 - - [07/Nov/2024 12:42:28] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:42:31,789:INFO:127.0.0.1 - - [07/Nov/2024 12:42:31] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:42:35,616:INFO:127.0.0.1 - - [07/Nov/2024 12:42:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:42:49,042:INFO:127.0.0.1 - - [07/Nov/2024 12:42:49] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:42:49,346:INFO:127.0.0.1 - - [07/Nov/2024 12:42:49] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:42:54,304:INFO:127.0.0.1 - - [07/Nov/2024 12:42:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:42:54,316:INFO:127.0.0.1 - - [07/Nov/2024 12:42:54] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:43:08,729:INFO:127.0.0.1 - - [07/Nov/2024 12:43:08] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:43:08,739:INFO:127.0.0.1 - - [07/Nov/2024 12:43:08] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:43:11,690:INFO:127.0.0.1 - - [07/Nov/2024 12:43:11] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:43:15,599:INFO:127.0.0.1 - - [07/Nov/2024 12:43:15] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:43:29,900:INFO:127.0.0.1 - - [07/Nov/2024 12:43:29] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:43:30,208:INFO:127.0.0.1 - - [07/Nov/2024 12:43:30] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:43:30,208:INFO:127.0.0.1 - - [07/Nov/2024 12:43:30] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:43:30,519:INFO:127.0.0.1 - - [07/Nov/2024 12:43:30] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:43:35,319:INFO:127.0.0.1 - - [07/Nov/2024 12:43:35] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:43:35,319:INFO:127.0.0.1 - - [07/Nov/2024 12:43:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:43:39,225:INFO:127.0.0.1 - - [07/Nov/2024 12:43:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:43:41,157:INFO:127.0.0.1 - - [07/Nov/2024 12:43:41] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:43:41,576:INFO:127.0.0.1 - - [07/Nov/2024 12:43:41] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-07 12:43:41,825:INFO:Bot started.
+2024-11-07 12:43:41,825:INFO:Bot thread started.
+2024-11-07 12:43:41,825:INFO:Bot started.
+2024-11-07 12:43:41,834:INFO:127.0.0.1 - - [07/Nov/2024 12:43:41] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-07 12:43:45,175:INFO:Total Opportunities Detected: 12
+2024-11-07 12:43:45,185:INFO:Current Profit Threshold: 5.0%
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.46
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.9
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.03
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.44
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.43
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.87
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.09
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.02
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.12
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.06
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.04
+2024-11-07 12:43:45,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.15
+2024-11-07 12:43:49,891:INFO:127.0.0.1 - - [07/Nov/2024 12:43:49] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:43:50,204:INFO:127.0.0.1 - - [07/Nov/2024 12:43:50] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:43:52,420:INFO:127.0.0.1 - - [07/Nov/2024 12:43:52] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-07 12:43:53,778:INFO:127.0.0.1 - - [07/Nov/2024 12:43:53] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:43:55,190:INFO:Bot stopped.
+2024-11-07 12:43:55,190:INFO:Bot thread stopped.
+2024-11-07 12:43:55,190:INFO:Bot stopped.
+2024-11-07 12:43:55,192:INFO:127.0.0.1 - - [07/Nov/2024 12:43:55] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-07 12:43:55,383:INFO:127.0.0.1 - - [07/Nov/2024 12:43:55] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:44:10,350:INFO:127.0.0.1 - - [07/Nov/2024 12:44:10] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:44:10,350:INFO:127.0.0.1 - - [07/Nov/2024 12:44:10] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:44:15,464:INFO:127.0.0.1 - - [07/Nov/2024 12:44:15] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:44:15,532:INFO:127.0.0.1 - - [07/Nov/2024 12:44:15] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:44:30,043:INFO:127.0.0.1 - - [07/Nov/2024 12:44:30] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:44:30,349:INFO:127.0.0.1 - - [07/Nov/2024 12:44:30] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:44:33,923:INFO:127.0.0.1 - - [07/Nov/2024 12:44:33] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:44:35,629:INFO:127.0.0.1 - - [07/Nov/2024 12:44:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:44:50,345:INFO:127.0.0.1 - - [07/Nov/2024 12:44:50] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:44:50,349:INFO:127.0.0.1 - - [07/Nov/2024 12:44:50] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:44:53,287:INFO:127.0.0.1 - - [07/Nov/2024 12:44:53] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:44:55,183:INFO:127.0.0.1 - - [07/Nov/2024 12:44:55] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:45:13,046:INFO:127.0.0.1 - - [07/Nov/2024 12:45:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:45:13,354:INFO:127.0.0.1 - - [07/Nov/2024 12:45:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:45:18,790:INFO:127.0.0.1 - - [07/Nov/2024 12:45:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:45:18,790:INFO:127.0.0.1 - - [07/Nov/2024 12:45:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 12:45:30,349:INFO:127.0.0.1 - - [07/Nov/2024 12:45:30] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 12:45:30,349:INFO:127.0.0.1 - - [07/Nov/2024 12:45:30] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 12:45:36,414:INFO:127.0.0.1 - - [07/Nov/2024 12:45:36] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 12:45:38,311:INFO:127.0.0.1 - - [07/Nov/2024 12:45:38] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:00:51,593:INFO:127.0.0.1 - - [07/Nov/2024 14:00:51] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:00:51,610:INFO:127.0.0.1 - - [07/Nov/2024 14:00:51] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:00:51,987:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 14:00:51,987:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 14:00:52,150:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 14:00:52,350:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 14:00:52,703:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 14:00:53,684:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 14:00:58,105:INFO:127.0.0.1 - - [07/Nov/2024 14:00:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:00:58,149:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 14:01:06,356:INFO:127.0.0.1 - - [07/Nov/2024 14:01:06] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:01:13,062:INFO:127.0.0.1 - - [07/Nov/2024 14:01:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:01:13,380:INFO:127.0.0.1 - - [07/Nov/2024 14:01:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:01:27,065:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 14:01:32,438:INFO:127.0.0.1 - - [07/Nov/2024 14:01:32] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:01:36,489:INFO:127.0.0.1 - - [07/Nov/2024 14:01:36] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:02:13,352:INFO:127.0.0.1 - - [07/Nov/2024 14:02:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:02:13,352:INFO:127.0.0.1 - - [07/Nov/2024 14:02:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:02:22,039:INFO:127.0.0.1 - - [07/Nov/2024 14:02:22] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:02:25,437:INFO:127.0.0.1 - - [07/Nov/2024 14:02:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:03:13,049:INFO:127.0.0.1 - - [07/Nov/2024 14:03:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:03:13,368:INFO:127.0.0.1 - - [07/Nov/2024 14:03:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:03:17,534:INFO:127.0.0.1 - - [07/Nov/2024 14:03:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:03:21,468:INFO:127.0.0.1 - - [07/Nov/2024 14:03:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:04:13,352:INFO:127.0.0.1 - - [07/Nov/2024 14:04:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:04:13,352:INFO:127.0.0.1 - - [07/Nov/2024 14:04:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:04:17,351:INFO:127.0.0.1 - - [07/Nov/2024 14:04:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:04:18,869:INFO:127.0.0.1 - - [07/Nov/2024 14:04:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:05:13,058:INFO:127.0.0.1 - - [07/Nov/2024 14:05:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:05:13,369:INFO:127.0.0.1 - - [07/Nov/2024 14:05:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:05:19,903:INFO:127.0.0.1 - - [07/Nov/2024 14:05:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:05:19,923:INFO:127.0.0.1 - - [07/Nov/2024 14:05:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:06:13,346:INFO:127.0.0.1 - - [07/Nov/2024 14:06:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:06:13,358:INFO:127.0.0.1 - - [07/Nov/2024 14:06:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:06:19,285:INFO:127.0.0.1 - - [07/Nov/2024 14:06:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:06:19,305:INFO:127.0.0.1 - - [07/Nov/2024 14:06:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:06:54,885:INFO:127.0.0.1 - - [07/Nov/2024 14:06:54] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:06:55,202:INFO:127.0.0.1 - - [07/Nov/2024 14:06:55] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:06:55,387:INFO:127.0.0.1 - - [07/Nov/2024 14:06:55] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:06:55,387:INFO:127.0.0.1 - - [07/Nov/2024 14:06:55] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:06:55,387:INFO:127.0.0.1 - - [07/Nov/2024 14:06:55] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:07:00,468:INFO:127.0.0.1 - - [07/Nov/2024 14:07:00] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:07:00,881:INFO:127.0.0.1 - - [07/Nov/2024 14:07:00] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:07:04,831:INFO:127.0.0.1 - - [07/Nov/2024 14:07:04] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:07:06,754:INFO:127.0.0.1 - - [07/Nov/2024 14:07:06] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:07:15,388:INFO:127.0.0.1 - - [07/Nov/2024 14:07:15] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:07:15,398:INFO:127.0.0.1 - - [07/Nov/2024 14:07:15] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:07:20,728:INFO:127.0.0.1 - - [07/Nov/2024 14:07:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:07:20,788:INFO:127.0.0.1 - - [07/Nov/2024 14:07:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:07:35,072:INFO:127.0.0.1 - - [07/Nov/2024 14:07:35] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:07:35,384:INFO:127.0.0.1 - - [07/Nov/2024 14:07:35] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:07:39,954:INFO:127.0.0.1 - - [07/Nov/2024 14:07:39] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:07:43,849:INFO:127.0.0.1 - - [07/Nov/2024 14:07:43] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:09:16,609:INFO:127.0.0.1 - - [07/Nov/2024 14:09:16] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:09:16,616:INFO:127.0.0.1 - - [07/Nov/2024 14:09:16] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:09:16,855:INFO:127.0.0.1 - - [07/Nov/2024 14:09:16] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:09:16,926:INFO:127.0.0.1 - - [07/Nov/2024 14:09:16] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:09:24,175:INFO:127.0.0.1 - - [07/Nov/2024 14:09:24] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:09:24,175:INFO:127.0.0.1 - - [07/Nov/2024 14:09:24] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:09:29,595:INFO:127.0.0.1 - - [07/Nov/2024 14:09:29] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:09:34,111:INFO:127.0.0.1 - - [07/Nov/2024 14:09:34] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:09:36,584:INFO:127.0.0.1 - - [07/Nov/2024 14:09:36] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:09:36,594:INFO:127.0.0.1 - - [07/Nov/2024 14:09:36] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:09:42,931:INFO:127.0.0.1 - - [07/Nov/2024 14:09:42] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:09:44,982:INFO:127.0.0.1 - - [07/Nov/2024 14:09:44] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:09:57,040:INFO:127.0.0.1 - - [07/Nov/2024 14:09:57] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:09:57,366:INFO:127.0.0.1 - - [07/Nov/2024 14:09:57] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:10:01,342:INFO:127.0.0.1 - - [07/Nov/2024 14:10:01] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:10:05,255:INFO:127.0.0.1 - - [07/Nov/2024 14:10:05] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:10:16,593:INFO:127.0.0.1 - - [07/Nov/2024 14:10:16] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:10:16,603:INFO:127.0.0.1 - - [07/Nov/2024 14:10:16] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:10:22,552:INFO:127.0.0.1 - - [07/Nov/2024 14:10:22] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:10:22,572:INFO:127.0.0.1 - - [07/Nov/2024 14:10:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:10:36,286:INFO:127.0.0.1 - - [07/Nov/2024 14:10:36] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:10:36,600:INFO:127.0.0.1 - - [07/Nov/2024 14:10:36] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:10:41,501:INFO:127.0.0.1 - - [07/Nov/2024 14:10:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:10:45,057:INFO:127.0.0.1 - - [07/Nov/2024 14:10:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:10:57,348:INFO:127.0.0.1 - - [07/Nov/2024 14:10:57] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:10:57,348:INFO:127.0.0.1 - - [07/Nov/2024 14:10:57] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:11:00,935:INFO:127.0.0.1 - - [07/Nov/2024 14:11:00] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:11:02,856:INFO:127.0.0.1 - - [07/Nov/2024 14:11:02] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:11:17,053:INFO:127.0.0.1 - - [07/Nov/2024 14:11:17] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:11:17,362:INFO:127.0.0.1 - - [07/Nov/2024 14:11:17] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:11:22,612:INFO:127.0.0.1 - - [07/Nov/2024 14:11:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:11:22,622:INFO:127.0.0.1 - - [07/Nov/2024 14:11:22] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:12:13,355:INFO:127.0.0.1 - - [07/Nov/2024 14:12:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:12:13,357:INFO:127.0.0.1 - - [07/Nov/2024 14:12:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:12:20,421:INFO:127.0.0.1 - - [07/Nov/2024 14:12:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:12:20,421:INFO:127.0.0.1 - - [07/Nov/2024 14:12:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:13:13,051:INFO:127.0.0.1 - - [07/Nov/2024 14:13:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:13:13,359:INFO:127.0.0.1 - - [07/Nov/2024 14:13:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:13:19,359:INFO:127.0.0.1 - - [07/Nov/2024 14:13:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:13:19,389:INFO:127.0.0.1 - - [07/Nov/2024 14:13:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:14:13,347:INFO:127.0.0.1 - - [07/Nov/2024 14:14:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:14:13,347:INFO:127.0.0.1 - - [07/Nov/2024 14:14:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:14:20,488:INFO:127.0.0.1 - - [07/Nov/2024 14:14:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:14:20,492:INFO:127.0.0.1 - - [07/Nov/2024 14:14:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:15:02,753:INFO:127.0.0.1 - - [07/Nov/2024 14:15:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:15:03,063:INFO:127.0.0.1 - - [07/Nov/2024 14:15:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:15:13,067:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 14:15:13,097:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 14:15:17,353:INFO:127.0.0.1 - - [07/Nov/2024 14:15:17] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:15:17,353:INFO:127.0.0.1 - - [07/Nov/2024 14:15:17] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:15:22,347:INFO:127.0.0.1 - - [07/Nov/2024 14:15:22] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:15:25,917:INFO:127.0.0.1 - - [07/Nov/2024 14:15:25] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:15:27,972:INFO:127.0.0.1 - - [07/Nov/2024 14:15:27] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:15:35,590:INFO:127.0.0.1 - - [07/Nov/2024 14:15:35] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:15:36,287:INFO:127.0.0.1 - - [07/Nov/2024 14:15:36] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:15:36,594:INFO:127.0.0.1 - - [07/Nov/2024 14:15:36] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:15:41,760:INFO:127.0.0.1 - - [07/Nov/2024 14:15:41] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:15:45,851:INFO:127.0.0.1 - - [07/Nov/2024 14:15:45] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:15:56,591:INFO:127.0.0.1 - - [07/Nov/2024 14:15:56] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:15:56,591:INFO:127.0.0.1 - - [07/Nov/2024 14:15:56] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:16:00,524:INFO:127.0.0.1 - - [07/Nov/2024 14:16:00] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:16:04,394:INFO:127.0.0.1 - - [07/Nov/2024 14:16:04] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:16:16,280:INFO:127.0.0.1 - - [07/Nov/2024 14:16:16] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:16:16,590:INFO:127.0.0.1 - - [07/Nov/2024 14:16:16] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:16:23,566:INFO:127.0.0.1 - - [07/Nov/2024 14:16:23] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:16:23,567:INFO:127.0.0.1 - - [07/Nov/2024 14:16:23] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:16:36,602:INFO:127.0.0.1 - - [07/Nov/2024 14:16:36] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:16:36,612:INFO:127.0.0.1 - - [07/Nov/2024 14:16:36] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:16:51,931:INFO:127.0.0.1 - - [07/Nov/2024 14:16:51] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:16:54,174:INFO:127.0.0.1 - - [07/Nov/2024 14:16:54] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:16:56,283:INFO:127.0.0.1 - - [07/Nov/2024 14:16:56] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:16:56,591:INFO:127.0.0.1 - - [07/Nov/2024 14:16:56] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:17:09,351:INFO:127.0.0.1 - - [07/Nov/2024 14:17:09] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-07 14:17:09,656:INFO:Bot started.
+2024-11-07 14:17:09,656:INFO:Bot thread started.
+2024-11-07 14:17:09,656:INFO:Bot started.
+2024-11-07 14:17:09,656:INFO:127.0.0.1 - - [07/Nov/2024 14:17:09] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-07 14:17:12,121:INFO:127.0.0.1 - - [07/Nov/2024 14:17:12] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:17:12,688:INFO:127.0.0.1 - - [07/Nov/2024 14:17:12] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:17:14,022:INFO:Total Opportunities Detected: 12
+2024-11-07 14:17:14,022:INFO:Current Profit Threshold: 5.0%
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.56
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.42
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 5.44
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 3.87
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.88
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.01
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.16
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.09
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.0
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 14:17:14,022:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.16
+2024-11-07 14:17:17,353:INFO:127.0.0.1 - - [07/Nov/2024 14:17:17] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:17:17,353:INFO:127.0.0.1 - - [07/Nov/2024 14:17:17] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:17:20,196:INFO:127.0.0.1 - - [07/Nov/2024 14:17:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:17:24,354:INFO:127.0.0.1 - - [07/Nov/2024 14:17:24] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:17:28,255:INFO:Total Opportunities Detected: 11
+2024-11-07 14:17:28,277:INFO:Current Profit Threshold: 5.0%
+2024-11-07 14:17:28,288:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.44
+2024-11-07 14:17:28,294:INFO:Trade skipped: Net Profit below threshold. Net Profit: 3.41
+2024-11-07 14:17:28,298:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.42
+2024-11-07 14:17:28,304:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.98
+2024-11-07 14:17:28,308:INFO:Trade skipped: Net Profit below threshold. Net Profit: 3.99
+2024-11-07 14:17:28,312:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.01
+2024-11-07 14:17:28,320:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 14:17:28,330:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 14:17:28,336:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.23
+2024-11-07 14:17:28,340:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.16
+2024-11-07 14:17:28,346:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.16
+2024-11-07 14:17:37,062:INFO:127.0.0.1 - - [07/Nov/2024 14:17:37] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:17:37,369:INFO:127.0.0.1 - - [07/Nov/2024 14:17:37] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:17:52,587:INFO:Total Opportunities Detected: 12
+2024-11-07 14:17:52,593:INFO:127.0.0.1 - - [07/Nov/2024 14:17:52] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:17:52,593:INFO:Current Profit Threshold: 5.0%
+2024-11-07 14:17:52,614:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.33
+2024-11-07 14:17:52,620:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.48
+2024-11-07 14:17:52,624:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.74
+2024-11-07 14:17:52,630:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.15
+2024-11-07 14:17:52,634:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.41
+2024-11-07 14:17:52,638:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.26
+2024-11-07 14:17:52,642:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.02
+2024-11-07 14:17:52,646:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.13
+2024-11-07 14:17:52,650:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.09
+2024-11-07 14:17:52,652:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.12
+2024-11-07 14:17:52,660:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 14:17:52,700:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.05
+2024-11-07 14:17:56,810:INFO:127.0.0.1 - - [07/Nov/2024 14:17:56] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:17:57,348:INFO:127.0.0.1 - - [07/Nov/2024 14:17:57] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 14:17:57,348:INFO:127.0.0.1 - - [07/Nov/2024 14:17:57] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 14:18:08,575:INFO:127.0.0.1 - - [07/Nov/2024 14:18:08] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 14:18:10,685:INFO:127.0.0.1 - - [07/Nov/2024 14:18:10] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 14:18:16,503:INFO:Total Opportunities Detected: 12
+2024-11-07 14:18:16,503:INFO:Current Profit Threshold: 5.0%
+2024-11-07 14:18:16,512:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.76
+2024-11-07 14:18:16,518:INFO:Trade skipped: Net Profit below threshold. Net Profit: 3.09
+2024-11-07 14:18:16,521:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.6
+2024-11-07 14:18:16,523:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.33
+2024-11-07 14:18:16,529:INFO:Trade skipped: Net Profit below threshold. Net Profit: 3.84
+2024-11-07 14:18:16,535:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.51
+2024-11-07 14:18:16,535:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.04
+2024-11-07 14:18:16,542:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.11
+2024-11-07 14:18:16,551:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.13
+2024-11-07 14:18:16,555:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 14:18:16,561:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.09
+2024-11-07 14:18:16,565:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.02
+2024-11-07 18:05:01,958:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 18:05:02,361:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 18:05:02,477:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 18:05:02,633:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 18:05:03,513:INFO:127.0.0.1 - - [07/Nov/2024 18:05:03] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 18:05:03,532:INFO:127.0.0.1 - - [07/Nov/2024 18:05:03] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 18:05:03,735:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 18:05:03,735:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 18:05:04,370:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 18:05:05,476:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 18:05:06,005:INFO:Total Opportunities Detected: 3
+2024-11-07 18:05:06,010:INFO:Current Profit Threshold: 5.0%
+2024-11-07 18:05:06,014:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.08
+2024-11-07 18:05:06,017:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.1
+2024-11-07 18:05:06,021:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.02
+2024-11-07 18:05:07,309:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 18:05:09,329:INFO:127.0.0.1 - - [07/Nov/2024 18:05:09] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 18:05:09,544:INFO:127.0.0.1 - - [07/Nov/2024 18:05:09] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 18:05:19,071:INFO:Total Opportunities Detected: 12
+2024-11-07 18:05:19,071:INFO:Current Profit Threshold: 5.0%
+2024-11-07 18:05:19,080:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.71
+2024-11-07 18:05:19,084:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.61
+2024-11-07 18:05:19,092:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.32
+2024-11-07 18:05:19,096:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.82
+2024-11-07 18:05:19,102:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.53
+2024-11-07 18:05:19,107:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.21
+2024-11-07 18:05:19,113:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.03
+2024-11-07 18:05:19,117:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.21
+2024-11-07 18:05:19,121:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.23
+2024-11-07 18:05:19,126:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.23
+2024-11-07 18:05:19,130:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.25
+2024-11-07 18:05:19,132:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.02
+2024-11-07 18:05:32,245:INFO:Total Opportunities Detected: 12
+2024-11-07 18:05:32,255:INFO:Current Profit Threshold: 5.0%
+2024-11-07 18:05:32,255:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.04
+2024-11-07 18:05:32,260:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.99
+2024-11-07 18:05:32,261:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.38
+2024-11-07 18:05:32,264:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.94
+2024-11-07 18:05:32,264:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.33
+2024-11-07 18:05:32,264:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.39
+2024-11-07 18:05:32,269:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.06
+2024-11-07 18:05:32,271:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.1
+2024-11-07 18:05:32,273:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.14
+2024-11-07 18:05:32,275:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.04
+2024-11-07 18:05:32,277:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.09
+2024-11-07 18:05:32,277:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.04
+2024-11-07 18:05:45,220:INFO:Total Opportunities Detected: 12
+2024-11-07 18:05:45,220:INFO:Current Profit Threshold: 5.0%
+2024-11-07 18:05:45,220:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.24
+2024-11-07 18:05:45,233:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.08
+2024-11-07 18:05:45,235:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.46
+2024-11-07 18:05:45,237:INFO:Trade skipped: Net Profit below threshold. Net Profit: 3.83
+2024-11-07 18:05:45,239:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.22
+2024-11-07 18:05:45,241:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.39
+2024-11-07 18:05:45,243:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.03
+2024-11-07 18:05:45,244:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.3
+2024-11-07 18:05:45,247:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.34
+2024-11-07 18:05:45,249:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.27
+2024-11-07 18:05:45,249:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.32
+2024-11-07 18:05:45,253:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.04
+2024-11-07 18:05:58,539:INFO:Total Opportunities Detected: 12
+2024-11-07 18:05:58,547:INFO:Current Profit Threshold: 5.0%
+2024-11-07 18:05:58,549:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.5
+2024-11-07 18:05:58,550:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.2
+2024-11-07 18:05:58,553:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.44
+2024-11-07 18:05:58,554:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.94
+2024-11-07 18:05:58,557:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.64
+2024-11-07 18:05:58,559:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.3
+2024-11-07 18:05:58,561:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.33
+2024-11-07 18:05:58,563:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.23
+2024-11-07 18:05:58,563:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.03
+2024-11-07 18:05:58,566:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.37
+2024-11-07 18:05:58,567:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.26
+2024-11-07 18:05:58,570:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.11
+2024-11-07 18:06:02,364:INFO:127.0.0.1 - - [07/Nov/2024 18:06:02] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 18:06:02,365:INFO:127.0.0.1 - - [07/Nov/2024 18:06:02] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 18:06:05,139:INFO:127.0.0.1 - - [07/Nov/2024 18:06:05] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 18:06:07,208:INFO:127.0.0.1 - - [07/Nov/2024 18:06:07] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 18:06:11,542:INFO:Total Opportunities Detected: 12
+2024-11-07 18:06:11,542:INFO:Current Profit Threshold: 5.0%
+2024-11-07 18:06:11,542:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.5
+2024-11-07 18:06:11,556:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.2
+2024-11-07 18:06:11,558:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.23
+2024-11-07 18:06:11,559:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.73
+2024-11-07 18:06:11,559:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.43
+2024-11-07 18:06:11,564:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.3
+2024-11-07 18:06:11,565:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.09
+2024-11-07 18:06:11,568:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.27
+2024-11-07 18:06:11,568:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.02
+2024-11-07 18:06:11,568:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.11
+2024-11-07 18:06:11,572:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.29
+2024-11-07 18:06:11,573:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.18
+2024-11-07 22:14:19,112:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:19,163:INFO:Total Opportunities Detected: 9
+2024-11-07 22:14:19,168:INFO:Current Profit Threshold: 5.0%
+2024-11-07 22:14:19,170:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.5
+2024-11-07 22:14:19,177:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.6
+2024-11-07 22:14:19,181:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.23
+2024-11-07 22:14:19,184:INFO:Trade skipped: Net Profit below threshold. Net Profit: 4.73
+2024-11-07 22:14:19,185:INFO:Trade skipped: Net Profit below threshold. Net Profit: 2.83
+2024-11-07 22:14:19,192:INFO:Trade skipped: Net Profit below threshold. Net Profit: 1.9
+2024-11-07 22:14:19,194:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.05
+2024-11-07 22:14:19,194:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.12
+2024-11-07 22:14:19,201:INFO:Trade skipped: Net Profit below threshold. Net Profit: 0.07
+2024-11-07 22:14:21,418:INFO:127.0.0.1 - - [07/Nov/2024 22:14:21] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:14:21,419:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:21,422:INFO:127.0.0.1 - - [07/Nov/2024 22:14:21] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:14:21,440:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:21,440:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:21,459:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:21,471:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:21,480:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:21,504:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:21,666:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:21,668:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:21,895:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:22,459:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:22,460:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:23,463:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:23,481:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:23,482:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:23,497:INFO:127.0.0.1 - - [07/Nov/2024 22:14:23] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:14:25,481:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:25,494:INFO:127.0.0.1 - - [07/Nov/2024 22:14:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:14:29,205:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:29,215:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:29,224:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:29,235:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:29,245:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:29,441:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:30,225:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:31,235:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:31,245:INFO:Total Opportunities Detected: 0
+2024-11-07 22:14:31,247:INFO:Current Profit Threshold: 5.0%
+2024-11-07 22:14:34,384:INFO:127.0.0.1 - - [07/Nov/2024 22:14:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:14:34,684:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:34,684:INFO:127.0.0.1 - - [07/Nov/2024 22:14:34] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:14:34,696:INFO:127.0.0.1 - - [07/Nov/2024 22:14:34] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:14:34,701:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:34,708:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:34,725:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:34,735:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:34,743:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:34,765:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:34,925:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:34,925:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:35,011:INFO:127.0.0.1 - - [07/Nov/2024 22:14:35] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:14:35,152:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:35,724:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:35,725:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:36,727:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:36,744:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:36,745:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:36,773:INFO:127.0.0.1 - - [07/Nov/2024 22:14:36] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:14:37,083:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:37,097:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:37,729:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:38,252:INFO:127.0.0.1 - - [07/Nov/2024 22:14:38] "OPTIONS /api/togglebot HTTP/1.1" 200 -
+2024-11-07 22:14:38,747:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:38,747:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:38,758:INFO:127.0.0.1 - - [07/Nov/2024 22:14:38] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:14:38,769:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:38,781:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:38,795:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:39,074:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:39,094:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:39,106:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:39,333:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:39,796:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:40,748:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:40,758:INFO:127.0.0.1 - - [07/Nov/2024 22:14:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:14:40,796:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:41,250:INFO:Bot stopped.
+2024-11-07 22:14:41,250:INFO:Bot thread stopped.
+2024-11-07 22:14:41,257:INFO:Bot stopped.
+2024-11-07 22:14:41,260:INFO:127.0.0.1 - - [07/Nov/2024 22:14:41] "POST /api/togglebot HTTP/1.1" 200 -
+2024-11-07 22:14:42,748:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:44,749:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:44,761:INFO:127.0.0.1 - - [07/Nov/2024 22:14:44] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:14:55,344:INFO:127.0.0.1 - - [07/Nov/2024 22:14:55] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:14:55,348:INFO:127.0.0.1 - - [07/Nov/2024 22:14:55] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:14:55,348:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:55,369:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:55,369:ERROR:Error fetching price for BTC/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2024-11-07 22:14:55,378:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:55,390:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:55,402:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:55,424:ERROR:Error fetching price for ETH/USDT on binance: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2024-11-07 22:14:55,594:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:55,594:ERROR:Error fetching price for BTC/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+2024-11-07 22:14:55,820:ERROR:Error fetching price for ETH/USDT on kucoin: kucoin GET https://api.kucoin.com/api/v1/market/stats?symbol=ETH-USDT
+2024-11-07 22:14:56,379:ERROR:Error fetching price for BTC/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
+2024-11-07 22:14:56,379:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:57,379:ERROR:Error fetching price for ETH/USD on kraken: kraken GET https://api.kraken.com/0/public/Ticker?pair=XETHZUSD
+2024-11-07 22:14:57,404:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:57,404:ERROR:Error fetching price for BTC/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/BTCUSD
+2024-11-07 22:14:57,413:INFO:127.0.0.1 - - [07/Nov/2024 22:14:57] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:14:59,406:ERROR:Error fetching price for ETH/USD on bitfinex: bitfinex GET https://api.bitfinex.com/v1/pubticker/ETHUSD
+2024-11-07 22:14:59,417:INFO:127.0.0.1 - - [07/Nov/2024 22:14:59] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:15:15,345:INFO:127.0.0.1 - - [07/Nov/2024 22:15:15] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:15:15,350:INFO:127.0.0.1 - - [07/Nov/2024 22:15:15] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:15:23,029:INFO:127.0.0.1 - - [07/Nov/2024 22:15:23] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:15:23,221:INFO:127.0.0.1 - - [07/Nov/2024 22:15:23] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:15:35,043:INFO:127.0.0.1 - - [07/Nov/2024 22:15:35] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:15:35,350:INFO:127.0.0.1 - - [07/Nov/2024 22:15:35] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:15:40,717:INFO:127.0.0.1 - - [07/Nov/2024 22:15:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:15:40,999:INFO:127.0.0.1 - - [07/Nov/2024 22:15:40] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:15:55,351:INFO:127.0.0.1 - - [07/Nov/2024 22:15:55] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:15:55,351:INFO:127.0.0.1 - - [07/Nov/2024 22:15:55] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:15:58,817:INFO:127.0.0.1 - - [07/Nov/2024 22:15:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:16:02,916:INFO:127.0.0.1 - - [07/Nov/2024 22:16:02] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:16:15,040:INFO:127.0.0.1 - - [07/Nov/2024 22:16:15] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:16:15,344:INFO:127.0.0.1 - - [07/Nov/2024 22:16:15] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:16:19,670:INFO:127.0.0.1 - - [07/Nov/2024 22:16:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:16:21,733:INFO:127.0.0.1 - - [07/Nov/2024 22:16:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:16:44,131:INFO:127.0.0.1 - - [07/Nov/2024 22:16:44] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:16:44,131:INFO:127.0.0.1 - - [07/Nov/2024 22:16:44] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:16:50,146:INFO:127.0.0.1 - - [07/Nov/2024 22:16:50] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:16:50,206:INFO:127.0.0.1 - - [07/Nov/2024 22:16:50] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:16:55,038:INFO:127.0.0.1 - - [07/Nov/2024 22:16:55] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:16:55,352:INFO:127.0.0.1 - - [07/Nov/2024 22:16:55] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:16:58,631:INFO:127.0.0.1 - - [07/Nov/2024 22:16:58] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:17:01,223:INFO:127.0.0.1 - - [07/Nov/2024 22:17:01] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:17:15,351:INFO:127.0.0.1 - - [07/Nov/2024 22:17:15] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:17:15,354:INFO:127.0.0.1 - - [07/Nov/2024 22:17:15] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:17:18,221:INFO:127.0.0.1 - - [07/Nov/2024 22:17:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:17:20,335:INFO:127.0.0.1 - - [07/Nov/2024 22:17:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:17:35,052:INFO:127.0.0.1 - - [07/Nov/2024 22:17:35] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:17:35,356:INFO:127.0.0.1 - - [07/Nov/2024 22:17:35] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:17:38,785:INFO:127.0.0.1 - - [07/Nov/2024 22:17:38] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:17:42,456:INFO:127.0.0.1 - - [07/Nov/2024 22:17:42] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:18:13,347:INFO:127.0.0.1 - - [07/Nov/2024 22:18:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:18:13,350:INFO:127.0.0.1 - - [07/Nov/2024 22:18:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:18:18,691:INFO:127.0.0.1 - - [07/Nov/2024 22:18:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:18:18,691:INFO:127.0.0.1 - - [07/Nov/2024 22:18:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:19:13,041:INFO:127.0.0.1 - - [07/Nov/2024 22:19:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:19:13,355:INFO:127.0.0.1 - - [07/Nov/2024 22:19:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:19:18,853:INFO:127.0.0.1 - - [07/Nov/2024 22:19:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:19:19,059:INFO:127.0.0.1 - - [07/Nov/2024 22:19:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:20:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:20:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:20:13,357:INFO:127.0.0.1 - - [07/Nov/2024 22:20:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:20:16,653:INFO:127.0.0.1 - - [07/Nov/2024 22:20:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:20:19,397:INFO:127.0.0.1 - - [07/Nov/2024 22:20:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:21:13,041:INFO:127.0.0.1 - - [07/Nov/2024 22:21:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:21:13,351:INFO:127.0.0.1 - - [07/Nov/2024 22:21:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:21:17,112:INFO:127.0.0.1 - - [07/Nov/2024 22:21:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:21:18,927:INFO:127.0.0.1 - - [07/Nov/2024 22:21:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:22:13,350:INFO:127.0.0.1 - - [07/Nov/2024 22:22:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:22:13,350:INFO:127.0.0.1 - - [07/Nov/2024 22:22:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:22:16,585:INFO:127.0.0.1 - - [07/Nov/2024 22:22:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:22:18,934:INFO:127.0.0.1 - - [07/Nov/2024 22:22:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:23:13,042:INFO:127.0.0.1 - - [07/Nov/2024 22:23:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:23:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:23:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:23:16,275:INFO:127.0.0.1 - - [07/Nov/2024 22:23:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:23:18,687:INFO:127.0.0.1 - - [07/Nov/2024 22:23:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:24:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:24:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:24:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:24:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:24:16,365:INFO:127.0.0.1 - - [07/Nov/2024 22:24:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:24:18,188:INFO:127.0.0.1 - - [07/Nov/2024 22:24:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:25:13,046:INFO:127.0.0.1 - - [07/Nov/2024 22:25:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:25:13,356:INFO:127.0.0.1 - - [07/Nov/2024 22:25:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:25:16,782:INFO:127.0.0.1 - - [07/Nov/2024 22:25:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:25:18,412:INFO:127.0.0.1 - - [07/Nov/2024 22:25:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:26:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:26:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:26:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:26:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:26:17,653:INFO:127.0.0.1 - - [07/Nov/2024 22:26:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:26:19,347:INFO:127.0.0.1 - - [07/Nov/2024 22:26:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:27:13,039:INFO:127.0.0.1 - - [07/Nov/2024 22:27:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:27:13,350:INFO:127.0.0.1 - - [07/Nov/2024 22:27:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:27:16,421:INFO:127.0.0.1 - - [07/Nov/2024 22:27:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:27:20,336:INFO:127.0.0.1 - - [07/Nov/2024 22:27:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:28:13,347:INFO:127.0.0.1 - - [07/Nov/2024 22:28:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:28:13,347:INFO:127.0.0.1 - - [07/Nov/2024 22:28:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:28:16,233:INFO:127.0.0.1 - - [07/Nov/2024 22:28:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:28:20,379:INFO:127.0.0.1 - - [07/Nov/2024 22:28:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:29:13,038:INFO:127.0.0.1 - - [07/Nov/2024 22:29:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:29:13,348:INFO:127.0.0.1 - - [07/Nov/2024 22:29:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:29:16,433:INFO:127.0.0.1 - - [07/Nov/2024 22:29:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:29:20,207:INFO:127.0.0.1 - - [07/Nov/2024 22:29:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:30:13,351:INFO:127.0.0.1 - - [07/Nov/2024 22:30:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:30:13,351:INFO:127.0.0.1 - - [07/Nov/2024 22:30:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:30:16,884:INFO:127.0.0.1 - - [07/Nov/2024 22:30:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:30:20,446:INFO:127.0.0.1 - - [07/Nov/2024 22:30:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:31:13,042:INFO:127.0.0.1 - - [07/Nov/2024 22:31:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:31:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:31:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:31:18,307:INFO:127.0.0.1 - - [07/Nov/2024 22:31:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:31:18,338:INFO:127.0.0.1 - - [07/Nov/2024 22:31:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:32:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:32:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:32:13,352:INFO:127.0.0.1 - - [07/Nov/2024 22:32:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:32:16,974:INFO:127.0.0.1 - - [07/Nov/2024 22:32:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:32:18,505:INFO:127.0.0.1 - - [07/Nov/2024 22:32:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:33:13,036:INFO:127.0.0.1 - - [07/Nov/2024 22:33:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:33:13,346:INFO:127.0.0.1 - - [07/Nov/2024 22:33:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:33:19,280:INFO:127.0.0.1 - - [07/Nov/2024 22:33:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:33:19,290:INFO:127.0.0.1 - - [07/Nov/2024 22:33:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:34:13,346:INFO:127.0.0.1 - - [07/Nov/2024 22:34:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:34:13,346:INFO:127.0.0.1 - - [07/Nov/2024 22:34:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:34:18,348:INFO:127.0.0.1 - - [07/Nov/2024 22:34:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:34:18,408:INFO:127.0.0.1 - - [07/Nov/2024 22:34:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:35:13,038:INFO:127.0.0.1 - - [07/Nov/2024 22:35:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:35:13,348:INFO:127.0.0.1 - - [07/Nov/2024 22:35:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:35:18,393:INFO:127.0.0.1 - - [07/Nov/2024 22:35:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:35:18,393:INFO:127.0.0.1 - - [07/Nov/2024 22:35:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:36:13,353:INFO:127.0.0.1 - - [07/Nov/2024 22:36:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:36:13,353:INFO:127.0.0.1 - - [07/Nov/2024 22:36:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:36:17,317:INFO:127.0.0.1 - - [07/Nov/2024 22:36:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:36:19,191:INFO:127.0.0.1 - - [07/Nov/2024 22:36:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:37:13,047:INFO:127.0.0.1 - - [07/Nov/2024 22:37:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:37:13,355:INFO:127.0.0.1 - - [07/Nov/2024 22:37:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:37:18,852:INFO:127.0.0.1 - - [07/Nov/2024 22:37:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:37:18,862:INFO:127.0.0.1 - - [07/Nov/2024 22:37:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:38:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:38:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:38:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:38:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:38:18,448:INFO:127.0.0.1 - - [07/Nov/2024 22:38:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:38:26,406:INFO:127.0.0.1 - - [07/Nov/2024 22:38:26] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:39:13,044:INFO:127.0.0.1 - - [07/Nov/2024 22:39:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:39:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:39:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:39:16,640:INFO:127.0.0.1 - - [07/Nov/2024 22:39:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:39:17,913:INFO:127.0.0.1 - - [07/Nov/2024 22:39:17] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:39:17,917:INFO:127.0.0.1 - - [07/Nov/2024 22:39:17] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:39:18,561:INFO:127.0.0.1 - - [07/Nov/2024 22:39:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:39:22,537:INFO:127.0.0.1 - - [07/Nov/2024 22:39:22] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:39:24,566:INFO:127.0.0.1 - - [07/Nov/2024 22:39:24] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:39:35,350:INFO:127.0.0.1 - - [07/Nov/2024 22:39:35] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:39:35,352:INFO:127.0.0.1 - - [07/Nov/2024 22:39:35] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:39:40,341:INFO:127.0.0.1 - - [07/Nov/2024 22:39:40] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:39:40,435:INFO:127.0.0.1 - - [07/Nov/2024 22:39:40] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:39:55,046:INFO:127.0.0.1 - - [07/Nov/2024 22:39:55] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:39:55,355:INFO:127.0.0.1 - - [07/Nov/2024 22:39:55] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:40:00,748:INFO:127.0.0.1 - - [07/Nov/2024 22:40:00] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:40:01,023:INFO:127.0.0.1 - - [07/Nov/2024 22:40:01] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:40:15,347:INFO:127.0.0.1 - - [07/Nov/2024 22:40:15] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:40:15,347:INFO:127.0.0.1 - - [07/Nov/2024 22:40:15] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:40:18,600:INFO:127.0.0.1 - - [07/Nov/2024 22:40:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:40:22,417:INFO:127.0.0.1 - - [07/Nov/2024 22:40:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:41:13,043:INFO:127.0.0.1 - - [07/Nov/2024 22:41:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:41:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:41:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:41:16,397:INFO:127.0.0.1 - - [07/Nov/2024 22:41:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:41:18,248:INFO:127.0.0.1 - - [07/Nov/2024 22:41:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:42:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:42:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:42:13,349:INFO:127.0.0.1 - - [07/Nov/2024 22:42:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:42:16,478:INFO:127.0.0.1 - - [07/Nov/2024 22:42:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:42:20,097:INFO:127.0.0.1 - - [07/Nov/2024 22:42:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:43:13,041:INFO:127.0.0.1 - - [07/Nov/2024 22:43:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:43:13,351:INFO:127.0.0.1 - - [07/Nov/2024 22:43:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:43:18,472:INFO:127.0.0.1 - - [07/Nov/2024 22:43:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:43:18,745:INFO:127.0.0.1 - - [07/Nov/2024 22:43:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:44:13,351:INFO:127.0.0.1 - - [07/Nov/2024 22:44:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:44:13,351:INFO:127.0.0.1 - - [07/Nov/2024 22:44:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:44:16,807:INFO:127.0.0.1 - - [07/Nov/2024 22:44:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:44:20,728:INFO:127.0.0.1 - - [07/Nov/2024 22:44:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:45:13,046:INFO:127.0.0.1 - - [07/Nov/2024 22:45:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:45:13,359:INFO:127.0.0.1 - - [07/Nov/2024 22:45:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:45:18,577:INFO:127.0.0.1 - - [07/Nov/2024 22:45:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:45:18,593:INFO:127.0.0.1 - - [07/Nov/2024 22:45:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:46:13,339:INFO:127.0.0.1 - - [07/Nov/2024 22:46:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:46:13,339:INFO:127.0.0.1 - - [07/Nov/2024 22:46:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:46:16,765:INFO:127.0.0.1 - - [07/Nov/2024 22:46:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:46:20,644:INFO:127.0.0.1 - - [07/Nov/2024 22:46:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:47:13,041:INFO:127.0.0.1 - - [07/Nov/2024 22:47:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:47:13,347:INFO:127.0.0.1 - - [07/Nov/2024 22:47:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:47:16,785:INFO:127.0.0.1 - - [07/Nov/2024 22:47:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:47:20,654:INFO:127.0.0.1 - - [07/Nov/2024 22:47:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:48:13,354:INFO:127.0.0.1 - - [07/Nov/2024 22:48:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:48:13,356:INFO:127.0.0.1 - - [07/Nov/2024 22:48:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:48:16,428:INFO:127.0.0.1 - - [07/Nov/2024 22:48:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:48:20,414:INFO:127.0.0.1 - - [07/Nov/2024 22:48:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:49:13,052:INFO:127.0.0.1 - - [07/Nov/2024 22:49:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:49:13,364:INFO:127.0.0.1 - - [07/Nov/2024 22:49:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:49:19,257:INFO:127.0.0.1 - - [07/Nov/2024 22:49:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:49:19,274:INFO:127.0.0.1 - - [07/Nov/2024 22:49:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:50:13,359:INFO:127.0.0.1 - - [07/Nov/2024 22:50:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:50:13,361:INFO:127.0.0.1 - - [07/Nov/2024 22:50:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:50:16,849:INFO:127.0.0.1 - - [07/Nov/2024 22:50:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:50:18,907:INFO:127.0.0.1 - - [07/Nov/2024 22:50:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:51:13,044:INFO:127.0.0.1 - - [07/Nov/2024 22:51:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:51:13,358:INFO:127.0.0.1 - - [07/Nov/2024 22:51:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:51:19,132:INFO:127.0.0.1 - - [07/Nov/2024 22:51:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:51:19,193:INFO:127.0.0.1 - - [07/Nov/2024 22:51:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:52:13,356:INFO:127.0.0.1 - - [07/Nov/2024 22:52:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:52:13,356:INFO:127.0.0.1 - - [07/Nov/2024 22:52:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:52:17,215:INFO:127.0.0.1 - - [07/Nov/2024 22:52:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:52:19,314:INFO:127.0.0.1 - - [07/Nov/2024 22:52:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:53:13,042:INFO:127.0.0.1 - - [07/Nov/2024 22:53:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:53:13,355:INFO:127.0.0.1 - - [07/Nov/2024 22:53:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:53:19,610:INFO:127.0.0.1 - - [07/Nov/2024 22:53:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:53:19,696:INFO:127.0.0.1 - - [07/Nov/2024 22:53:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:54:13,352:INFO:127.0.0.1 - - [07/Nov/2024 22:54:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:54:13,356:INFO:127.0.0.1 - - [07/Nov/2024 22:54:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:54:20,889:INFO:127.0.0.1 - - [07/Nov/2024 22:54:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:54:21,024:INFO:127.0.0.1 - - [07/Nov/2024 22:54:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:55:13,047:INFO:127.0.0.1 - - [07/Nov/2024 22:55:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:55:13,359:INFO:127.0.0.1 - - [07/Nov/2024 22:55:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:55:18,508:INFO:127.0.0.1 - - [07/Nov/2024 22:55:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:55:22,653:INFO:127.0.0.1 - - [07/Nov/2024 22:55:22] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:56:13,353:INFO:127.0.0.1 - - [07/Nov/2024 22:56:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:56:13,355:INFO:127.0.0.1 - - [07/Nov/2024 22:56:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:56:17,907:INFO:127.0.0.1 - - [07/Nov/2024 22:56:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:56:25,340:INFO:127.0.0.1 - - [07/Nov/2024 22:56:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:57:13,052:INFO:127.0.0.1 - - [07/Nov/2024 22:57:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:57:13,365:INFO:127.0.0.1 - - [07/Nov/2024 22:57:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:57:19,984:INFO:127.0.0.1 - - [07/Nov/2024 22:57:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:57:25,915:INFO:127.0.0.1 - - [07/Nov/2024 22:57:25] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:58:13,363:INFO:127.0.0.1 - - [07/Nov/2024 22:58:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:58:13,366:INFO:127.0.0.1 - - [07/Nov/2024 22:58:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:58:19,774:INFO:127.0.0.1 - - [07/Nov/2024 22:58:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 22:58:19,919:INFO:127.0.0.1 - - [07/Nov/2024 22:58:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:59:13,053:INFO:127.0.0.1 - - [07/Nov/2024 22:59:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 22:59:13,369:INFO:127.0.0.1 - - [07/Nov/2024 22:59:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 22:59:20,170:INFO:127.0.0.1 - - [07/Nov/2024 22:59:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 22:59:21,172:INFO:127.0.0.1 - - [07/Nov/2024 22:59:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:00:13,361:INFO:127.0.0.1 - - [07/Nov/2024 23:00:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:00:13,365:INFO:127.0.0.1 - - [07/Nov/2024 23:00:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:00:17,578:INFO:127.0.0.1 - - [07/Nov/2024 23:00:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:00:21,277:INFO:127.0.0.1 - - [07/Nov/2024 23:00:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:01:13,043:INFO:127.0.0.1 - - [07/Nov/2024 23:01:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:01:13,354:INFO:127.0.0.1 - - [07/Nov/2024 23:01:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:01:19,673:INFO:127.0.0.1 - - [07/Nov/2024 23:01:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:01:19,724:INFO:127.0.0.1 - - [07/Nov/2024 23:01:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:02:13,361:INFO:127.0.0.1 - - [07/Nov/2024 23:02:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:02:13,363:INFO:127.0.0.1 - - [07/Nov/2024 23:02:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:02:19,388:INFO:127.0.0.1 - - [07/Nov/2024 23:02:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:02:20,731:INFO:127.0.0.1 - - [07/Nov/2024 23:02:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:03:13,045:INFO:127.0.0.1 - - [07/Nov/2024 23:03:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:03:13,363:INFO:127.0.0.1 - - [07/Nov/2024 23:03:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:03:20,257:INFO:127.0.0.1 - - [07/Nov/2024 23:03:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:03:21,533:INFO:127.0.0.1 - - [07/Nov/2024 23:03:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:04:13,360:INFO:127.0.0.1 - - [07/Nov/2024 23:04:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:04:13,363:INFO:127.0.0.1 - - [07/Nov/2024 23:04:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:04:19,737:INFO:127.0.0.1 - - [07/Nov/2024 23:04:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:04:21,663:INFO:127.0.0.1 - - [07/Nov/2024 23:04:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:05:13,041:INFO:127.0.0.1 - - [07/Nov/2024 23:05:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:05:13,358:INFO:127.0.0.1 - - [07/Nov/2024 23:05:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:05:17,295:INFO:127.0.0.1 - - [07/Nov/2024 23:05:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:05:23,306:INFO:127.0.0.1 - - [07/Nov/2024 23:05:23] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:06:13,372:INFO:127.0.0.1 - - [07/Nov/2024 23:06:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:06:13,377:INFO:127.0.0.1 - - [07/Nov/2024 23:06:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:06:18,307:INFO:127.0.0.1 - - [07/Nov/2024 23:06:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:06:18,376:INFO:127.0.0.1 - - [07/Nov/2024 23:06:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:07:13,043:INFO:127.0.0.1 - - [07/Nov/2024 23:07:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:07:13,355:INFO:127.0.0.1 - - [07/Nov/2024 23:07:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:07:18,504:INFO:127.0.0.1 - - [07/Nov/2024 23:07:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:07:18,505:INFO:127.0.0.1 - - [07/Nov/2024 23:07:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:08:13,344:INFO:127.0.0.1 - - [07/Nov/2024 23:08:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:08:13,347:INFO:127.0.0.1 - - [07/Nov/2024 23:08:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:08:16,312:INFO:127.0.0.1 - - [07/Nov/2024 23:08:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:08:21,461:INFO:127.0.0.1 - - [07/Nov/2024 23:08:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:09:13,045:INFO:127.0.0.1 - - [07/Nov/2024 23:09:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:09:13,355:INFO:127.0.0.1 - - [07/Nov/2024 23:09:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:09:18,592:INFO:127.0.0.1 - - [07/Nov/2024 23:09:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:09:19,154:INFO:127.0.0.1 - - [07/Nov/2024 23:09:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:10:13,362:INFO:127.0.0.1 - - [07/Nov/2024 23:10:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:10:13,366:INFO:127.0.0.1 - - [07/Nov/2024 23:10:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:10:18,157:INFO:127.0.0.1 - - [07/Nov/2024 23:10:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:10:18,227:INFO:127.0.0.1 - - [07/Nov/2024 23:10:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:11:13,046:INFO:127.0.0.1 - - [07/Nov/2024 23:11:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:11:13,347:INFO:127.0.0.1 - - [07/Nov/2024 23:11:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:11:18,310:INFO:127.0.0.1 - - [07/Nov/2024 23:11:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:11:18,634:INFO:127.0.0.1 - - [07/Nov/2024 23:11:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:12:13,361:INFO:127.0.0.1 - - [07/Nov/2024 23:12:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:12:13,363:INFO:127.0.0.1 - - [07/Nov/2024 23:12:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:12:16,348:INFO:127.0.0.1 - - [07/Nov/2024 23:12:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:12:20,224:INFO:127.0.0.1 - - [07/Nov/2024 23:12:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:13:13,040:INFO:127.0.0.1 - - [07/Nov/2024 23:13:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:13:13,349:INFO:127.0.0.1 - - [07/Nov/2024 23:13:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:13:18,365:INFO:127.0.0.1 - - [07/Nov/2024 23:13:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:13:21,133:INFO:127.0.0.1 - - [07/Nov/2024 23:13:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:14:13,357:INFO:127.0.0.1 - - [07/Nov/2024 23:14:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:14:13,357:INFO:127.0.0.1 - - [07/Nov/2024 23:14:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:14:18,281:INFO:127.0.0.1 - - [07/Nov/2024 23:14:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:14:18,297:INFO:127.0.0.1 - - [07/Nov/2024 23:14:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:15:13,043:INFO:127.0.0.1 - - [07/Nov/2024 23:15:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:15:13,352:INFO:127.0.0.1 - - [07/Nov/2024 23:15:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:15:16,986:INFO:127.0.0.1 - - [07/Nov/2024 23:15:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:15:20,433:INFO:127.0.0.1 - - [07/Nov/2024 23:15:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:16:13,347:INFO:127.0.0.1 - - [07/Nov/2024 23:16:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:16:13,347:INFO:127.0.0.1 - - [07/Nov/2024 23:16:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:16:19,474:INFO:127.0.0.1 - - [07/Nov/2024 23:16:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:16:21,331:INFO:127.0.0.1 - - [07/Nov/2024 23:16:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:17:13,041:INFO:127.0.0.1 - - [07/Nov/2024 23:17:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:17:13,349:INFO:127.0.0.1 - - [07/Nov/2024 23:17:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:17:19,013:INFO:127.0.0.1 - - [07/Nov/2024 23:17:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:17:19,287:INFO:127.0.0.1 - - [07/Nov/2024 23:17:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:18:13,355:INFO:127.0.0.1 - - [07/Nov/2024 23:18:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:18:13,358:INFO:127.0.0.1 - - [07/Nov/2024 23:18:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:18:19,187:INFO:127.0.0.1 - - [07/Nov/2024 23:18:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:18:19,328:INFO:127.0.0.1 - - [07/Nov/2024 23:18:19] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:19:13,044:INFO:127.0.0.1 - - [07/Nov/2024 23:19:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:19:13,359:INFO:127.0.0.1 - - [07/Nov/2024 23:19:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:19:18,539:INFO:127.0.0.1 - - [07/Nov/2024 23:19:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:19:19,731:INFO:127.0.0.1 - - [07/Nov/2024 23:19:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:20:13,364:INFO:127.0.0.1 - - [07/Nov/2024 23:20:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:20:13,367:INFO:127.0.0.1 - - [07/Nov/2024 23:20:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:20:16,926:INFO:127.0.0.1 - - [07/Nov/2024 23:20:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:20:20,864:INFO:127.0.0.1 - - [07/Nov/2024 23:20:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:21:13,040:INFO:127.0.0.1 - - [07/Nov/2024 23:21:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:21:13,349:INFO:127.0.0.1 - - [07/Nov/2024 23:21:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:21:20,456:INFO:127.0.0.1 - - [07/Nov/2024 23:21:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:21:20,543:INFO:127.0.0.1 - - [07/Nov/2024 23:21:20] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:22:13,350:INFO:127.0.0.1 - - [07/Nov/2024 23:22:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:22:13,352:INFO:127.0.0.1 - - [07/Nov/2024 23:22:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:22:21,571:INFO:127.0.0.1 - - [07/Nov/2024 23:22:21] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:22:21,679:INFO:127.0.0.1 - - [07/Nov/2024 23:22:21] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:23:13,350:INFO:127.0.0.1 - - [07/Nov/2024 23:23:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:23:13,350:INFO:127.0.0.1 - - [07/Nov/2024 23:23:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:23:16,955:INFO:127.0.0.1 - - [07/Nov/2024 23:23:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:23:18,838:INFO:127.0.0.1 - - [07/Nov/2024 23:23:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:24:13,041:INFO:127.0.0.1 - - [07/Nov/2024 23:24:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:24:13,359:INFO:127.0.0.1 - - [07/Nov/2024 23:24:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:24:16,908:INFO:127.0.0.1 - - [07/Nov/2024 23:24:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:24:18,609:INFO:127.0.0.1 - - [07/Nov/2024 23:24:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:25:13,346:INFO:127.0.0.1 - - [07/Nov/2024 23:25:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:25:13,346:INFO:127.0.0.1 - - [07/Nov/2024 23:25:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:25:16,459:INFO:127.0.0.1 - - [07/Nov/2024 23:25:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:25:18,247:INFO:127.0.0.1 - - [07/Nov/2024 23:25:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:26:13,041:INFO:127.0.0.1 - - [07/Nov/2024 23:26:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:26:13,344:INFO:127.0.0.1 - - [07/Nov/2024 23:26:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:26:18,518:INFO:127.0.0.1 - - [07/Nov/2024 23:26:18] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:26:18,546:INFO:127.0.0.1 - - [07/Nov/2024 23:26:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:27:13,353:INFO:127.0.0.1 - - [07/Nov/2024 23:27:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:27:13,353:INFO:127.0.0.1 - - [07/Nov/2024 23:27:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:27:16,489:INFO:127.0.0.1 - - [07/Nov/2024 23:27:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:27:18,257:INFO:127.0.0.1 - - [07/Nov/2024 23:27:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:28:13,047:INFO:127.0.0.1 - - [07/Nov/2024 23:28:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:28:13,358:INFO:127.0.0.1 - - [07/Nov/2024 23:28:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:28:16,455:INFO:127.0.0.1 - - [07/Nov/2024 23:28:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:28:20,339:INFO:127.0.0.1 - - [07/Nov/2024 23:28:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:29:13,352:INFO:127.0.0.1 - - [07/Nov/2024 23:29:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:29:13,356:INFO:127.0.0.1 - - [07/Nov/2024 23:29:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:29:16,326:INFO:127.0.0.1 - - [07/Nov/2024 23:29:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:29:18,208:INFO:127.0.0.1 - - [07/Nov/2024 23:29:18] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:30:13,043:INFO:127.0.0.1 - - [07/Nov/2024 23:30:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:30:13,353:INFO:127.0.0.1 - - [07/Nov/2024 23:30:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:30:17,550:INFO:127.0.0.1 - - [07/Nov/2024 23:30:17] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:30:19,106:INFO:127.0.0.1 - - [07/Nov/2024 23:30:19] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:31:13,348:INFO:127.0.0.1 - - [07/Nov/2024 23:31:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:31:13,351:INFO:127.0.0.1 - - [07/Nov/2024 23:31:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:31:16,542:INFO:127.0.0.1 - - [07/Nov/2024 23:31:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:31:20,107:INFO:127.0.0.1 - - [07/Nov/2024 23:31:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:32:13,053:INFO:127.0.0.1 - - [07/Nov/2024 23:32:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:32:13,360:INFO:127.0.0.1 - - [07/Nov/2024 23:32:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:32:16,329:INFO:127.0.0.1 - - [07/Nov/2024 23:32:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:32:20,207:INFO:127.0.0.1 - - [07/Nov/2024 23:32:20] "GET /api/market-data HTTP/1.1" 200 -
+2024-11-07 23:33:13,353:INFO:127.0.0.1 - - [07/Nov/2024 23:33:13] "GET /api/bot-status HTTP/1.1" 200 -
+2024-11-07 23:33:13,357:INFO:127.0.0.1 - - [07/Nov/2024 23:33:13] "GET /api/profit-loss-summary HTTP/1.1" 200 -
+2024-11-07 23:33:16,606:INFO:127.0.0.1 - - [07/Nov/2024 23:33:16] "GET /api/arbitrage-opportunities HTTP/1.1" 200 -
+2024-11-07 23:33:18,500:INFO:127.0.0.1 - - [07/Nov/2024 23:33:18] "GET /api/market-data HTTP/1.1" 200 -
